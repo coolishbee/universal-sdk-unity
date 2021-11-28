@@ -27,63 +27,63 @@ namespace Universal.UniversalSDK
             }
         }
         
-        [SerializeField]
-        private bool devBuild = true;
+        //[SerializeField]
+        //private bool devBuild = true;
 
         [SerializeField]
-        private bool appleLogin = false;
+        private bool iOSAppleLogin = false;
         [SerializeField]
-        private bool facebookLogin = false;
+        private bool iOSFacebookLogin = false;
         [SerializeField]
-        private bool googleLogin = false;
+        private bool iOSGoogleLogin = false;
 
         [SerializeField]
-        private string facebookAppID = "";
+        private string iOSFacebookAppID = "";
         [SerializeField]
-        private string googleClientID = "";
+        private string iOSGoogleClientID = "";
         [SerializeField]
-        private string reversedClientID = "";        
+        private string iOSReversedClientID = "";        
 
-        public static bool DevBuild
-        {
-            get { return Instance.devBuild; }
-            set { Instance.devBuild = value; }
-        }
+        //public static bool DevBuild
+        //{
+        //    get { return Instance.devBuild; }
+        //    set { Instance.devBuild = value; }
+        //}
 
         public static bool UseAppleLogin
         {
-            get { return Instance.appleLogin; }
-            set { Instance.appleLogin = value; }
+            get { return Instance.iOSAppleLogin; }
+            set { Instance.iOSAppleLogin = value; }
         }
 
         public static bool UseFacebookLogin
         {
-            get { return Instance.facebookLogin; }
-            set { Instance.facebookLogin = value; }
+            get { return Instance.iOSFacebookLogin; }
+            set { Instance.iOSFacebookLogin = value; }
         }
 
         public static bool UseGoogleLogin
         {
-            get { return Instance.googleLogin; }
-            set { Instance.googleLogin = value; }
+            get { return Instance.iOSGoogleLogin; }
+            set { Instance.iOSGoogleLogin = value; }
         }
 
         public static string FacebookAppID
         {
-            get { return Instance.facebookAppID; }
-            set { Instance.facebookAppID = value; }
+            get { return Instance.iOSFacebookAppID; }
+            set { Instance.iOSFacebookAppID = value; }
         }
 
         public static string GoogleClientID
         {
-            get { return Instance.googleClientID; }
-            set { Instance.googleClientID = value; }
+            get { return Instance.iOSGoogleClientID; }
+            set { Instance.iOSGoogleClientID = value; }
         }
 
         public static string ReversedClientID
         {
-            get { return Instance.reversedClientID; }
-            set { Instance.reversedClientID = value; }
+            get { return Instance.iOSReversedClientID; }
+            set { Instance.iOSReversedClientID = value; }
         }
     }
 }

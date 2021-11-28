@@ -1,6 +1,6 @@
 # Universal SDK for Unity
 
-The Universal SDK for Unity provides a modern way of implementing Social Login APIs. The features included in this SDK will help you develop a Unity game with an engaging and personalized user experience.
+The Universal SDK for Unity provides a modern way of implementing InApp Purchase and Social Login APIs. The features included in this SDK will help you develop a Unity game with an engaging and personalized user experience.
 
 ## Overview
 
@@ -26,8 +26,6 @@ The Universal SDK for Unity provides a modern way of implementing Social Login A
 - Capability Support
 - Safari View Controller
 
-
-
 ### Dependency
 
 #### Android
@@ -47,20 +45,14 @@ implementation 'com.facebook.android:facebook-login:7.1.0'
 'FBSDKLoginKit', '~> 9.0'
 ```
 
-
-
 ## Setting up your project
 
 The Universal SDK for Unity provides an interface for using Universal SDK on either iOS or Android platform. To use Universal SDK in Unity Editor and export it to a platform, your development environment needs a few things.
-
-
 
 ### Unity requirements
 
 + Unity 2017.4 or later, with iOS and Android modules installed
 + A valid subscription for Unity Personal, Unity Plus, or Unity Pro
-
-
 
 ### Installation on iOS
 
@@ -71,13 +63,9 @@ To integrate Universal SDK for Unity on iOS, you need:
 
 On iOS, Universal SDK for Unity works as a wrapper for the Universal SDK for iOS Objc. You must use a manual to add the Universal SDK for iOS Objc to your project on iOS.
 
-
-
 ### Installation on Android
 
 You must have the Android SDK installed, because Unity will use it to build your project to the Android platform. If you have previously [configured Unity for Android development (opens new window)](https://docs.unity3d.com/Manual/android-sdksetup.html), you already have the Android SDK.
-
-
 
 ## Setting up Social Login
 
@@ -88,9 +76,9 @@ Please refer to the setting method for each social login:
 > #### Google Login
 
 1. [Firebase Console](https://console.firebase.google.com) **Register Android App.**
-
+   
    Register upload key certificate (SHA-1 of Keystore used when building APK)
-
+   
    Select on [Firebase Console](https://console.firebase.google.com)  **Project Settings > General > Support email Setting**.
 
 ![support email](https://user-images.githubusercontent.com/20632507/136521132-a91808b7-d0cb-4b1b-814f-74eb03334db5.png)
@@ -118,7 +106,7 @@ Please refer to the setting method for each social login:
 ![apple-login2](https://user-images.githubusercontent.com/20632507/140308587-75e719f4-b1d2-4f1f-b632-f474ffe7bc0e.png)
 
 3. Description is the space where the game name will be exposed when Apple Login. (can be modified) 
-
+   
    Please write the Identifier to include the domain name. (However, please write it differently from AppID.)
 
 ![apple-login3](https://user-images.githubusercontent.com/20632507/140308628-4556783e-1b72-4727-9f64-ab7742f81bfb.png)
@@ -134,7 +122,7 @@ Please refer to the setting method for each social login:
 
 ![apple-login5](https://user-images.githubusercontent.com/20632507/140308771-a0c81456-6e29-4916-b41e-0ed64f3897c5.png)
 
-> ####  Set launcherTemplate.gradle
+> #### Set launcherTemplate.gradle
 
 ```groovy
 dependencies {
@@ -147,7 +135,7 @@ android {
         resValue("string", "facebook_app_id", "com.your.app.id.here")
         resValue("string", "google_web_client_id", "com.your.client.id.here")
         resValue("string", "apple_client_id", "com.your.service.id.here")
-      	resValue("string", "redirect_url", "your.return.url.here")
+        resValue("string", "redirect_url", "your.return.url.here")
     }
     ...
 ```
@@ -175,13 +163,13 @@ android {
 1. Apple Developer Console > Identifiers > Edit your App ID Configuration > Sign In with Apple Check.
 2. Universal iOS SDK > Apple Login Enable Check.
 
-> #### Settings in Preferences > Universal iOS SDK
+> #### Settings in Tools > UniversalSDK > Edit Settings
 
 * If you select the project and OAuth 2.0 items in the [Google API Console](https://console.developers.google.com/apis/credentials), you can check the web client ID and iOS URL schema of the existing project. (Please check the iOS platform)
 * Enter a value for Facebook App ID.
 * If you enable Apple Login, even the Capability setting is automatically set when building Unity.
 
-![ios-sdk-editor](https://user-images.githubusercontent.com/20632507/140486749-b094ae0c-e7fc-421d-bef7-f4302b82e93b.png)
+![ios-sdk-editor](https://user-images.githubusercontent.com/20632507/143774011-c959f885-5ce2-407d-9283-7a3472b728ea.png)
 
 ## Setting up IAP
 
@@ -194,8 +182,6 @@ Please register your in-app product in [Google Play Developer Console](https://p
 > ### Apple
 
 Please register your in-app product in [Apple Developer Center](https://developer.apple.com/account). **(However, only consumables are supported)**
-
-
 
 ## Setting up Push
 
@@ -217,11 +203,7 @@ Apple Developer Center > Keys > Create Key(+) > Register a New Key > Generate Ke
 
 * [PushNotifications Tool](https://github.com/onmyway133/PushNotifications)
 
-
-
 ## Integrating Universal SDK with your Unity game
-
-
 
 ### Add UniversalSDK prefab to your scene
 
@@ -229,13 +211,9 @@ After importing the package, in your **Project** panel, you'll find a **Universa
 
 ![add prefab](https://user-images.githubusercontent.com/20632507/136521043-f4f8d88d-0c7f-4df6-a30c-e741076debe2.png)
 
-
-
 ### Update player settings
 
 Before you continue to implement use Universal SDK APIs in your game, follow the steps below to make sure your project player setting is correct.
-
-
 
 > #### Settings for Android export
 
@@ -243,10 +221,8 @@ Before you continue to implement use Universal SDK APIs in your game, follow the
 2. Click **Player Settings**.
 3. Select Platform > **Other Settings**.
 4. Set **Minimum API Level** to at least **API level 19**.
-4. Set **Target API Level** to **API Level 29 and 30.**
-5. Under **Publishing Settings**, enable **Custom Gradle Template**. (Move the .gradle files from 'Assets/UniversalSDK/Plugins/Android' to 'Assets/Plugins/Android'.)
-
-
+5. Set **Target API Level** to **API Level 29 and 30.**
+6. Under **Publishing Settings**, enable **Custom Gradle Template**. (Move the .gradle files from 'Assets/UniversalSDK/Plugins/Android' to 'Assets/Plugins/Android'.)
 
 > #### Settings for iOS export
 
@@ -254,8 +230,6 @@ Before you continue to implement use Universal SDK APIs in your game, follow the
 2. Click **Player Settings**.
 3. Select Platform > **Other Settings**.
 4. Set **Target minimum iOS Version** to at least `10.0`.
-
-
 
 ### Implement login with Social
 
@@ -288,8 +262,6 @@ Universal SDK for Unity supports only iOS and Android for now. It will always re
 
 If you are using CocoaPods as your dependency manager, after building the game to an Xcode project, open the `Unity-iPhone.xcworkspace` file instead of the original `Unity-iPhone.xcodeproj`.
 
-
-
 ### Logout
 
 During social login, only Google supports `Logout`. For other social logins, please log out through each social setting.
@@ -310,8 +282,6 @@ UniversalSDK.Ins.Logout(result =>
         });
 });
 ```
-
-
 
 ### Purchase
 
@@ -392,8 +362,6 @@ UniversalSDK.Ins.InAppPurchase("product_id", result =>
 * [Google Store](https://developer.android.com/reference/com/android/billingclient/api/BillingClient.BillingResponseCode?hl=ko)
 * [Apple Store](https://developer.apple.com/documentation/storekit/skerror#topics)
 
-
-
 ### Push
 
 When you log in, a pushtoken is issued through LoginResult.
@@ -405,4 +373,3 @@ When you log in, a pushtoken is issued through LoginResult.
 | CANCEL                     | 1100 | User Cancel                  |
 | AUTHENTICATION_AGENT_ERROR | 1101 | Unknown authentication error |
 | PURCHASE_ERROR             | 1102 | Unknown payment error        |
-
