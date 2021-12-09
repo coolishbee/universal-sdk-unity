@@ -35,7 +35,7 @@ implementation 'com.google.firebase:firebase-messaging:22.0.0'
 implementation 'android.arch.work:work-runtime:1.0.1'
 implementation 'com.android.billingclient:billing:3.0.3'
 implementation 'com.google.android.gms:play-services-auth:19.0.0'
-implementation 'com.facebook.android:facebook-login:7.1.0'
+implementation 'com.facebook.android:facebook-login:8.2.0'
 ```
 
 #### iOS
@@ -373,3 +373,9 @@ When you log in, a pushtoken is issued through LoginResult.
 | CANCEL                     | 1100 | User Cancel                  |
 | AUTHENTICATION_AGENT_ERROR | 1101 | Unknown authentication error |
 | PURCHASE_ERROR             | 1102 | Unknown payment error        |
+
+## Support
+
+Please visit this repository's [Github issue tracker](https://github.com/jameschun7/universal-sdk-unity/issues) for feature requests and bug reports related specifically to the SDK.
+
+For other any questions, send us an email to chc3484@gmail.com

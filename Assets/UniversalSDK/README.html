@@ -2,7 +2,7 @@
    color: black;
 }
 </style></head><body><h1 id="universal-sdk-for-unity">Universal SDK for Unity</h1>
-<p>The Universal SDK for Unity provides a modern way of implementing Social Login APIs. The features included in this SDK will help you develop a Unity game with an engaging and personalized user experience.</p>
+<p>The Universal SDK for Unity provides a modern way of implementing InApp Purchase and Social Login APIs. The features included in this SDK will help you develop a Unity game with an engaging and personalized user experience.</p>
 <h2 id="overview">Overview</h2>
 <h3 id="features">Features</h3>
 <h4 id="android">Android</h4>
@@ -60,43 +60,43 @@
 <ol>
 <li><p><a href="https://console.firebase.google.com">Firebase Console</a> <strong>Register Android App.</strong></p>
 <p>Register upload key certificate (SHA-1 of Keystore used when building APK)</p>
-<p>Select on <a href="https://console.firebase.google.com">Firebase Console</a>  <strong>Project Settings &gt; General &gt; Support email Setting</strong>.</p>
+<p>Select on <a href="https://console.firebase.google.com">Firebase Console</a> <strong>Project Settings &gt; General &gt; Support email Setting</strong>.</p>
 </li>
 </ol>
 <p><img src="https://user-images.githubusercontent.com/20632507/136521132-a91808b7-d0cb-4b1b-814f-74eb03334db5.png" alt="support email"></p>
 <ol>
 <li>When you register your Firebase app and register your certificate thumbprint, an API key is automatically generated.</li>
 </ol>
-<p><img src="https://user-images.githubusercontent.com/20632507/136521160-13944f59-60bf-4cd2-b24e-eadb9c537f43.png" alt="aos-google-step1"></p>
+<p><img src="https://user-images.githubusercontent.com/20632507/136521160-13944f59-60bf-4cd2-b24e-eadb9c537f43.png" alt="aosgooglestep1"></p>
 <ol>
 <li>Access the <a href="https://console.developers.google.com/apis/credentials">Google API Console</a>. Copy the Client ID <strong>(Web Client ID).</strong></li>
 </ol>
-<p><img src="https://user-images.githubusercontent.com/20632507/136524108-983d0841-da50-43cf-bcae-9dd69208afbf.png" alt="aos-google-step2"></p>
+<p><img src="https://user-images.githubusercontent.com/20632507/136524108-983d0841-da50-43cf-bcae-9dd69208afbf.png" alt="aosgooglestep2"></p>
 <blockquote>
 <h4 id="facebook-login">Facebook Login</h4>
 </blockquote>
-<p><a href="https://developers.facebook.com/apps">Developer Facebook Console</a> &gt;  Copy the App ID.</p>
+<p><a href="https://developers.facebook.com/apps">Developer Facebook Console</a> &gt; Copy the App ID.</p>
 <blockquote>
 <h4 id="apple-login">Apple Login</h4>
 </blockquote>
 <ol>
 <li>Go to the Identifiers menu and click the &quot;+&quot; button.</li>
 </ol>
-<p><img src="https://user-images.githubusercontent.com/20632507/140308507-7158e7f0-884a-46c0-bf04-2df2b785978f.png" alt="apple-login1"></p>
+<p><img src="https://user-images.githubusercontent.com/20632507/140308507-7158e7f0-884a-46c0-bf04-2df2b785978f.png" alt="applelogin1"></p>
 <ol>
 <li>We will register a Services ID to receive information about users who have signed in with Apple.</li>
 </ol>
-<p><img src="https://user-images.githubusercontent.com/20632507/140308587-75e719f4-b1d2-4f1f-b632-f474ffe7bc0e.png" alt="apple-login2"></p>
+<p><img src="https://user-images.githubusercontent.com/20632507/140308587-75e719f4-b1d2-4f1f-b632-f474ffe7bc0e.png" alt="applelogin2"></p>
 <ol>
-<li><p>Description is the space where the game name will be exposed when Apple Login. (can be modified) </p>
+<li><p>Description is the space where the game name will be exposed when Apple Login. (can be modified)</p>
 <p>Please write the Identifier to include the domain name. (However, please write it differently from AppID.)</p>
 </li>
 </ol>
-<p><img src="https://user-images.githubusercontent.com/20632507/140308628-4556783e-1b72-4727-9f64-ab7742f81bfb.png" alt="apple-login3"></p>
+<p><img src="https://user-images.githubusercontent.com/20632507/140308628-4556783e-1b72-4727-9f64-ab7742f81bfb.png" alt="applelogin3"></p>
 <ol>
 <li>If the Services ID is registered, click the registered Services ID in the Identifiers menu list to go to the setting page.</li>
 </ol>
-<p><img src="https://user-images.githubusercontent.com/20632507/140308696-e4e9f4fc-acc7-43fc-a055-749ea7229b32.png" alt="apple-login4"></p>
+<p><img src="https://user-images.githubusercontent.com/20632507/140308696-e4e9f4fc-acc7-43fc-a055-749ea7229b32.png" alt="applelogin4"></p>
 <ol>
 <li>click the &quot;+&quot; button next to the Website URLs.<ul>
 <li>Primary App ID: Select an App ID to connect</li>
@@ -105,7 +105,7 @@
 </ul>
 </li>
 </ol>
-<p><img src="https://user-images.githubusercontent.com/20632507/140308771-a0c81456-6e29-4916-b41e-0ed64f3897c5.png" alt="apple-login5"></p>
+<p><img src="https://user-images.githubusercontent.com/20632507/140308771-a0c81456-6e29-4916-b41e-0ed64f3897c5.png" alt="applelogin5"></p>
 <blockquote>
 <h4 id="set-launchertemplate-gradle">Set launcherTemplate.gradle</h4>
 </blockquote>
@@ -119,7 +119,7 @@ android {
         resValue(<span class="hljs-string">"string"</span>, <span class="hljs-string">"facebook_app_id"</span>, <span class="hljs-string">"com.your.app.id.here"</span>)
         resValue(<span class="hljs-string">"string"</span>, <span class="hljs-string">"google_web_client_id"</span>, <span class="hljs-string">"com.your.client.id.here"</span>)
         resValue(<span class="hljs-string">"string"</span>, <span class="hljs-string">"apple_client_id"</span>, <span class="hljs-string">"com.your.service.id.here"</span>)
-          resValue(<span class="hljs-string">"string"</span>, <span class="hljs-string">"redirect_url"</span>, <span class="hljs-string">"your.return.url.here"</span>)
+        resValue(<span class="hljs-string">"string"</span>, <span class="hljs-string">"redirect_url"</span>, <span class="hljs-string">"your.return.url.here"</span>)
     }
     ...
 </code></pre>
@@ -133,15 +133,15 @@ android {
 <li><p>Access the <a href="https://console.developers.google.com/apis/credentials">Google API Console</a>.</p>
 </li>
 </ol>
-<p><img src="https://user-images.githubusercontent.com/20632507/140313260-6734922e-2bd1-4b91-ae39-dfe5fd953211.png" alt="ios-google-step2"></p>
+<p><img src="https://user-images.githubusercontent.com/20632507/140313260-6734922e-2bd1-4b91-ae39-dfe5fd953211.png" alt="iosgooglestep2"></p>
 <ol>
 <li>Copy the client ID (google_web_client_id) and iOS URL scheme (REVERSED Client ID).</li>
 </ol>
-<p><img src="https://user-images.githubusercontent.com/20632507/140313293-0b460dbb-abe9-418c-b247-04d2ed16a919.png" alt="ios-google-step3"></p>
+<p><img src="https://user-images.githubusercontent.com/20632507/140313293-0b460dbb-abe9-418c-b247-04d2ed16a919.png" alt="iosgooglestep3"></p>
 <blockquote>
 <h4 id="facebook-login">Facebook Login</h4>
 </blockquote>
-<p><a href="https://developers.facebook.com/apps">Developer Facebook Console</a> &gt;  Copy the App ID.</p>
+<p><a href="https://developers.facebook.com/apps">Developer Facebook Console</a> &gt; Copy the App ID.</p>
 <blockquote>
 <h4 id="apple-login">Apple Login</h4>
 </blockquote>
@@ -150,14 +150,14 @@ android {
 <li>Universal iOS SDK &gt; Apple Login Enable Check.</li>
 </ol>
 <blockquote>
-<h4 id="settings-in-preferences-universal-ios-sdk">Settings in Preferences &gt; Universal iOS SDK</h4>
+<h4 id="settings-in-tools-universalsdk-edit-settings">Settings in Tools &gt; UniversalSDK &gt; Edit Settings</h4>
 </blockquote>
 <ul>
 <li>If you select the project and OAuth 2.0 items in the <a href="https://console.developers.google.com/apis/credentials">Google API Console</a>, you can check the web client ID and iOS URL schema of the existing project. (Please check the iOS platform)</li>
 <li>Enter a value for Facebook App ID.</li>
 <li>If you enable Apple Login, even the Capability setting is automatically set when building Unity.</li>
 </ul>
-<p><img src="https://user-images.githubusercontent.com/20632507/140486749-b094ae0c-e7fc-421d-bef7-f4302b82e93b.png" alt="ios-sdk-editor"></p>
+<p><img src="https://user-images.githubusercontent.com/20632507/143774011-c959f885-5ce2-407d-9283-7a3472b728ea.png" alt="iossdkeditor"></p>
 <h2 id="setting-up-iap">Setting up IAP</h2>
 <p>Please refer to the setting method for each store:</p>
 <blockquote>
@@ -171,7 +171,7 @@ android {
 <h2 id="setting-up-push">Setting up Push</h2>
 <h3 id="fcm">FCM</h3>
 <ol>
-<li><p>Select on <a href="https://console.firebase.google.com">Firebase Console</a>  <strong>Project Settings &gt; General &gt; Download the google-services.json</strong>.</p>
+<li><p>Select on <a href="https://console.firebase.google.com">Firebase Console</a> <strong>Project Settings &gt; General &gt; Download the google-services.json</strong>.</p>
 </li>
 <li><p>Convert the google-services.json file to xml format. File conversion is supported by <a href="https://dandar3.github.io/android/google-services-json-to-xml.html">Convert google-services.json to values XML</a>.</p>
 </li>
@@ -180,7 +180,7 @@ android {
 </ol>
 <h3 id="apns">APNS</h3>
 <p>Apple Developer Center &gt; Keys &gt; Create Key(+) &gt; Register a New Key &gt; Generate Key ID.</p>
-<p><img src="https://user-images.githubusercontent.com/20632507/140489272-7bd168e1-f3f8-4ed4-a9ee-178deb7f4bb4.png" alt="apns-1"></p>
+<p><img src="https://user-images.githubusercontent.com/20632507/140489272-7bd168e1-f3f8-4ed4-a9ee-178deb7f4bb4.png" alt="apns1"></p>
 <h3 id="how-to-use-the-test-tool">How to use the TEST TOOL</h3>
 <ul>
 <li><a href="https://github.com/onmyway133/PushNotifications">PushNotifications Tool</a></li>
