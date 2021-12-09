@@ -85,11 +85,11 @@ Please refer to the setting method for each social login:
 
 2. When you register your Firebase app and register your certificate thumbprint, an API key is automatically generated.
 
-![aos-google-step1](https://user-images.githubusercontent.com/20632507/136521160-13944f59-60bf-4cd2-b24e-eadb9c537f43.png)
+![aos-google-step1](https://user-images.githubusercontent.com/20632507/145372069-76981a90-a1af-4686-8798-b73a52641aa0.png)
 
 3. Access the [Google API Console](https://console.developers.google.com/apis/credentials). Copy the Client ID **(Web Client ID).**
 
-![aos-google-step2](https://user-images.githubusercontent.com/20632507/136524108-983d0841-da50-43cf-bcae-9dd69208afbf.png)
+![aos-google-step2](https://user-images.githubusercontent.com/20632507/145372120-0f2047d9-ce5b-42eb-9624-a5401c2a9ad2.png)
 
 > #### Facebook Login
 
@@ -148,7 +148,7 @@ android {
 
 2. Access the [Google API Console](https://console.developers.google.com/apis/credentials).
 
-![ios-google-step2](https://user-images.githubusercontent.com/20632507/140313260-6734922e-2bd1-4b91-ae39-dfe5fd953211.png)
+![ios-google-step2](https://user-images.githubusercontent.com/20632507/145372659-db92570f-0762-4151-bbcf-0f38f197127d.png)
 
 3. Copy the client ID (google_web_client_id) and iOS URL scheme (REVERSED Client ID).
 
