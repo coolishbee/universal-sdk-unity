@@ -28,8 +28,8 @@ android {
 
         multiDexEnabled true
 
-        resValue "string", "facebook_app_id", "2925534737733374"
-        resValue "string", "google_web_client_id", "178190980840-1qgeb9jcrjmq866qjj6e167alpna0doc.apps.googleusercontent.com"
+        resValue "string", "facebook_app_id", "com.your.app.id.here"
+        resValue "string", "google_web_client_id", "com.your.client.id.here"
         resValue "string", "apple_client_id", "com.your.service.id.here"
         resValue "string", "redirect_url", "https://redirect.url.here"
     }
