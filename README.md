@@ -30,17 +30,18 @@ The Universal SDK for Unity provides a modern way of implementing InApp Purchase
 
 #### Android
 
-```
+```groovy
 implementation 'com.google.firebase:firebase-messaging:22.0.0'
 implementation 'android.arch.work:work-runtime:1.0.1'
 implementation 'com.android.billingclient:billing:3.0.3'
 implementation 'com.google.android.gms:play-services-auth:19.0.0'
 implementation 'com.facebook.android:facebook-login:8.2.0'
+implementation 'com.google.androidbrowserhelper:androidbrowserhelper:2.3.0'
 ```
 
 #### iOS
 
-```
+```ruby
 'GoogleSignIn', '~> 5.0'
 'FBSDKLoginKit', '~> 9.0'
 ```
@@ -67,7 +68,27 @@ On iOS, Universal SDK for Unity works as a wrapper for the Universal SDK for iOS
 
 You must have the Android SDK installed, because Unity will use it to build your project to the Android platform. If you have previously [configured Unity for Android development (opens new window)](https://docs.unity3d.com/Manual/android-sdksetup.html), you already have the Android SDK.
 
-## Setting up Social Login
+> ### Unity 2019.4 or prev
+
+[To support target api 30](https://stackoverflow.com/questions/62969917/how-to-fix-unexpected-element-queries-found-in-manifest-error), please refer to baseProjectTemplate.gradle setting :
+
+```groovy
+allprojects {
+    buildscript {
+        ...
+        }
+
+        dependencies {            
+            classpath 'com.android.tools.build:gradle:3.4.3'
+            classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.11"
+            classpath 'com.google.gms:google-services:4.3.0'
+            **BUILD_SCRIPT_DEPS**
+        }
+    }
+}
+```
+
+## Setup Social Login
 
 Please refer to the setting method for each social login:
 
@@ -171,7 +192,7 @@ android {
 
 ![ios-sdk-editor](https://user-images.githubusercontent.com/20632507/143774011-c959f885-5ce2-407d-9283-7a3472b728ea.png)
 
-## Setting up IAP
+## Setup IAP
 
 Please refer to the setting method for each store:
 
@@ -183,7 +204,7 @@ Please register your in-app product in [Google Play Developer Console](https://p
 
 Please register your in-app product in [Apple Developer Center](https://developer.apple.com/account). **(However, only consumables are supported)**
 
-## Setting up Push
+## Setup Push
 
 ### FCM
 
