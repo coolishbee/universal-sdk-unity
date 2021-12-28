@@ -95,7 +95,7 @@ public class BuildMenu : ScriptableObject
     static void Buildmachine_iOS()
     {
         PlayerSettings.productName = "UnityDemo";
-        PrepareiOSBuild("com.gamepub.ios.testapp");
+        PrepareiOSBuild("com.universal.ios.testapp");
 
         PerformiOSBuild(GetIOSOutputFile(), "", false);
     }

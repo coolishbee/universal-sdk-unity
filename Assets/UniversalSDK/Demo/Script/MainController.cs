@@ -8,7 +8,7 @@ using Universal.UniversalSDK;
 
 public class MainController : MonoBehaviour
 {
-#if UNITY_ANDROID || UNITY_EDITOR
+#if UNITY_ANDROID
     string productID_1 = "boxer_unity1000";
     string productID_2 = "boxer_unity2000";
 #elif UNITY_IOS    
@@ -32,7 +32,7 @@ public class MainController : MonoBehaviour
         UpdateRawSection(result);
 
 
-#if UNITY_ANDROID || UNITY_EDITOR
+#if UNITY_ANDROID
         var scopes = new string[] { "boxer_unity1000", "boxer_unity2000" };
 #elif UNITY_IOS
         var scopes = new string[] { "com.unity.inapp1200", "com.unity.inapp2500" };        

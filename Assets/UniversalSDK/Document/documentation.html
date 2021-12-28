@@ -1,0 +1,57 @@
+<html><head><style>body {
+   color: black;
+}
+</style></head><body><h1 id="universal-sdk-for-unity">Universal SDK for Unity</h1>
+<p>The Universal SDK for Unity provides a modern way of implementing InApp Purchase and Social Login APIs. The features included in this SDK will help you develop a Unity game with an engaging and personalized user experience.</p>
+<h2 id="overview">Overview</h2>
+<h3 id="features">Features</h3>
+<h4 id="android">Android</h4>
+<ul>
+<li>Google Login</li>
+<li>Facebook Login</li>
+<li>Apple Login</li>
+<li>Google Play Billing Library v3</li>
+<li>Firebase Cloud Messaging (FCM)</li>
+<li>AndroidX Support</li>
+<li>Chrome Custom Tabs</li>
+</ul>
+<h4 id="ios">iOS</h4>
+<ul>
+<li>Google Login</li>
+<li>Facebook Login</li>
+<li>Apple Login</li>
+<li>Apple In-App Purchase StoreKit</li>
+<li>Apple Push Notification service (APNs)</li>
+<li>Capability Support</li>
+<li>Safari View Controller</li>
+</ul>
+<h3 id="dependency">Dependency</h3>
+<h4 id="android">Android</h4>
+<pre><code><span class="hljs-keyword">implementation</span> <span class="hljs-string">'com.google.firebase:firebase-messaging:22.0.0'</span>
+<span class="hljs-keyword">implementation</span> <span class="hljs-string">'android.arch.work:work-runtime:1.0.1'</span>
+<span class="hljs-keyword">implementation</span> <span class="hljs-string">'com.android.billingclient:billing:3.0.3'</span>
+<span class="hljs-keyword">implementation</span> <span class="hljs-string">'com.google.android.gms:play-services-auth:19.0.0'</span>
+<span class="hljs-keyword">implementation</span> <span class="hljs-string">'com.facebook.android:facebook-login:8.2.0'</span>
+</code></pre><h4 id="ios">iOS</h4>
+<pre><code><span class="hljs-string">'GoogleSignIn'</span>, <span class="hljs-string">'~&gt; 5.0'</span>
+<span class="hljs-string">'FBSDKLoginKit'</span>, <span class="hljs-string">'~&gt; 9.0'</span>
+</code></pre><h2 id="setting-up-your-project">Setting up your project</h2>
+<p>The Universal SDK for Unity provides an interface for using Universal SDK on either iOS or Android platform. To use Universal SDK in Unity Editor and export it to a platform, your development environment needs a few things.</p>
+<h3 id="unity-requirements">Unity requirements</h3>
+<ul>
+<li>Unity 2017.4 or later, with iOS and Android modules installed</li>
+<li>A valid subscription for Unity Personal, Unity Plus, or Unity Pro</li>
+</ul>
+<h3 id="installation-on-ios">Installation on iOS</h3>
+<p>To integrate Universal SDK for Unity on iOS, you need:</p>
+<ul>
+<li>iOS 10.0 or higher as the deployment target</li>
+<li>Xcode 10 or higher</li>
+</ul>
+<p>On iOS, Universal SDK for Unity works as a wrapper for the Universal SDK for iOS Objc. You must use a manual to add the Universal SDK for iOS Objc to your project on iOS.</p>
+<h3 id="installation-on-android">Installation on Android</h3>
+<p>You must have the Android SDK installed, because Unity will use it to build your project to the Android platform. If you have previously <a href="https://docs.unity3d.com/Manual/android-sdksetup.html">configured Unity for Android development (opens new window)</a>, you already have the Android SDK.</p>
+<h2 id="support">Support</h2>
+<p>Please visit this repository&#39;s <a href="https://github.com/jameschun7/universal-sdk-unity/issues">Github issue tracker</a> for feature requests and bug reports related specifically to the SDK.</p>
+<p>For other any questions, send us an email to chc3484@gmail.com</p>
+</body></html>
