@@ -311,6 +311,7 @@ UniversalSDK.Ins.Logout(result =>
 After initializing the payment module, a list of in-app products available for purchase is delivered.
 
 ```c#
+var scopes = new string[] { "com.unity.inapp1200", "com.unity.inapp2500" };
 UniversalSDK.Ins.InitBilling(scopes, result =>
 {
     result.Match(
