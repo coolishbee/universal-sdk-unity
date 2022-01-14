@@ -386,7 +386,7 @@ UniversalSDK.Ins.InAppPurchase("product_id", result =>
 
 ### Push
 
-When you log in, a pushtoken is issued through LoginResult.
+When you log in, a pushtoken is generated through LoginResult.
 
 ### ErrorCode
 
