@@ -37,12 +37,12 @@ Universal SDK 는 iOS 또는 안드로이드 플랫폼에서 Universal SDK 를 �
 
 ### Installation on iOS
 
-Unity iOS 환경에서 Universal SDK를 연동하기 위한 필요 조건:
+Unity iOS 환경에서 Universal SDK를 연동하기 위한 필요 조건:
 
 + iOS 10.0 or higher as the deployment target
 + Xcode 10 or higher
 
-iOS에서 Universal SDK 는 UniversalSDK.framework 의 래퍼 역할을 합니다. iOS의 프로젝트에 Universal SDK 를 추가하려면 UniversalSDK.framework 을 수동으로 추가해야 합니다.
+iOS에서 Universal SDK 는 UniversalSDK.framework 의 래퍼 역할을 합니다. iOS의 프로젝트에 Universal SDK 를 추가하려면 UniversalSDK.framework 을 수동으로 추가해야 합니다.
 
 ### Installation on Android
 

@@ -7,7 +7,6 @@ The Universal SDK for Unity provides a modern way of implementing InApp Purchase
 Read this in other languages
 
 - [English](https://github.com/jameschun7/universal-sdk-unity/blob/main/docs/en/README.md)
-
 - [Korean](https://github.com/jameschun7/universal-sdk-unity/blob/main/docs/ko/README.md)
 
 ## Features
