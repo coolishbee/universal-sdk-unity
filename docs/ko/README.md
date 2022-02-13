@@ -1,6 +1,6 @@
 # Universal SDK for Unity
 
-The Universal SDK for Unity provides a modern way of implementing InApp Purchase and Social Login APIs. The features included in this SDK will help you develop a Unity game with an engaging and personalized user experience.
+Universal SDK 는 인앱 구매 및 소셜 로그인 API를 구현하는 현대적인 방법을 제공합니다. 이 SDK 에 포함된 기능을 통해 사용자 환경에 맞는 유니티 게임을 개발할 수 있습니다.
 
 ## Overview
 
@@ -28,29 +28,29 @@ The Universal SDK for Unity provides a modern way of implementing InApp Purchase
 
 ## Setting up your project
 
-The Universal SDK for Unity provides an interface for using Universal SDK on either iOS or Android platform. To use Universal SDK in Unity Editor and export it to a platform, your development environment needs a few things.
+Universal SDK 는 iOS 또는 안드로이드 플랫폼에서 Universal SDK 를 사용할 수 있는 인터페이스를 제공합니다. Unity Editor 에서 Universal SDK 를 사용하고 이를 플랫폼으로 내보내기 위해서는 몇 가지 개발 환경이 필요합니다.
 
 ### Unity requirements
 
-+ Unity 2017.4 or later, with iOS and Android modules installed
-+ A valid subscription for Unity Personal, Unity Plus, or Unity Pro
++ iOS 및 Android 모듈이 설치된 Unity 2017.4 이상
++ Unity Personal, Unity Plus 또는 Unity Pro의 유효한 구독
 
 ### Installation on iOS
 
-To integrate Universal SDK for Unity on iOS, you need:
+Unity iOS 환경에서 Universal SDK를 연동하기 위한 필요 조건:
 
 + iOS 10.0 or higher as the deployment target
 + Xcode 10 or higher
 
-On iOS, Universal SDK for Unity works as a wrapper for the Universal SDK for iOS Objc. You must use a manual to add the UniversalSDK.framework to your project on iOS.
+iOS에서 Universal SDK 는 UniversalSDK.framework 의 래퍼 역할을 합니다. iOS의 프로젝트에 Universal SDK 를 추가하려면 UniversalSDK.framework 을 수동으로 추가해야 합니다.
 
 ### Installation on Android
 
-You must have the Android SDK installed, because Unity will use it to build your project to the Android platform. If you have previously [configured Unity for Android development (opens new window)](https://docs.unity3d.com/Manual/android-sdksetup.html), you already have the Android SDK.
+유니티에서 안드로이드 빌드를 위해서는 Android SDK 설치을 해야 합니다. 만약 이전에 유니티 안드로이드 개발을 위한 설정을 했다면 이미 Android SDK 가 설치되어 있습니다.
 
 > ### Unity 2019.4 or prev
 
-[To support target api 30](https://stackoverflow.com/questions/62969917/how-to-fix-unexpected-element-queries-found-in-manifest-error), please refer to baseProjectTemplate.gradle setting :
+[Target api 30을 지원](https://stackoverflow.com/questions/62969917/how-to-fix-unexpected-element-queries-found-in-manifest-error)하려면 baseProjectTemplate.gradle 참조하여 설정하십시오 :
 
 ```groovy
 allprojects {
@@ -69,31 +69,31 @@ allprojects {
 
 ## Setup Social Login
 
-Please refer to the setting method for each social login:
+소셜 로그인별 설정 방법을 참조하십시오:
 
 ### Android
 
 > #### Google Login
 
-1. [Firebase Console](https://console.firebase.google.com) **Register Android App.**
+1. [Firebase Console](https://console.firebase.google.com)에서 **안드로이드 앱을 생성합니다.**
    
-   Register upload key certificate (SHA-1 of Keystore used when building APK)
+   업로드키 인증서 등록하기 (SHA-1 of Keystore used when building APK)
    
-   Select on [Firebase Console](https://console.firebase.google.com)  **Project Settings > General > Support email Setting**.
+   [Firebase Console](https://console.firebase.google.com)에서  **프로젝트 설정 > 일반 > 지원 이메일 설정**.
 
 ![support email](https://user-images.githubusercontent.com/20632507/136521132-a91808b7-d0cb-4b1b-814f-74eb03334db5.png)
 
-2. When you register your Firebase app and register your certificate thumbprint, an API key is automatically generated.
+2. 아래와 같이 인증서 지문을 등록하면 Google API Console 에 API 키가 자동생성 됩니다.
 
 ![aos-google-step1](https://user-images.githubusercontent.com/20632507/145372069-76981a90-a1af-4686-8798-b73a52641aa0.png)
 
-3. Access the [Google API Console](https://console.developers.google.com/apis/credentials). Copy the Client ID **(Web Client ID).**
+3. [Google API Console](https://console.developers.google.com/apis/credentials) 에 접속. Client ID 복사 **(Web Client ID).**
 
 ![aos-google-step2](https://user-images.githubusercontent.com/20632507/145372120-0f2047d9-ce5b-42eb-9624-a5401c2a9ad2.png)
 
 > #### Facebook Login
 
-[Developer Facebook Console](https://developers.facebook.com/apps) >  Copy the App ID.
+[Developer Facebook Console](https://developers.facebook.com/apps) > App ID 복사.
 
 > #### Apple Login
 
