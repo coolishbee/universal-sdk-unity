@@ -1,30 +1,3 @@
-# Universal SDK for Unity
-
-The Universal SDK for Unity provides a modern way of implementing InApp Purchase and Social Login APIs. The features included in this SDK will help you develop a Unity game with an engaging and personalized user experience.
-
-## Overview
-
-### Features
-
-#### Android
-
-- Google Login
-- Facebook Login
-- Apple Login
-- Google Play Billing Library v3
-- Firebase Cloud Messaging (FCM)
-- AndroidX Support
-- Chrome Custom Tabs
-
-#### iOS
-
-- Google Login
-- Facebook Login
-- Apple Login
-- Apple In-App Purchase StoreKit
-- Apple Push Notification service (APNs)
-- Capability Support
-- Safari View Controller
 
 ## Setting up your project
 
@@ -122,7 +95,13 @@ Please refer to the setting method for each social login:
 
 ![apple-login5](https://user-images.githubusercontent.com/20632507/140308771-a0c81456-6e29-4916-b41e-0ed64f3897c5.png)
 
-> #### Set launcherTemplate.gradle
+> #### Edit Assets/Plugins/Android/launcherTemplate.gradle
+
+Activate the checkbox to create a file.
+
+![](https://user-images.githubusercontent.com/20632507/159444201-e56789e8-4ae7-4262-8a0b-325bdab590f6.png)
+
+Insert the line resValue. If you are not sure, please refer to the [Demo](https://github.com/coolishbee/universal-sdk-unity-demo).
 
 ```groovy
 dependencies {

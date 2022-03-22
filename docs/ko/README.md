@@ -1,30 +1,3 @@
-# Universal SDK for Unity
-
-Universal SDK 는 인앱 구매 및 소셜 로그인 API를 구현하는 현대적인 방법을 제공합니다. 이 SDK 에 포함된 기능을 통해 사용자 환경에 맞는 유니티 게임을 개발할 수 있습니다.
-
-## Overview
-
-### Features
-
-#### Android
-
-- Google Login
-- Facebook Login
-- Apple Login
-- Google Play Billing Library v3
-- Firebase Cloud Messaging (FCM)
-- AndroidX Support
-- Chrome Custom Tabs
-
-#### iOS
-
-- Google Login
-- Facebook Login
-- Apple Login
-- Apple In-App Purchase StoreKit
-- Apple Push Notification service (APNs)
-- Capability Support
-- Safari View Controller
 
 ## Setting up your project
 
