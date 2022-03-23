@@ -1,14 +1,14 @@
 
-## Setting up your project
+# Setting up your project
 
 The Universal SDK for Unity provides an interface for using Universal SDK on either iOS or Android platform. To use Universal SDK in Unity Editor and export it to a platform, your development environment needs a few things.
 
-### Unity requirements
+## Unity requirements
 
 + Unity 2017.4 or later, with iOS and Android modules installed
 + A valid subscription for Unity Personal, Unity Plus, or Unity Pro
 
-### Installation on iOS
+## Installation on iOS
 
 To integrate Universal SDK for Unity on iOS, you need:
 
@@ -17,11 +17,11 @@ To integrate Universal SDK for Unity on iOS, you need:
 
 On iOS, Universal SDK for Unity works as a wrapper for the Universal SDK for iOS Objc. You must use a manual to add the UniversalSDK.framework to your project on iOS.
 
-### Installation on Android
+## Installation on Android
 
 You must have the Android SDK installed, because Unity will use it to build your project to the Android platform. If you have previously [configured Unity for Android development (opens new window)](https://docs.unity3d.com/Manual/android-sdksetup.html), you already have the Android SDK.
 
-> ### Unity 2019.4 or prev
+### Unity 2019.4 or prev
 
 [To support target api 30](https://stackoverflow.com/questions/62969917/how-to-fix-unexpected-element-queries-found-in-manifest-error), please refer to baseProjectTemplate.gradle setting :
 
@@ -40,13 +40,13 @@ allprojects {
 }
 ```
 
-## Setup Social Login
+# Setup Social Login
 
 Please refer to the setting method for each social login:
 
-### Android
+## Android
 
-> #### Google Login
+### Google Login
 
 1. [Firebase Console](https://console.firebase.google.com) **Register Android App.**
    
@@ -64,11 +64,11 @@ Please refer to the setting method for each social login:
 
 ![aos-google-step2](https://user-images.githubusercontent.com/20632507/145372120-0f2047d9-ce5b-42eb-9624-a5401c2a9ad2.png)
 
-> #### Facebook Login
+### Facebook Login
 
 [Developer Facebook Console](https://developers.facebook.com/apps) >  Copy the App ID.
 
-> #### Apple Login
+### Apple Login
 
 1. Go to the Identifiers menu and click the "+" button.
 
@@ -95,11 +95,12 @@ Please refer to the setting method for each social login:
 
 ![apple-login5](https://user-images.githubusercontent.com/20632507/140308771-a0c81456-6e29-4916-b41e-0ed64f3897c5.png)
 
-> #### Edit Assets/Plugins/Android/launcherTemplate.gradle
+### Apply social id to project
 
+Please edit your Assets/Plugins/Android/launcherTemplate.gradle
 Activate the checkbox to create a file.
 
-![](https://user-images.githubusercontent.com/20632507/159444201-e56789e8-4ae7-4262-8a0b-325bdab590f6.png)
+![check-gradle](https://user-images.githubusercontent.com/20632507/159444201-e56789e8-4ae7-4262-8a0b-325bdab590f6.png)
 
 Insert the line resValue. If you are not sure, please refer to the [Demo](https://github.com/coolishbee/universal-sdk-unity-demo).
 
@@ -119,9 +120,9 @@ android {
     ...
 ```
 
-### iOS
+## iOS
 
-> #### Google Login
+### Google Login
 
 1. Register your iOS app in the Firebase console
 
@@ -133,16 +134,16 @@ android {
 
 ![ios-google-step3](https://user-images.githubusercontent.com/20632507/140313293-0b460dbb-abe9-418c-b247-04d2ed16a919.png)
 
-> #### Facebook Login
+### Facebook Login
 
 [Developer Facebook Console](https://developers.facebook.com/apps) >  Copy the App ID.
 
-> #### Apple Login
+### Apple Login
 
 1. Apple Developer Console > Identifiers > Edit your App ID Configuration > Sign In with Apple Check.
 2. Universal iOS SDK > Apple Login Enable Check.
 
-> #### Settings in Tools > UniversalSDK > Edit Settings
+### Settings in Tools > UniversalSDK > Edit Settings
 
 * If you select the project and OAuth 2.0 items in the [Google API Console](https://console.developers.google.com/apis/credentials), you can check the web client ID and iOS URL schema of the existing project. (Please check the iOS platform)
 * Enter a value for Facebook App ID.
@@ -150,21 +151,21 @@ android {
 
 ![ios-sdk-editor](https://user-images.githubusercontent.com/20632507/143774011-c959f885-5ce2-407d-9283-7a3472b728ea.png)
 
-## Setup IAP
+# Setup IAP
 
 Please refer to the setting method for each store:
 
-> ### Google Store
+## Google Store
 
 Please register your in-app product in [Google Play Developer Console](https://play.google.com/apps/publish). **(However, only consumables are supported)**
 
-> ### Apple
+## Apple
 
 Please register your in-app product in [Apple Developer Center](https://developer.apple.com/account). **(However, only consumables are supported)**
 
-## Setup Push
+# Setup Push
 
-### FCM
+## Android FCM
 
 1. Select on [Firebase Console](https://console.firebase.google.com)  **Project Settings > General > Download the google-services.json**.
 
@@ -172,29 +173,57 @@ Please register your in-app product in [Apple Developer Center](https://develope
 
 3. Copy the converted google-services.xml file to `Assets/Plugins/Android/FirebaseApp.androidlib/res/values`. (If you are using firebase unity sdk, you can skip it.)
 
-### APNS
+## Custom Push Notification Icon
+
+You use [Android Asset Studio - Notification icon generator](http://romannurik.github.io/AndroidAssetStudio/icons-notification.html#source.type=clipart&source.clipart=ac_unit&source.space.trim=1&source.space.pad=0&name=ic_stat_ic_notification), folders by size are automatically created.
+Add the image file to the Assets/Plugins/Android/FirebaseApp.androidlib/res path in the project.
+
+| Path                                              | Size  | Color |
+| ------------------------------------------------- | ----- | ----- |
+| /res/drawable-hdpi/ic_stat_ic_notification.png    | 36x36 | white    |
+| /res/drawable-mdpi/ic_stat_ic_notification.png    | 24x24 | white    |
+| /res/drawable-xhdpi/ic_stat_ic_notification.png   | 48x48 | white    |
+| /res/drawable-xxhdpi/ic_stat_ic_notification.png  | 72x72 | white    |
+| /res/drawable-xxxhdpi/ic_stat_ic_notification.png | 96x96 | white    |
+
+Please Add the below to `Assets/Plugins/Android/AndroidManifest.xml`.
+
+```
+...
+<application
+    ...
+    <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_stat_ic_notification" />
+</application>
+...
+```
+
+***The image file name must be unified as ic_stat_ic_notification.png.**
+
+## iOS APNS
 
 Apple Developer Center > Keys > Create Key(+) > Register a New Key > Generate Key ID.
 
 ![apns-1](https://user-images.githubusercontent.com/20632507/140489272-7bd168e1-f3f8-4ed4-a9ee-178deb7f4bb4.png)
 
-### How to use the TEST TOOL
+## How to use the TEST TOOL
 
 * [PushNotifications Tool](https://github.com/onmyway133/PushNotifications)
 
-## Integrating Universal SDK with your Unity game
+# Integrating Universal SDK with your Unity game
 
-### Add UniversalSDK prefab to your scene
+## Add UniversalSDK prefab to your scene
 
 After importing the package, in your **Project** panel, you'll find a **UniversalSDK** prefab under `Assets/UniversalSDK/`. Drag it to the **Hierarchy** panel of the scene to which you want to add Universal Login:
 
 ![add prefab](https://user-images.githubusercontent.com/20632507/136521043-f4f8d88d-0c7f-4df6-a30c-e741076debe2.png)
 
-### Update player settings
+## Update player settings
 
 Before you continue to implement use Universal SDK APIs in your game, follow the steps below to make sure your project player setting is correct.
 
-> #### Settings for Android export
+### Settings for Android export
 
 1. Select **File > Build Settings**.
 2. Click **Player Settings**.
@@ -203,14 +232,14 @@ Before you continue to implement use Universal SDK APIs in your game, follow the
 5. Set **Target API Level** to **API Level 29 and 30.**
 6. Under **Publishing Settings**, enable **Custom Gradle Template**. (Move the .gradle files from 'Assets/UniversalSDK/Plugins/Android' to 'Assets/Plugins/Android'.)
 
-> #### Settings for iOS export
+### Settings for iOS export
 
 1. Select **File > Build Settings**.
 2. Click **Player Settings**.
 3. Select Platform > **Other Settings**.
 4. Set **Target minimum iOS Version** to at least `10.0`.
 
-### Implement login with Social
+## Implement login with Social
 
 Now, you can implement login with Social in the scene where the UniversalSDK (GameObject) exists. For example:
 
@@ -241,7 +270,7 @@ Universal SDK for Unity supports only iOS and Android for now. It will always re
 
 If you are using CocoaPods as your dependency manager, after building the game to an Xcode project, open the `Unity-iPhone.xcworkspace` file instead of the original `Unity-iPhone.xcodeproj`.
 
-### Logout
+## Logout
 
 During social login, only Google supports `Logout`. For other social logins, please log out through each social setting.
 
@@ -262,9 +291,9 @@ UniversalSDK.Ins.Logout(result =>
 });
 ```
 
-### Purchase
+## Purchase
 
-#### InitBilling
+### InitBilling
 
 After initializing the payment module, a list of in-app products available for purchase is delivered.
 
@@ -289,7 +318,7 @@ UniversalSDK.Ins.InitBilling(scopes, result =>
 });
 ```
 
-#### Restore Purchase
+### Restore Purchase
 
 Payment information list is delivered after processing for unconsumed payments. (Callable only after payment initialization)
 
@@ -318,7 +347,7 @@ UniversalSDK.Ins.RestorePurchases(result =>
 });
 ```
 
-#### In-app product payment
+### In-app product payment
 
 Google and Apple payments are possible with one of the functions below.
 
@@ -337,16 +366,16 @@ UniversalSDK.Ins.InAppPurchase("product_id", result =>
 });
 ```
 
-#### Each Store Error Message
+### Each Store Error Message
 
 * [Google Store](https://developer.android.com/reference/com/android/billingclient/api/BillingClient.BillingResponseCode?hl=ko)
 * [Apple Store](https://developer.apple.com/documentation/storekit/skerror#topics)
 
-### Push
+## Push
 
 When you log in, a pushtoken is generated through LoginResult.
 
-### ErrorCode
+## ErrorCode
 
 | Error                      | Code | Desc                         |
 | -------------------------- | ---- | ---------------------------- |
@@ -354,7 +383,7 @@ When you log in, a pushtoken is generated through LoginResult.
 | AUTHENTICATION_AGENT_ERROR | 1101 | Unknown authentication error |
 | PURCHASE_ERROR             | 1102 | Unknown payment error        |
 
-## Support
+# Support
 
 Please visit this repository's [Github issue tracker](https://github.com/jameschun7/universal-sdk-unity/issues) for feature requests and bug reports related specifically to the SDK.
 
