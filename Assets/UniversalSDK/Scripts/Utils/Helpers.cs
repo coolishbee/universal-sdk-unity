@@ -17,5 +17,11 @@ namespace Universal.UniversalSDK
             }
             return false;
         }
+
+        public static void Log(this object value)
+        {
+            if (UniversalSDKSettings.DevBuild)
+                Debug.Log(value.ToString());
+        }
     }
 }

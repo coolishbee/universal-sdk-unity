@@ -76,13 +76,15 @@ namespace Universal.UniversalSDK
 
         public void OnApiOk(string result)
         {
-            Debug.Log("OnApiOk : " + result);
+            //Debug.Log("OnApiOk : " + result);
+            result.Log();
             UniversalAPI._OnApiOk(result);
         }
 
         public void OnApiError(string result)
         {
-            Debug.Log("OnApiError : " + result);
+            //Debug.Log("OnApiError : " + result);
+            result.Log();
             UniversalAPI._OnApiError(result);
         }
     }
