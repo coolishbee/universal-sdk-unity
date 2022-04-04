@@ -1,6 +1,6 @@
 # Universal SDK for Unity
 
-Guides Docs [English](./docs/en/README.md) | [Korean](./docs/ko/README.md)
+[Docs English](./docs/en/README.md) | [Docs Korean](./docs/ko/README.md) | [AssetStore](https://assetstore.unity.com/packages/tools/integration/universal-sdk-204843) | [Demo](https://github.com/coolishbee/universal-sdk-unity-demo)
 
 The Universal SDK for Unity provides a modern way of implementing InApp Purchase and Social Login APIs. The features included in this SDK will help you develop a Unity game with an engaging and personalized user experience.
 
