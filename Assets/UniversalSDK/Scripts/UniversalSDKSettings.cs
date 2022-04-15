@@ -8,8 +8,8 @@ namespace Universal.UniversalSDK
         public const string settingsAssetName = "UniversalSDKSettings";
         public const string settingsPath = "UniversalSDK/Resources";
         public const string settingsAssetExtension = ".asset";
-        public const string unitySdkVersion = "1.1.3";
-        public const string androidSdkVersion = "1.1.3";
+        public const string unitySdkVersion = "1.1.4";
+        public const string androidSdkVersion = "1.1.5";
         public const string iosSdkVersion = "1.1.2";
 
         private static UniversalSDKSettings instance;
