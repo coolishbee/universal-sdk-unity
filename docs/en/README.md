@@ -21,11 +21,12 @@ On iOS, Universal SDK for Unity works as a wrapper for the Universal SDK for iOS
 
 You must have the Android SDK installed, because Unity will use it to build your project to the Android platform. If you have previously [configured Unity for Android development (opens new window)](https://docs.unity3d.com/Manual/android-sdksetup.html), you already have the Android SDK.
 
-### Unity 2019.4 or prev
+## Setting up gradle
 
 [To support target api 30](https://stackoverflow.com/questions/62969917/how-to-fix-unexpected-element-queries-found-in-manifest-error), please refer to baseProjectTemplate.gradle setting :
 
 ```groovy
+//Unity 2019.4 or prev
 allprojects {
     buildscript {
         ...
@@ -38,7 +39,44 @@ allprojects {
         }
     }
 }
+//Unity 2020.3 or higher
+allprojects {
+    buildscript {
+        ...
+        }
+
+        dependencies {            
+            classpath 'com.android.tools.build:gradle:4.0.1'
+            classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.11"
+            **BUILD_SCRIPT_DEPS**
+        }
+    }
+}
 ```
+
+mainTemplate.gradle :
+
+```groovy
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'io.github.jameschun7:universalsdk:1.1.5' //added
+
+    implementation 'com.google.code.gson:gson:2.8.5' //added
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.11" //added
+
+**DEPS**}
+```
+
+### Resolver usage
+For [resolver](https://github.com/googlesamples/unity-jar-resolver) users, please refer to UniversalSDKDependencies.xml
+
+## Plugins Settting
+
+You should set it like this to avoid plugin conflicts.
+Move the Plugins Folder from `Assets/UniversalSDK/Plugins` to `Assets/Plugins`.
+
+![](https://github.com/jameschun7/universal-sdk-unity-demo/blob/main/img/plugins-move.png?raw=true)
 
 # Setup Social Login
 
@@ -104,14 +142,20 @@ Activate the checkbox to create a file.
 
 Insert the line resValue. If you are not sure, please refer to the [Demo](https://github.com/coolishbee/universal-sdk-unity-demo).
 
+launcherTemplate.gradle :
+
 ```groovy
 dependencies {
+    implementation project(':unityLibrary')
+    implementation 'androidx.multidex:multidex:2.0.1' //added
     ...
     }
 android {
     ...
     defaultConfig {
         ...
+        multiDexEnabled true //added
+
         resValue("string", "facebook_app_id", "com.your.app.id.here")
         resValue("string", "google_web_client_id", "com.your.client.id.here")
         resValue("string", "apple_client_id", "com.your.service.id.here")
@@ -154,6 +198,7 @@ android {
 # Setup IAP
 
 Please refer to the setting method for each store:
+**(You should set it like this to avoid plugin conflicts)**
 
 ## Google Store
 
