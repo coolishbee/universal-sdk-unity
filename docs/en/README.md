@@ -198,7 +198,8 @@ android {
 # Setup IAP
 
 Please refer to the setting method for each store:
-**(You should set it like this to avoid plugin conflicts)**
+
+**(Currently, it cannot be used simultaneously with Unity IAP. Please disable Unity IAP.)**
 
 ## Google Store
 
