@@ -15,7 +15,7 @@ To integrate Universal SDK for Unity on iOS, you need:
 + iOS 10.0 or higher as the deployment target
 + Xcode 10 or higher
 
-On iOS, Universal SDK for Unity works as a wrapper for the Universal SDK for iOS Objc. You must use a manual to add the UniversalSDK.framework to your project on iOS.
+On iOS, Universal SDK for Unity works as a wrapper for the Universal SDK for iOS. You must manually add framework to your project on iOS.(“UniversalSDK.framework” is located in the “Plugins” folder)
 
 ## Installation on Android
 
