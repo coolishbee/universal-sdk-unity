@@ -49,47 +49,7 @@ namespace Universal.UniversalSDK
 
             if (universalSdkWrapper != null)
                 universalSdkWrapper.Call("logout", param);
-        }
-
-        public static void InitBilling(string identifier,
-                                       string list)
-        {            
-            if (!Application.isPlaying) { return; }
-            if (IsInvalidRuntime(null)) { return; }
-
-            object[] param = new object[2];
-            param[0] = identifier;
-            param[1] = list;
-
-            if (universalSdkWrapper != null)
-                universalSdkWrapper.Call("initBilling", param);
-        }
-
-        public static void RestorePurchases(string identifier)
-        {
-            if (!Application.isPlaying) { return; }
-            if (IsInvalidRuntime(identifier)) { return; }
-
-            object[] param = new object[1];
-            param[0] = identifier;
-
-            if (universalSdkWrapper != null)
-                universalSdkWrapper.Call("restorePurchases", param);
-        }
-
-        public static void InAppPurchase(string identifier,
-                                         string pid)
-        {
-            if (!Application.isPlaying) { return; }
-            if (IsInvalidRuntime(identifier)) { return; }
-
-            object[] param = new object[2];
-            param[0] = identifier;
-            param[1] = pid;
-
-            if (universalSdkWrapper != null)
-                universalSdkWrapper.Call("purchaseLaunch", param);
-        }           
+        }                   
 
         public static void OpenCustomTabView(string identifier,
                                              string url)

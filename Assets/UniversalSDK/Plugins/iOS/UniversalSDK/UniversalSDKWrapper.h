@@ -2,7 +2,7 @@
 //  UniversalSDKWrapper.h
 //  UniversalSDKUnityBridge
 //
-//  Created by james on 2021/03/07.
+//  Created by gamepub on 2022/11/09.
 //
 
 #import <Foundation/Foundation.h>
@@ -17,12 +17,6 @@
          type:(int)loginType;
 
 - (void)logout:(NSString *)identifier;
-
-- (void)initBilling:(NSString *)identifier
-               list:(NSString *)list;
-
-- (void)purchaseLaunch:(NSString *)identifier
-                   pid:(NSString *)pid;
 
 - (void)openSafariView:(NSString *)identifier
                    url:(NSString *)url;

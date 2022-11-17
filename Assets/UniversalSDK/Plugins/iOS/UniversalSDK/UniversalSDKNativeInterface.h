@@ -2,7 +2,7 @@
 //  UniversalSDKNativeInterface.h
 //  UniversalSDKUnityBridge
 //
-//  Created by james on 2021/03/07.
+//  Created by gamepub on 2022/11/09.
 //
 
 #ifndef UniversalSDKNativeInterface_h

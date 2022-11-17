@@ -2,7 +2,7 @@
 //  UniversalSDKCallbackPayload.m
 //  UniversalSDKUnityBridge
 //
-//  Created by james on 2021/03/07.
+//  Created by gamepub on 2022/11/09.
 //
 
 #import "UniversalSDKCallbackPayload.h"
@@ -15,8 +15,8 @@
 
 @implementation UniversalSDKCallbackPayload
 
-+ (instancetype)callbackMessage:(NSString *)identifier
-                          value:(NSString *)value
++ (instancetype)payloadWithIdentifier:(NSString *)identifier
+                                value:(NSString *)value
 {
     return [[self alloc] initWithIdentifier:identifier value:value];
 }
@@ -37,14 +37,14 @@
         NSLog(@"[UniversalSDK] Either `identifier` and `value` is nil. Check response value to make sure a valid result.");
         return nil;
     }
-
+    
     NSDictionary *dic = @{@"identifier": self.identifier, @"value": self.value};
     NSData *data = [NSJSONSerialization dataWithJSONObject:dic options:kNilOptions error:nil];
     
     if (!data){
         return nil;
     }
-
+    
     return [[NSString alloc] initWithData:data encoding:NSUTF8StringEncoding];
 }
 

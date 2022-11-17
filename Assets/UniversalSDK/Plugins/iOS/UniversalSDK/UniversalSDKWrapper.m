@@ -2,13 +2,13 @@
 //  UniversalSDKWrapper.m
 //  UniversalSDKUnityBridge
 //
-//  Created by james on 2021/03/07.
+//  Created by gamepub on 2022/11/09.
 //
 
 #import "UniversalSDKWrapper.h"
 #import "UniversalSDKCallbackPayload.h"
 
-@import UniversalSDK;
+@import UniversalSDKSwift;
 
 @interface UniversalSDKWrapper()
 @property (nonatomic, assign) BOOL setup;
@@ -32,80 +32,36 @@
     }
     self.setup = YES;
     
-    [[UniversalApiClient getInstance] setupSDK];
+    [[UniversalAPIClient shared] setupSDK];
 }
 
 - (void) login:(NSString *)identifier
           type:(int)loginType
 {
-    [[UniversalApiClient getInstance]login:loginType
-                            viewController:UnityGetGLViewController()
-                                completion:^(NSString * _Nullable result, NSError * _Nullable error)
-    {
+    [[UniversalAPIClient shared] socialLoginWithLoginType:loginType
+                                         inViewController:UnityGetGLViewController()
+                                        completionHandler:^(SDKLoginResult *result,
+                                                            NSError *error)
+     {
         if(error){
-            UniversalSDKCallbackPayload *payload = [UniversalSDKCallbackPayload callbackMessage:identifier value:[self wrapError:error]];
+            UniversalSDKCallbackPayload *payload = [UniversalSDKCallbackPayload payloadWithIdentifier:identifier value:[self wrapError:error]];
             [payload sendMessageError];
         }else{
-            UniversalSDKCallbackPayload *payload = [UniversalSDKCallbackPayload callbackMessage:identifier value:result];
-            [payload sendMessageOK];
-        }
-    }];    
-}
-
-- (void) logout:(NSString *)identifier      
-{
-    [[UniversalApiClient getInstance] logout:^(NSString * _Nullable result, NSError * _Nullable error)
-    {
-        if(error){
-            UniversalSDKCallbackPayload *payload = [UniversalSDKCallbackPayload callbackMessage:identifier value:[self wrapError:error]];
-            [payload sendMessageError];
-        }else{
-            UniversalSDKCallbackPayload *payload = [UniversalSDKCallbackPayload callbackMessage:identifier value:result];
+            UniversalSDKCallbackPayload *payload = [UniversalSDKCallbackPayload payloadWithIdentifier:identifier value:[result json]];
             [payload sendMessageOK];
         }
     }];
 }
 
-- (void)initBilling:(NSString *)identifier
-               list:(NSString *)list
+- (void) logout:(NSString *)identifier
 {
     
-    [[UniversalApiClient getInstance] initBilling:list
-                                       completion:^(NSString * _Nullable result,
-                                                    NSError * _Nullable error)
-     {
-        if(error)
-        {
-            UniversalSDKCallbackPayload *payload = [UniversalSDKCallbackPayload callbackMessage:identifier value:[self wrapError:error]];
-            [payload sendMessageError];
-        }else{
-            UniversalSDKCallbackPayload *payload = [UniversalSDKCallbackPayload callbackMessage:identifier value:result];
-            [payload sendMessageOK];
-        }
-    }];
-}
-
-- (void) purchaseLaunch:(NSString *)identifier
-                    pid:(NSString *)pid
-{
-    [[UniversalApiClient getInstance] purchaseLaunch:pid
-                                          completion:^(NSString * _Nullable result, NSError * _Nullable error)
-    {
-        if(error){
-            UniversalSDKCallbackPayload *payload = [UniversalSDKCallbackPayload callbackMessage:identifier value:[self wrapError:error]];
-            [payload sendMessageError];
-        }else{
-            UniversalSDKCallbackPayload *payload = [UniversalSDKCallbackPayload callbackMessage:identifier value:result];
-            [payload sendMessageOK];
-        }
-    }];
 }
 
 - (void) openSafariView:(NSString *)identifier
                     url:(NSString *)url
 {
-    [[UniversalApiClient getInstance] openSafariView:UnityGetGLViewController()
-                                                 url:url];
+    
 }
 
 - (NSString *)wrapError:(NSError *)error

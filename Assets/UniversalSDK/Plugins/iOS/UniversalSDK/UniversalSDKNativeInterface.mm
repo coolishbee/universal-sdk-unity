@@ -2,7 +2,7 @@
 //  UniversalSDKNativeInterface.m
 //  UniversalSDKUnityBridge
 //
-//  Created by james on 2021/03/07.
+//  Created by gamepub on 2022/11/09.
 //
 
 #import <Foundation/Foundation.h>
@@ -61,28 +61,6 @@ void universal_sdk_logout(const char* identifier)
 {
     NSString *nsIdentifier = UniversalSDKMakeNSString(identifier);
     [[UniversalSDKWrapper sharedInstance] logout:nsIdentifier];
-}
-
-UNIVERSAL_SDK_EXTERNC void universal_sdk_initBilling(const char* identifier,
-                                                     const char* list);
-void universal_sdk_initBilling(const char* identifier,
-                               const char* list)
-{
-    NSString *nsIdentifier = UniversalSDKMakeNSString(identifier);
-    NSString *nsProductList = UniversalSDKMakeNSString(list);
-    [[UniversalSDKWrapper sharedInstance] initBilling:nsIdentifier
-                                                 list:nsProductList];
-}
-
-UNIVERSAL_SDK_EXTERNC void universal_sdk_inAppPurchase(const char* identifier,
-                                                       const char* pid);
-void universal_sdk_inAppPurchase(const char* identifier,
-                                 const char* pid)
-{
-    NSString *nsIdentifier = UniversalSDKMakeNSString(identifier);
-    NSString *nsPid = UniversalSDKMakeNSString(pid);
-    [[UniversalSDKWrapper sharedInstance] purchaseLaunch:nsIdentifier
-                                                     pid:nsPid];
 }
 
 UNIVERSAL_SDK_EXTERNC void universal_sdk_openSafariView(const char* identifier,

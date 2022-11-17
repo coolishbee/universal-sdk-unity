@@ -11,8 +11,6 @@ The Universal SDK for Unity provides a modern way of implementing InApp Purchase
 - Google Login
 - Facebook Login
 - Apple Login
-- Google Play Billing Library v3
-- Firebase Cloud Messaging (FCM)
 - AndroidX Support
 - Chrome Custom Tabs
 
@@ -21,8 +19,6 @@ The Universal SDK for Unity provides a modern way of implementing InApp Purchase
 - Google Login
 - Facebook Login
 - Apple Login
-- Apple In-App Purchase StoreKit
-- Apple Push Notification service (APNs)
 - Capability Support
 - Safari View Controller
 

@@ -21,28 +21,7 @@ namespace Universal.UniversalSDK
         {
             var identifier = AddAction(FlattenAction.JsonFlatten<UniversalUnit>(action));
             NativeInterface.Logout(identifier);
-        }
-
-        public static void InitBilling(string[] list, Action<Result<InAppProductList>> action)
-        {
-            var identifier = AddAction(FlattenAction.JsonFlatten<InAppProductList>(action));
-            NativeInterface.InitBilling(identifier, string.Join(" ", list));
-        }
-
-        public static void RestorePurchases(Action<Result<PurchaseDataList>> action)
-        {
-            var identifier = AddAction(FlattenAction.JsonFlatten<PurchaseDataList>(action));
-#if UNITY_ANDROID
-            NativeInterface.RestorePurchases(identifier);
-#endif
-        }
-
-        public static void InAppPurchase(string pid,
-                                         Action<Result<PurchaseData>> action)
-        {
-            var identifier = AddAction(FlattenAction.JsonFlatten<PurchaseData>(action));
-            NativeInterface.InAppPurchase(identifier, pid);
-        }
+        }        
 
         public static void OpenCustomTabView(string url,
                                              Action<Result<UniversalUnit>> action)

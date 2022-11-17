@@ -46,32 +46,7 @@ namespace Universal.UniversalSDK
             if (IsInvalidRuntime(identifier)) { return; }
 
             universal_sdk_logout(identifier);
-        }
-
-        [DllImport("__Internal")]
-        private static extern void universal_sdk_initBilling(string identifier,
-                                                             string list);
-        public static void InitBilling(string identifier,
-                                       string list)
-        {
-            Debug.Log(list);
-            if (!Application.isPlaying) { return; }
-            if (IsInvalidRuntime(identifier)) { return; }
-
-            universal_sdk_initBilling(identifier, list);
-        }
-
-        [DllImport("__Internal")]
-        private static extern void universal_sdk_inAppPurchase(string identifier,
-                                                               string pid);
-        public static void InAppPurchase(string identifier,
-                                         string pid)
-        {
-            if (!Application.isPlaying) { return; }
-            if (IsInvalidRuntime(identifier)) { return; }
-
-            universal_sdk_inAppPurchase(identifier, pid);
-        }              
+        }                      
         
         [DllImport("__Internal")]
         private static extern void universal_sdk_openSafariView(string identifier,

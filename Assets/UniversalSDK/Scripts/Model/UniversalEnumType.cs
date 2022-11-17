@@ -2,8 +2,7 @@
 namespace Universal.UniversalSDK
 {
     public enum LoginType
-    {
-        NONE,
+    {        
         GOOGLE,
         FACEBOOK,        
         APPLE,

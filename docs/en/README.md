@@ -15,7 +15,7 @@ To integrate Universal SDK for Unity on iOS, you need:
 + iOS 10.0 or higher as the deployment target
 + Xcode 10 or higher
 
-On iOS, Universal SDK for Unity works as a wrapper for the Universal SDK for iOS. You must manually add framework to your project on iOS.(`UniversalSDK.framework` is located in the `Plugins` folder)
+On iOS, Universal SDK for Unity works as a wrapper for the Universal SDK for iOS. You must manually add framework to your project on iOS.(`UniversalSDKSwift.framework` is located in the `Plugins` folder)
 
 ## Installation on Android
 
@@ -195,67 +195,7 @@ android {
 
 ![ios-sdk-editor](https://user-images.githubusercontent.com/20632507/143774011-c959f885-5ce2-407d-9283-7a3472b728ea.png)
 
-# Setup IAP
 
-Please refer to the setting method for each store:
-
-**(Currently, it cannot be used simultaneously with Unity IAP. Please disable Unity IAP.)**
-
-## Google Store
-
-Please register your in-app product in [Google Play Developer Console](https://play.google.com/apps/publish). **(However, only consumables are supported)**
-
-## Apple
-
-Please register your in-app product in [Apple Developer Center](https://developer.apple.com/account). **(However, only consumables are supported)**
-
-# Setup Push
-
-## Android FCM
-
-1. Select on [Firebase Console](https://console.firebase.google.com)  **Project Settings > General > Download the google-services.json**.
-
-2. Convert the google-services.json file to xml format. File conversion is supported by [Convert google-services.json to values XML](https://dandar3.github.io/android/google-services-json-to-xml.html).
-
-3. Copy the converted google-services.xml file to `Assets/Plugins/Android/FirebaseApp.androidlib/res/values`. (If you are using firebase unity sdk, you can skip it.)
-
-## Custom Push Notification Icon
-
-You use [Android Asset Studio - Notification icon generator](http://romannurik.github.io/AndroidAssetStudio/icons-notification.html#source.type=clipart&source.clipart=ac_unit&source.space.trim=1&source.space.pad=0&name=ic_stat_ic_notification), folders by size are automatically created.
-Add the image file to the Assets/Plugins/Android/FirebaseApp.androidlib/res path in the project.
-
-| Path                                              | Size  | Color |
-| ------------------------------------------------- | ----- | ----- |
-| /res/drawable-hdpi/ic_stat_ic_notification.png    | 36x36 | white    |
-| /res/drawable-mdpi/ic_stat_ic_notification.png    | 24x24 | white    |
-| /res/drawable-xhdpi/ic_stat_ic_notification.png   | 48x48 | white    |
-| /res/drawable-xxhdpi/ic_stat_ic_notification.png  | 72x72 | white    |
-| /res/drawable-xxxhdpi/ic_stat_ic_notification.png | 96x96 | white    |
-
-Please Add the below to `Assets/Plugins/Android/AndroidManifest.xml`.
-
-```
-...
-<application
-    ...
-    <meta-data
-            android:name="com.google.firebase.messaging.default_notification_icon"
-            android:resource="@drawable/ic_stat_ic_notification" />
-</application>
-...
-```
-
-***The image file name must be unified as ic_stat_ic_notification.png.**
-
-## iOS APNS
-
-Apple Developer Center > Keys > Create Key(+) > Register a New Key > Generate Key ID.
-
-![apns-1](https://user-images.githubusercontent.com/20632507/140489272-7bd168e1-f3f8-4ed4-a9ee-178deb7f4bb4.png)
-
-## How to use the TEST TOOL
-
-* [PushNotifications Tool](https://github.com/onmyway133/PushNotifications)
 
 # Integrating Universal SDK with your Unity game
 
@@ -318,7 +258,7 @@ If you are using CocoaPods as your dependency manager, after building the game t
 
 ## Logout
 
-During social login, only Google supports `Logout`. For other social logins, please log out through each social setting.
+During social login, only Android Google supports `Logout`. For other social logins, please log out through each social setting.
 
 ```c#
 UniversalSDK.Ins.Logout(result =>
@@ -336,90 +276,6 @@ UniversalSDK.Ins.Logout(result =>
         });
 });
 ```
-
-## Purchase
-
-### InitBilling
-
-After initializing the payment module, a list of in-app products available for purchase is delivered.
-
-```c#
-var scopes = new string[] { "com.unity.inapp1200", "com.unity.inapp2500" };
-UniversalSDK.Ins.InitBilling(scopes, result =>
-{
-    result.Match(
-        value =>
-        {          
-            for (int i = 0; i < value.Products.Length; i++)
-            {
-                UpdateRawSection(value.Products[i]);
-            }                              
-        },
-        error =>
-        {
-            titleText.text = error.Code.ToString();
-            messageText.text = error.Message;
-            popup_panel.SetActive(true);
-        });
-});
-```
-
-### Restore Purchase
-
-Payment information list is delivered after processing for unconsumed payments. (Callable only after payment initialization)
-
-```c#
-UniversalSDK.Ins.RestorePurchases(result =>
-{
-    result.Match(
-        value =>
-        {
-            if(value.PurchaseDatas != null)
-            {
-                foreach (PurchaseData data in value.PurchaseDatas)
-                {
-                    UpdateRawSection(data);
-                }
-            }
-            else
-            {
-                Debug.Log("PurchaseDatas is NULL");
-            }                    
-        },
-        error =>
-        {
-            UpdateRawSection(error);
-        });
-});
-```
-
-### In-app product payment
-
-Google and Apple payments are possible with one of the functions below.
-
-```c#
-UniversalSDK.Ins.InAppPurchase("product_id", result =>
-{
-    result.Match(
-        value =>
-        {
-            UpdateRawSection(value);
-        },
-        error =>
-        {
-            UpdateRawSection(error);
-        });
-});
-```
-
-### Each Store Error Message
-
-* [Google Store](https://developer.android.com/reference/com/android/billingclient/api/BillingClient.BillingResponseCode?hl=ko)
-* [Apple Store](https://developer.apple.com/documentation/storekit/skerror#topics)
-
-## Push
-
-When you log in, a pushtoken is generated through LoginResult.
 
 ## ErrorCode
 
