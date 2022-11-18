@@ -306,6 +306,480 @@
         "kind": "TypeDecl",
         "name": "UniversalSDKError",
         "printedName": "UniversalSDKError",
+        "children": [
+          {
+            "kind": "TypeDecl",
+            "name": "LoginErrorReason",
+            "printedName": "LoginErrorReason",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "userCancelled",
+                "printedName": "userCancelled",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UniversalSDKSwift.UniversalSDKError.LoginErrorReason.Type) -> UniversalSDKSwift.UniversalSDKError.LoginErrorReason",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoginErrorReason",
+                        "printedName": "UniversalSDKSwift.UniversalSDKError.LoginErrorReason",
+                        "usr": "s:17UniversalSDKSwift0A8SDKErrorO16LoginErrorReasonO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UniversalSDKSwift.UniversalSDKError.LoginErrorReason.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LoginErrorReason",
+                            "printedName": "UniversalSDKSwift.UniversalSDKError.LoginErrorReason",
+                            "usr": "s:17UniversalSDKSwift0A8SDKErrorO16LoginErrorReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17UniversalSDKSwift0A8SDKErrorO16LoginErrorReasonO13userCancelledyA2EmF",
+                "mangledName": "$s17UniversalSDKSwift0A8SDKErrorO16LoginErrorReasonO13userCancelledyA2EmF",
+                "moduleName": "UniversalSDKSwift"
+              },
+              {
+                "kind": "Var",
+                "name": "facebookError",
+                "printedName": "facebookError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UniversalSDKSwift.UniversalSDKError.LoginErrorReason.Type) -> UniversalSDKSwift.UniversalSDKError.LoginErrorReason",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoginErrorReason",
+                        "printedName": "UniversalSDKSwift.UniversalSDKError.LoginErrorReason",
+                        "usr": "s:17UniversalSDKSwift0A8SDKErrorO16LoginErrorReasonO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UniversalSDKSwift.UniversalSDKError.LoginErrorReason.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LoginErrorReason",
+                            "printedName": "UniversalSDKSwift.UniversalSDKError.LoginErrorReason",
+                            "usr": "s:17UniversalSDKSwift0A8SDKErrorO16LoginErrorReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17UniversalSDKSwift0A8SDKErrorO16LoginErrorReasonO08facebookE0yA2EmF",
+                "mangledName": "$s17UniversalSDKSwift0A8SDKErrorO16LoginErrorReasonO08facebookE0yA2EmF",
+                "moduleName": "UniversalSDKSwift"
+              },
+              {
+                "kind": "Var",
+                "name": "appleError",
+                "printedName": "appleError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UniversalSDKSwift.UniversalSDKError.LoginErrorReason.Type) -> UniversalSDKSwift.UniversalSDKError.LoginErrorReason",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LoginErrorReason",
+                        "printedName": "UniversalSDKSwift.UniversalSDKError.LoginErrorReason",
+                        "usr": "s:17UniversalSDKSwift0A8SDKErrorO16LoginErrorReasonO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UniversalSDKSwift.UniversalSDKError.LoginErrorReason.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LoginErrorReason",
+                            "printedName": "UniversalSDKSwift.UniversalSDKError.LoginErrorReason",
+                            "usr": "s:17UniversalSDKSwift0A8SDKErrorO16LoginErrorReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17UniversalSDKSwift0A8SDKErrorO16LoginErrorReasonO05appleE0yA2EmF",
+                "mangledName": "$s17UniversalSDKSwift0A8SDKErrorO16LoginErrorReasonO05appleE0yA2EmF",
+                "moduleName": "UniversalSDKSwift"
+              },
+              {
+                "kind": "Var",
+                "name": "definedError",
+                "printedName": "definedError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UniversalSDKSwift.UniversalSDKError.LoginErrorReason.Type) -> (Swift.Error) -> UniversalSDKSwift.UniversalSDKError.LoginErrorReason",
+                    "children": [
+                      {
+                        "kind": "TypeFunc",
+                        "name": "Function",
+                        "printedName": "(Swift.Error) -> UniversalSDKSwift.UniversalSDKError.LoginErrorReason",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LoginErrorReason",
+                            "printedName": "UniversalSDKSwift.UniversalSDKError.LoginErrorReason",
+                            "usr": "s:17UniversalSDKSwift0A8SDKErrorO16LoginErrorReasonO"
+                          },
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Error",
+                            "printedName": "Swift.Error",
+                            "usr": "s:s5ErrorP"
+                          }
+                        ]
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "UniversalSDKSwift.UniversalSDKError.LoginErrorReason.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LoginErrorReason",
+                            "printedName": "UniversalSDKSwift.UniversalSDKError.LoginErrorReason",
+                            "usr": "s:17UniversalSDKSwift0A8SDKErrorO16LoginErrorReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:17UniversalSDKSwift0A8SDKErrorO16LoginErrorReasonO07definedE0yAEs0E0_pcAEmF",
+                "mangledName": "$s17UniversalSDKSwift0A8SDKErrorO16LoginErrorReasonO07definedE0yAEs0E0_pcAEmF",
+                "moduleName": "UniversalSDKSwift"
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:17UniversalSDKSwift0A8SDKErrorO16LoginErrorReasonO",
+            "mangledName": "$s17UniversalSDKSwift0A8SDKErrorO16LoginErrorReasonO",
+            "moduleName": "UniversalSDKSwift",
+            "declAttributes": [
+              "AccessControl"
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "loginErrorReason",
+            "printedName": "loginErrorReason",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UniversalSDKSwift.UniversalSDKError.Type) -> (UniversalSDKSwift.UniversalSDKError.LoginErrorReason) -> UniversalSDKSwift.UniversalSDKError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(UniversalSDKSwift.UniversalSDKError.LoginErrorReason) -> UniversalSDKSwift.UniversalSDKError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UniversalSDKError",
+                        "printedName": "UniversalSDKSwift.UniversalSDKError",
+                        "usr": "s:17UniversalSDKSwift0A8SDKErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(reason: UniversalSDKSwift.UniversalSDKError.LoginErrorReason)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "LoginErrorReason",
+                            "printedName": "UniversalSDKSwift.UniversalSDKError.LoginErrorReason",
+                            "usr": "s:17UniversalSDKSwift0A8SDKErrorO16LoginErrorReasonO"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UniversalSDKSwift.UniversalSDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UniversalSDKError",
+                        "printedName": "UniversalSDKSwift.UniversalSDKError",
+                        "usr": "s:17UniversalSDKSwift0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17UniversalSDKSwift0A8SDKErrorO16loginErrorReasonyA2C05LogineF0O_tcACmF",
+            "mangledName": "$s17UniversalSDKSwift0A8SDKErrorO16loginErrorReasonyA2C05LogineF0O_tcACmF",
+            "moduleName": "UniversalSDKSwift"
+          },
+          {
+            "kind": "Function",
+            "name": "isErrorCode",
+            "printedName": "isErrorCode(ErrorCode:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:17UniversalSDKSwift0A8SDKErrorO11isErrorCode0eF0SbSi_tF",
+            "mangledName": "$s17UniversalSDKSwift0A8SDKErrorO11isErrorCode0eF0SbSi_tF",
+            "moduleName": "UniversalSDKSwift",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Var",
+            "name": "errorDescription",
+            "printedName": "errorDescription",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "Swift.String?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17UniversalSDKSwift0A8SDKErrorO16errorDescriptionSSSgvp",
+            "mangledName": "$s17UniversalSDKSwift0A8SDKErrorO16errorDescriptionSSSgvp",
+            "moduleName": "UniversalSDKSwift",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.String?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17UniversalSDKSwift0A8SDKErrorO16errorDescriptionSSSgvg",
+                "mangledName": "$s17UniversalSDKSwift0A8SDKErrorO16errorDescriptionSSSgvg",
+                "moduleName": "UniversalSDKSwift",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorCode",
+            "printedName": "errorCode",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17UniversalSDKSwift0A8SDKErrorO9errorCodeSivp",
+            "mangledName": "$s17UniversalSDKSwift0A8SDKErrorO9errorCodeSivp",
+            "moduleName": "UniversalSDKSwift",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17UniversalSDKSwift0A8SDKErrorO9errorCodeSivg",
+                "mangledName": "$s17UniversalSDKSwift0A8SDKErrorO9errorCodeSivg",
+                "moduleName": "UniversalSDKSwift",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorUserInfo",
+            "printedName": "errorUserInfo",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Any]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "ProtocolComposition",
+                    "printedName": "Any"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17UniversalSDKSwift0A8SDKErrorO13errorUserInfoSDySSypGvp",
+            "mangledName": "$s17UniversalSDKSwift0A8SDKErrorO13errorUserInfoSDySSypGvp",
+            "moduleName": "UniversalSDKSwift",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17UniversalSDKSwift0A8SDKErrorO13errorUserInfoSDySSypGvg",
+                "mangledName": "$s17UniversalSDKSwift0A8SDKErrorO13errorUserInfoSDySSypGvg",
+                "moduleName": "UniversalSDKSwift",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "errorDomain",
+            "printedName": "errorDomain",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17UniversalSDKSwift0A8SDKErrorO11errorDomainSSvpZ",
+            "mangledName": "$s17UniversalSDKSwift0A8SDKErrorO11errorDomainSSvpZ",
+            "moduleName": "UniversalSDKSwift",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17UniversalSDKSwift0A8SDKErrorO11errorDomainSSvgZ",
+                "mangledName": "$s17UniversalSDKSwift0A8SDKErrorO11errorDomainSSvgZ",
+                "moduleName": "UniversalSDKSwift",
+                "static": true,
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
         "declKind": "Enum",
         "usr": "s:17UniversalSDKSwift0A8SDKErrorO",
         "mangledName": "$s17UniversalSDKSwift0A8SDKErrorO",
@@ -327,6 +801,182 @@
             "printedName": "Sendable",
             "usr": "s:s8SendableP",
             "mangledName": "$ss8SendableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "LocalizedError",
+            "printedName": "LocalizedError",
+            "usr": "s:10Foundation14LocalizedErrorP",
+            "mangledName": "$s10Foundation14LocalizedErrorP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomNSError",
+            "printedName": "CustomNSError",
+            "usr": "s:10Foundation13CustomNSErrorP",
+            "mangledName": "$s10Foundation13CustomNSErrorP"
+          }
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UniversalSDKErrorUserInfoKey",
+        "printedName": "UniversalSDKErrorUserInfoKey",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "underlyingError",
+            "printedName": "underlyingError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UniversalSDKSwift.UniversalSDKErrorUserInfoKey.Type) -> UniversalSDKSwift.UniversalSDKErrorUserInfoKey",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UniversalSDKErrorUserInfoKey",
+                    "printedName": "UniversalSDKSwift.UniversalSDKErrorUserInfoKey",
+                    "usr": "s:17UniversalSDKSwift0A19SDKErrorUserInfoKeyO"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UniversalSDKSwift.UniversalSDKErrorUserInfoKey.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UniversalSDKErrorUserInfoKey",
+                        "printedName": "UniversalSDKSwift.UniversalSDKErrorUserInfoKey",
+                        "usr": "s:17UniversalSDKSwift0A19SDKErrorUserInfoKeyO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17UniversalSDKSwift0A19SDKErrorUserInfoKeyO15underlyingErroryA2CmF",
+            "mangledName": "$s17UniversalSDKSwift0A19SDKErrorUserInfoKeyO15underlyingErroryA2CmF",
+            "moduleName": "UniversalSDKSwift"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(rawValue:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UniversalSDKSwift.UniversalSDKErrorUserInfoKey?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UniversalSDKErrorUserInfoKey",
+                    "printedName": "UniversalSDKSwift.UniversalSDKErrorUserInfoKey",
+                    "usr": "s:17UniversalSDKSwift0A19SDKErrorUserInfoKeyO"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:17UniversalSDKSwift0A19SDKErrorUserInfoKeyO8rawValueACSgSS_tcfc",
+            "mangledName": "$s17UniversalSDKSwift0A19SDKErrorUserInfoKeyO8rawValueACSgSS_tcfc",
+            "moduleName": "UniversalSDKSwift",
+            "implicit": true,
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "rawValue",
+            "printedName": "rawValue",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:17UniversalSDKSwift0A19SDKErrorUserInfoKeyO8rawValueSSvp",
+            "mangledName": "$s17UniversalSDKSwift0A19SDKErrorUserInfoKeyO8rawValueSSvp",
+            "moduleName": "UniversalSDKSwift",
+            "implicit": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:17UniversalSDKSwift0A19SDKErrorUserInfoKeyO8rawValueSSvg",
+                "mangledName": "$s17UniversalSDKSwift0A19SDKErrorUserInfoKeyO8rawValueSSvg",
+                "moduleName": "UniversalSDKSwift",
+                "implicit": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Enum",
+        "usr": "s:17UniversalSDKSwift0A19SDKErrorUserInfoKeyO",
+        "mangledName": "$s17UniversalSDKSwift0A19SDKErrorUserInfoKeyO",
+        "moduleName": "UniversalSDKSwift",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "enumRawTypeName": "String",
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "RawRepresentable",
+            "printedName": "RawRepresentable",
+            "children": [
+              {
+                "kind": "TypeWitness",
+                "name": "RawValue",
+                "printedName": "RawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ]
+              }
+            ],
+            "usr": "s:SY",
+            "mangledName": "$sSY"
           }
         ]
       },
@@ -826,18 +1476,44 @@
           },
           {
             "kind": "Function",
-            "name": "loginWithSocial",
-            "printedName": "loginWithSocial()",
+            "name": "testErrorFunc",
+            "printedName": "testErrorFunc(completion:)",
             "children": [
               {
                 "kind": "TypeNominal",
                 "name": "Void",
                 "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Error?) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "Swift.Error?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ]
               }
             ],
             "declKind": "Func",
-            "usr": "c:@M@UniversalSDKSwift@objc(cs)UniversalAPIClient(im)loginWithSocial",
-            "mangledName": "$s17UniversalSDKSwift0A9APIClientC15loginWithSocialyyF",
+            "usr": "c:@M@UniversalSDKSwift@objc(cs)UniversalAPIClient(im)testErrorFuncWithCompletion:",
+            "mangledName": "$s17UniversalSDKSwift0A9APIClientC13testErrorFunc10completionyys0E0_pSgc_tF",
             "moduleName": "UniversalSDKSwift",
             "declAttributes": [
               "AccessControl",
@@ -961,15 +1637,8 @@
     },
     {
       "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
-      "kind": "StringLiteral",
-      "offset": 311,
-      "length": 74,
-      "value": "\"526488632616-v5e8d51cccmonngl07o95c2cr843ri40.apps.googleusercontent.com\""
-    },
-    {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 8046,
+      "offset": 8476,
       "length": 2,
       "value": "32"
     },

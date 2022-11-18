@@ -22,6 +22,40 @@ import _StringProcessing
   @objc deinit
 }
 public enum UniversalSDKError : Swift.Error {
+  public enum LoginErrorReason {
+    case userCancelled
+    case facebookError
+    case appleError
+    case definedError(Swift.Error)
+  }
+  case loginErrorReason(reason: UniversalSDKSwift.UniversalSDKError.LoginErrorReason)
+}
+extension UniversalSDKSwift.UniversalSDKError {
+  public func isErrorCode(ErrorCode code: Swift.Int) -> Swift.Bool
+}
+extension UniversalSDKSwift.UniversalSDKError : Foundation.LocalizedError {
+  public var errorDescription: Swift.String? {
+    get
+  }
+}
+extension UniversalSDKSwift.UniversalSDKError : Foundation.CustomNSError {
+  public var errorCode: Swift.Int {
+    get
+  }
+  public var errorUserInfo: [Swift.String : Any] {
+    get
+  }
+  public static var errorDomain: Swift.String {
+    get
+  }
+}
+public enum UniversalSDKErrorUserInfoKey : Swift.String {
+  case underlyingError
+  public init?(rawValue: Swift.String)
+  public typealias RawValue = Swift.String
+  public var rawValue: Swift.String {
+    get
+  }
 }
 public struct LoginResult : Swift.Encodable {
   public func encode(to encoder: Swift.Encoder) throws
@@ -40,10 +74,13 @@ public enum LoginType : Swift.Int {
   @objc public static let shared: UniversalSDKSwift.UniversalAPIClient
   @objc public func setupSDK()
   @objc public func socialLogin(loginType: Swift.Int, inViewController vc: UIKit.UIViewController, completionHandler completion: @escaping (UniversalSDKSwift.SDKLoginResult?, Swift.Error?) -> Swift.Void)
-  @objc public func loginWithSocial()
+  @objc public func testErrorFunc(completion: @escaping (Swift.Error?) -> Swift.Void)
   @objc override dynamic public init()
   @objc deinit
 }
+extension UniversalSDKSwift.UniversalSDKErrorUserInfoKey : Swift.Equatable {}
+extension UniversalSDKSwift.UniversalSDKErrorUserInfoKey : Swift.Hashable {}
+extension UniversalSDKSwift.UniversalSDKErrorUserInfoKey : Swift.RawRepresentable {}
 extension UniversalSDKSwift.LoginType : Swift.Equatable {}
 extension UniversalSDKSwift.LoginType : Swift.Hashable {}
 extension UniversalSDKSwift.LoginType : Swift.RawRepresentable {}

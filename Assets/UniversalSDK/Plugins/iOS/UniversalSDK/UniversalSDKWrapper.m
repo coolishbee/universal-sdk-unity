@@ -2,7 +2,7 @@
 //  UniversalSDKWrapper.m
 //  UniversalSDKUnityBridge
 //
-//  Created by gamepub on 2022/11/09.
+//  Created by coolishbee on 2022/11/09.
 //
 
 #import "UniversalSDKWrapper.h"

@@ -269,7 +269,7 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UniversalAPI
 + (UniversalAPIClient * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (void)setupSDK;
 - (void)socialLoginWithLoginType:(NSInteger)loginType inViewController:(UIViewController * _Nonnull)vc completionHandler:(void (^ _Nonnull)(SDKLoginResult * _Nullable, NSError * _Nullable))completion;
-- (void)loginWithSocial;
+- (void)testErrorFuncWithCompletion:(void (^ _Nonnull)(NSError * _Nullable))completion;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
