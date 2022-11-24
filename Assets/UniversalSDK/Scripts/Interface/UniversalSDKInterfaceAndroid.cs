@@ -45,7 +45,7 @@ namespace Universal.UniversalSDK
             if (IsInvalidRuntime(identifier)) { return; }
 
             object[] param = new object[1];
-            param[0] = identifier;            
+            param[0] = identifier;
 
             if (universalSdkWrapper != null)
                 universalSdkWrapper.Call("logout", param);

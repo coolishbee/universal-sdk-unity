@@ -56,9 +56,7 @@ namespace Universal.UniversalSDK.Editor
 
             EditorGUILayout.HelpBox("Universal SDK version information.", MessageType.Info);
             
-            GUILayout.TextArea("Unity SDK Version : " + UniversalSDKSettings.unitySdkVersion, EditorStyles.wordWrappedLabel);
-            GUILayout.TextArea("Android SDK Version : " + UniversalSDKSettings.androidSdkVersion, EditorStyles.wordWrappedLabel);
-            GUILayout.TextArea("iOS SDK Version : " + UniversalSDKSettings.iosSdkVersion, EditorStyles.wordWrappedLabel);
+            GUILayout.TextArea("SDK Version : " + UniversalSDKSettings.sdkVersion, EditorStyles.wordWrappedLabel);            
 
             EditorGUILayout.HelpBox("Add the GoogleClientID and ReversedClientID and Facebook AppID with this game.(It's all iOS settings)", MessageType.None);
 

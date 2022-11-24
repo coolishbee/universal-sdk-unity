@@ -26,8 +26,8 @@ namespace Universal.UniversalSDK.Editor
             File.WriteAllText(projectPath, project.WriteToString());
 
             var manager = new ProjectCapabilityManager(projectPath, "Entitlements.entitlements", null, project.GetUnityMainTargetGuid());
-            manager.AddInAppPurchase();
-            manager.AddPushNotifications(true);
+            //manager.AddInAppPurchase();
+            //manager.AddPushNotifications(true);
             if(UniversalSDKSettings.UseAppleLogin)
                 manager.AddSignInWithApple();
             manager.WriteToFile();            

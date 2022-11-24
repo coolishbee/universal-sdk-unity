@@ -1,14 +1,11 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using UnityEngine.Networking;
 using Universal.UniversalSDK;
 
 public class MainController : MonoBehaviour
 {
-
     public Image userImage;
     public Text displayNameText;
     public Text uniqueIdText;    
@@ -20,10 +17,59 @@ public class MainController : MonoBehaviour
 
     void Start()
     {
-        LoginResult result = UserInfoManager.Instance.loginResult;
-        StartCoroutine(UpdateProfile(result));
-        UpdateRawSection(result);
-    }    
+    }
+
+    public void OnClickGoogleLogin()
+    {
+        UniversalSDK.Ins.Login(LoginType.GOOGLE,
+            result =>
+            {
+                result.Match(
+                    value =>
+                    {
+                        StartCoroutine(UpdateProfile(value));
+                        UpdateRawSection(value);
+                    },
+                    error =>
+                    {
+                        UpdateRawSection(error);
+                    });
+            });
+    }
+    public void OnClickFacebookLogin()
+    {
+        UniversalSDK.Ins.Login(LoginType.FACEBOOK,
+            result =>
+            {
+                result.Match(
+                    value =>
+                    {
+                        StartCoroutine(UpdateProfile(value));
+                        UpdateRawSection(value);
+                    },
+                    error =>
+                    {
+                        UpdateRawSection(error);
+                    });
+            });
+    }
+    public void OnClickAppleLogin()
+    {
+        UniversalSDK.Ins.Login(LoginType.APPLE,
+            result =>
+            {
+                result.Match(
+                    value =>
+                    {
+                        StartCoroutine(UpdateProfile(value));
+                        UpdateRawSection(value);
+                    },
+                    error =>
+                    {
+                        UpdateRawSection(error);
+                    });
+            });
+    }
 
     public void OnClickLogout()
     {
@@ -32,7 +78,7 @@ public class MainController : MonoBehaviour
             result.Match(
                 value =>
                 {
-                    SceneManager.LoadSceneAsync("Login");
+                    UpdateRawSection(value);
                 },
                 error =>
                 {
