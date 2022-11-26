@@ -21,11 +21,12 @@ iOS에서 Universal SDK 는 UniversalSDK.framework 의 래퍼 역할을 합니�
 
 유니티에서 안드로이드 빌드를 위해서는 Android SDK 설치을 해야 합니다. 만약 이전에 유니티 안드로이드 개발을 위한 설정을 했다면 이미 Android SDK 가 설치되어 있습니다.
 
-## Unity 2019.4 or prev
+## Setting up gradle
 
 [Target api 30을 지원](https://stackoverflow.com/questions/62969917/how-to-fix-unexpected-element-queries-found-in-manifest-error)하려면 baseProjectTemplate.gradle 참조하여 설정하십시오 :
 
 ```groovy
+//Unity 2019.4 or prev
 allprojects {
     buildscript {
         ...
@@ -38,7 +39,43 @@ allprojects {
         }
     }
 }
+//Unity 2020.3 or higher
+allprojects {
+    buildscript {
+        ...
+        }
+
+        dependencies {            
+            classpath 'com.android.tools.build:gradle:4.0.1'
+            classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:1.3.11"
+            **BUILD_SCRIPT_DEPS**
+        }
+    }
+}
 ```
+
+mainTemplate.gradle :
+
+```groovy
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+
+    implementation 'io.github.jameschun7:universalsdk:1.1.5' //added
+
+    implementation 'com.google.code.gson:gson:2.8.5' //added
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.11" //added
+
+**DEPS**}
+```
+
+### Resolver usage
+[resolver](https://github.com/googlesamples/unity-jar-resolver) 을 사용하신다면 UniversalSDKDependencies.xml 을 참조하십시오
+
+## Plugins Settting
+
+`Assets/UniversalSDK/Plugins` 에서 `Assets/Plugins` 로 플러그인 폴더경로를 이동시켜주세요.
+
+![](https://github.com/jameschun7/universal-sdk-unity-demo/blob/main/img/plugins-move.png?raw=true)
 
 # Setup Social Login
 
@@ -150,65 +187,6 @@ android {
 
 ![ios-sdk-editor](https://user-images.githubusercontent.com/20632507/143774011-c959f885-5ce2-407d-9283-7a3472b728ea.png)
 
-# Setup IAP
-
-각 스토어별 설정 방법을 참고하세요.
-
-## Google Store
-
-[Google Play 개발자 콘솔](https://play.google.com/apps/publish)에서 인앱 상품을 등록하세요. **(단, 소모품만 지원)**
-
-## Apple
-
-[Apple 개발자 센터](https://developer.apple.com/account)에서 인앱 상품을 등록하세요. **(단, 소모품만 지원)**
-
-# Setup Push
-
-## Android FCM
-
-1. [Firebase 콘솔](https://console.firebase.google.com)에서 **프로젝트 설정 > 일반을 선택하여 google-services.json 다운로드** 해주세요.
-
-2. google-services.json 파일을 xml 형식으로 변환합니다. 파일 변환은 [Convert google-services.json to values XML](https://dandar3.github.io/android/google-services-json-to-xml.html)에서 지원합니다.
-
-3. 변환된 google-services.xml 파일을 `Assets/Plugins/Android/FirebaseApp.androidlib/res/values`에 복사합니다. (firebase unity sdk를 사용하는 경우 위 설정을 건너뛰어도 됩니다.)
-
-## 푸시 알림 아이콘 설정(선택사항)
-
-[Android Asset Studio - Notification icon generator](http://romannurik.github.io/AndroidAssetStudio/icons-notification.html#source.type=clipart&source.clipart=ac_unit&source.space.trim=1&source.space.pad=0&name=ic_stat_ic_notification)를 사용하면 사이즈별 폴더가 자동 생성됩니다.
-프로젝트내 Assets/Plugins/Android/FirebaseApp.androidlib/res 경로에 이미지 파일을 추가해주시면 됩니다.
-
-| Path                                              | Size  | Color |
-| ------------------------------------------------- | ----- | ----- |
-| /res/drawable-hdpi/ic_stat_ic_notification.png    | 36x36 | 흰색    |
-| /res/drawable-mdpi/ic_stat_ic_notification.png    | 24x24 | 흰색    |
-| /res/drawable-xhdpi/ic_stat_ic_notification.png   | 48x48 | 흰색    |
-| /res/drawable-xxhdpi/ic_stat_ic_notification.png  | 72x72 | 흰색    |
-| /res/drawable-xxxhdpi/ic_stat_ic_notification.png | 96x96 | 흰색    |
-
-`Assets/Plugins/Android/AndroidManifest.xml`에 아래 내용을 추가해주세요.
-
-```
-...
-<application
-    ...
-    <meta-data
-            android:name="com.google.firebase.messaging.default_notification_icon"
-            android:resource="@drawable/ic_stat_ic_notification" />
-</application>
-...
-```
-
-***이미지 파일 이름은 ic_stat_ic_notification.png 로 통일시켜줘야 합니다.**
-
-## iOS APNS
-
-Apple Developer Center > Keys > 키 생성(+) > 새 키 등록 > 키 ID 생성.
-
-![apns-1](https://user-images.githubusercontent.com/20632507/140489272-7bd168e1-f3f8-4ed4-a9ee-178deb7f4bb4.png)
-
-## 푸시테스트 툴 사용법
-
-* [PushNotifications Tool](https://github.com/onmyway133/PushNotifications)
 
 # Integrating Universal SDK with your Unity game
 
@@ -271,7 +249,7 @@ CocoaPods를 종속성 관리자로 사용하는 경우 Xcode 프로젝트에 �
 
 ## Logout
 
-소셜 로그인 시 구글만 `로그아웃`을 지원합니다. 기타 소셜 로그인은 각 소셜 설정을 통해 로그아웃해 주세요.
+소셜 로그인 시 안드로이드 구글만 `로그아웃`을 지원합니다. 기타 소셜 로그인은 각 소셜 설정을 통해 로그아웃해 주세요.
 
 ```c#
 UniversalSDK.Ins.Logout(result =>
@@ -289,90 +267,6 @@ UniversalSDK.Ins.Logout(result =>
         });
 });
 ```
-
-## Purchase
-
-### InitBilling
-
-결제 모듈을 초기화하면 구매 가능한 인앱 상품 목록이 전달됩니다.
-
-```c#
-var scopes = new string[] { "com.unity.inapp1200", "com.unity.inapp2500" };
-UniversalSDK.Ins.InitBilling(scopes, result =>
-{
-    result.Match(
-        value =>
-        {          
-            for (int i = 0; i < value.Products.Length; i++)
-            {
-                UpdateRawSection(value.Products[i]);
-            }                              
-        },
-        error =>
-        {
-            titleText.text = error.Code.ToString();
-            messageText.text = error.Message;
-            popup_panel.SetActive(true);
-        });
-});
-```
-
-### Restore Purchase
-
-소비되지 않은 상품에 대한 결제 정보 목록이 전달됩니다. (결제 초기화 후에만 호출 가능)
-
-```c#
-UniversalSDK.Ins.RestorePurchases(result =>
-{
-    result.Match(
-        value =>
-        {
-            if(value.PurchaseDatas != null)
-            {
-                foreach (PurchaseData data in value.PurchaseDatas)
-                {
-                    UpdateRawSection(data);
-                }
-            }
-            else
-            {
-                Debug.Log("PurchaseDatas is NULL");
-            }                    
-        },
-        error =>
-        {
-            UpdateRawSection(error);
-        });
-});
-```
-
-### In-app product payment
-
-아래 기능 하나로 구글, 애플 결제가 가능합니다.
-
-```c#
-UniversalSDK.Ins.InAppPurchase("product_id", result =>
-{
-    result.Match(
-        value =>
-        {
-            UpdateRawSection(value);
-        },
-        error =>
-        {
-            UpdateRawSection(error);
-        });
-});
-```
-
-### 각 스토어별 에러메시지
-
-* [Google Store](https://developer.android.com/reference/com/android/billingclient/api/BillingClient.BillingResponseCode?hl=ko)
-* [Apple Store](https://developer.apple.com/documentation/storekit/skerror#topics)
-
-## Push
-
-로그인하면 LoginResult를 통해 pushtoken이 발급됩니다.
 
 ## ErrorCode
 
