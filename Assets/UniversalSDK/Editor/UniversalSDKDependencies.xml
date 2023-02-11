@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <dependencies>    
     <androidPackages>
-        <androidPackage spec="io.github.jameschun7:universalsdk:[1.2.1]"/>
+        <androidPackage spec="io.github.jameschun7:universalsdk:[3.0.1]"/>
         <repositories>
             <repository>https://s01.oss.sonatype.org/content/repositories/releases</repository>
         </repositories>
         <androidPackage spec="com.google.code.gson:gson:2.8.5"/>
-        <androidPackage spec="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.11"/>
+        <androidPackage spec="org.jetbrains.kotlin:kotlin-stdlib-jdk7:1.3.61"/>
     </androidPackages>
 </dependencies>
