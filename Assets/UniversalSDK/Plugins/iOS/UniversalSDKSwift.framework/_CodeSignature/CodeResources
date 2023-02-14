@@ -6,11 +6,11 @@
 	<dict>
 		<key>FacebookSDKStrings.bundle/Info.plist</key>
 		<data>
-		+5VEBs9d4Wge1G1H2wCR+6O6kIE=
+		SoKNK7IX5UpbK9VHoHoAb3Dex2c=
 		</data>
 		<key>FacebookSDKStrings.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		mUfDFaZPmoPwwkixzkvzfKAnN9o=
+		z4kxyRiN4Xv7dhi2/EUuhr77DXU=
 		</data>
 		<key>FacebookSDKStrings.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -18,7 +18,7 @@
 		</data>
 		<key>FacebookSDKStrings.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		pBhUZYx7zeaUFmOKP2m3zR+bj8M=
+		A3HILuuUAsL4JZ8LXME2DxFCnII=
 		</data>
 		<key>FacebookSDKStrings.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -26,7 +26,7 @@
 		</data>
 		<key>FacebookSDKStrings.bundle/_CodeSignature/CodeSignature</key>
 		<data>
-		Y+49u100PNpoNSp7uVb8FmPm8dc=
+		vZfOXChWSdthHa3xjUKenUyWTmQ=
 		</data>
 		<key>FacebookSDKStrings.bundle/af.lproj/FacebookSDK.strings</key>
 		<dict>
@@ -426,7 +426,7 @@
 		</dict>
 		<key>GoogleSignIn.bundle/Info.plist</key>
 		<data>
-		2FCHMu7ovK4+9nbYoT8umWuU00U=
+		Uiz+GlZvvy24ujO78Pt+BDxV5aI=
 		</data>
 		<key>GoogleSignIn.bundle/Roboto-Bold.ttf</key>
 		<data>
@@ -434,7 +434,7 @@
 		</data>
 		<key>GoogleSignIn.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		475Uoyg/NmaFugNVmAFRvxuFxRk=
+		7inBhaPnhB9POiJk/fjBbBgtQTY=
 		</data>
 		<key>GoogleSignIn.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -442,7 +442,7 @@
 		</data>
 		<key>GoogleSignIn.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		yIYlXOsJ7iIH2Y6lEuDk00GQLfg=
+		rv07pfhmwcHdOXelCzCt+abAFrQ=
 		</data>
 		<key>GoogleSignIn.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -450,7 +450,7 @@
 		</data>
 		<key>GoogleSignIn.bundle/_CodeSignature/CodeSignature</key>
 		<data>
-		lp8mhsJ8AjDfXCD+3iZ2wQTwiIY=
+		mWrciMOZjxmwLXRpMAURxwjjeF8=
 		</data>
 		<key>GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings</key>
 		<dict>
@@ -808,7 +808,7 @@
 		</dict>
 		<key>Headers/UniversalSDKSwift-Swift.h</key>
 		<data>
-		wgsVA9hd1SKkQhwqOWeRFkOe0oo=
+		wlW7VBLHvwnzS2H+MKKovJVWd9Q=
 		</data>
 		<key>Headers/UniversalSDKSwift.h</key>
 		<data>
@@ -816,27 +816,27 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		uXEiz2WlA4UxBh+43CnwXFlQ+Jk=
+		dXf3tsHs8W67hfjNUcR2tzyDhWI=
 		</data>
 		<key>Modules/UniversalSDKSwift.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		MSMm0OoTxzt8x2BlqOuzhgYNeNE=
+		lQEPzKojhJZJftKWY/VHD4ufno4=
 		</data>
 		<key>Modules/UniversalSDKSwift.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
-		hW/w1Yg+elvXczumKrXaBVk5fqs=
+		vsJuVtCTbSU6fL+1vXNXV69L9Us=
 		</data>
 		<key>Modules/UniversalSDKSwift.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		36r6FKEfEOOO91c7ekVFsJlk8MI=
+		htEcSgMWtzC+FQD6Slocey63eTM=
 		</data>
 		<key>Modules/UniversalSDKSwift.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<data>
-		hW/w1Yg+elvXczumKrXaBVk5fqs=
+		vsJuVtCTbSU6fL+1vXNXV69L9Us=
 		</data>
 		<key>Modules/UniversalSDKSwift.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		QBWRqcW9XAGBf57cph9QMps10P8=
+		Bvw5uLOGZzxGYZRvRQ7RJ0YAy98=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -849,14 +849,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			8t68zfh8u4Q9xn2LIZ5tylzj3CqtljZAB/xEJSTkjtQ=
+			aDzEE3T+KS8zqYZuUGCXh9q+1W5R5/hwU8pCzZ6nRQ8=
 			</data>
 		</dict>
 		<key>FacebookSDKStrings.bundle/_CodeSignature/CodeDirectory</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T45cTRszG/uJk9QMwmAVxrupICOrzgwue0OGGSz6bvc=
+			OqlItpI704JiUlBOh+0RIR/HHqLubvceMnieHPT11cI=
 			</data>
 		</dict>
 		<key>FacebookSDKStrings.bundle/_CodeSignature/CodeRequirements</key>
@@ -870,7 +870,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ItThUxQ5FaZXngom8XhEhYtG8He6Cm5pJvgCAp4sric=
+			6rGJoVd/XygdLRErf7jbmOWANICFFfQieQdGsBoerlE=
 			</data>
 		</dict>
 		<key>FacebookSDKStrings.bundle/_CodeSignature/CodeResources</key>
@@ -884,7 +884,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			iErUNnQ8/7/fjwRy7Pr70NfV2lu8lvI8+6qsBvPZXV8=
+			z0hjMHfwJwCPLBvFHo3UJ4vEQNU55YbuYh0VanS7VHk=
 			</data>
 		</dict>
 		<key>FacebookSDKStrings.bundle/af.lproj/FacebookSDK.strings</key>
@@ -1287,7 +1287,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			rMB0Iwenomi8J7/NbKdJQFvRfeCY6Z6LSj8XLULnKkM=
+			OG8OIp52PHvLo2O2qN+toBc+c+yuFoCad7krvRXNsvg=
 			</data>
 		</dict>
 		<key>GoogleSignIn.bundle/Roboto-Bold.ttf</key>
@@ -1301,7 +1301,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			AQ0YG1OL5HjriYnbj37+gcthNknTD5+r6TTZcc33Q48=
+			5EqkJZBAgJtBW62mUk9fQsAa1eig6yfwePWT+R3ExiA=
 			</data>
 		</dict>
 		<key>GoogleSignIn.bundle/_CodeSignature/CodeRequirements</key>
@@ -1315,7 +1315,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			90lCnWFjIO8ZO4SiSq/h7xA5dAezMnwzaeL+8F9w+6g=
+			ECUFz3DTDTLIMor4iGfWVdwiEWMOhGBPT2pNdx/vbUA=
 			</data>
 		</dict>
 		<key>GoogleSignIn.bundle/_CodeSignature/CodeResources</key>
@@ -1329,7 +1329,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			7xk/d8Sojfx9J+AZO098T1up2aJJ/k7jb0nPt1Z9zSM=
+			XcTxA6tc291AA7teJGwmj8vDeQdbItwlb4zJY3Tqzmc=
 			</data>
 		</dict>
 		<key>GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings</key>
@@ -1699,7 +1699,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/5bkuvF7Ls11YHzcH5Iinl11s3nvTN4+nAW6PG3uHB8=
+			qzIxVYGXBQlreGsAI9aYtLYqIKdPGcSvaJKwh0LgpXA=
 			</data>
 		</dict>
 		<key>Headers/UniversalSDKSwift.h</key>
@@ -1713,35 +1713,35 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			/ZiX0oa3v0NVl3RY1JKWmOuLZMfdXkY9w7RR4H9bZ28=
+			sKlAEX6LKjfndGzxhH99NGXT87uNi7qvCYd1+3zUYrk=
 			</data>
 		</dict>
 		<key>Modules/UniversalSDKSwift.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kS+eEot+WOk3A/5wAaj8QT4jKrsVytzodGODrpwk8f4=
+			VsZtinyA7R1tCERHUl9FlaNOmqRHS2ZXe6Gzz2aQu3Q=
 			</data>
 		</dict>
 		<key>Modules/UniversalSDKSwift.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Tn54BpmdiTACoOA1aa/zgz9BN78q00r6F1oBI+fGFgM=
+			oCJuAOJ6FmsyopIcVEo4Yas31yFr/RFZOvM3QGOnn8c=
 			</data>
 		</dict>
 		<key>Modules/UniversalSDKSwift.swiftmodule/arm64-apple-ios.swiftinterface</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kS+eEot+WOk3A/5wAaj8QT4jKrsVytzodGODrpwk8f4=
+			VsZtinyA7R1tCERHUl9FlaNOmqRHS2ZXe6Gzz2aQu3Q=
 			</data>
 		</dict>
 		<key>Modules/UniversalSDKSwift.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c2SpIx+2PdhJSYz2g9D6ydjdnnpqJj3uHr0HPxo3P40=
+			U7aslDSw8I7UT8du9uTbB7RQ8E3Ik9y737qXyO+PYhk=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
