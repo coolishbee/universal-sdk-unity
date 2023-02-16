@@ -231,6 +231,7 @@ using UInt = size_t;
 #pragma clang diagnostic ignored "-Watimport-in-framework-header"
 #endif
 @import ObjectiveC;
+@import SafariServices;
 #endif
 
 #endif
@@ -269,10 +270,15 @@ SWIFT_CLASS_PROPERTY(@property (nonatomic, class, readonly, strong) UniversalAPI
 + (UniversalAPIClient * _Nonnull)shared SWIFT_WARN_UNUSED_RESULT;
 - (void)setupSDK;
 - (void)socialLoginWithLoginType:(NSInteger)loginType inViewController:(UIViewController * _Nonnull)vc completionHandler:(void (^ _Nonnull)(SDKLoginResult * _Nullable, NSError * _Nullable))completion;
+- (void)openSafariViewWithVc:(UIViewController * _Nonnull)vc url:(NSString * _Nonnull)strUrl;
 - (void)testErrorFuncWithCompletion:(void (^ _Nonnull)(NSError * _Nullable))completion;
 - (void)testErrorCodeFuncWithCompletion:(void (^ _Nonnull)(NSError * _Nullable))completion;
 - (void)testErrorMsgFuncWithCompletion:(void (^ _Nonnull)(NSError * _Nullable))completion;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+@interface UniversalAPIClient (SWIFT_EXTENSION(UniversalSDKSwift)) <SFSafariViewControllerDelegate>
 @end
 
 #endif

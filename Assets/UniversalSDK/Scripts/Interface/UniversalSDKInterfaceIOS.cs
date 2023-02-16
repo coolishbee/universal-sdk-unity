@@ -39,25 +39,24 @@ namespace Universal.UniversalSDK
         }
 
         [DllImport("__Internal")]
-        private static extern void universal_sdk_logout(string identifier);
-        public static void Logout(string identifier)
+        private static extern void universal_sdk_logout();
+        public static void Logout()
         {
             if (!Application.isPlaying) { return; }
-            if (IsInvalidRuntime(identifier)) { return; }
+            if (IsInvalidRuntime(null)) { return; }
 
-            universal_sdk_logout(identifier);
-        }                      
+            universal_sdk_logout();
+        }
         
         [DllImport("__Internal")]
-        private static extern void universal_sdk_openSafariView(string identifier,
-                                                                string url);
-        public static void OpenCustomTabView(string identifier, string url)
+        private static extern void universal_sdk_openSafariView(string url);
+        public static void OpenCustomTabView(string url)
         {
             if (!Application.isPlaying) { return; }
-            if (IsInvalidRuntime(identifier)) { return; }
+            if (IsInvalidRuntime(null)) { return; }
 
-            universal_sdk_openSafariView(identifier, url);
-        }        
+            universal_sdk_openSafariView(url);
+        }
 
         private static bool IsInvalidRuntime(string identifier)
         {

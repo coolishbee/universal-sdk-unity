@@ -39,27 +39,22 @@ namespace Universal.UniversalSDK
                 universalSdkWrapper.Call("login", param);
         }
 
-        public static void Logout(string identifier)
+        public static void Logout()
         {
             if (!Application.isPlaying) { return; }
-            if (IsInvalidRuntime(identifier)) { return; }
-
-            object[] param = new object[1];
-            param[0] = identifier;
+            if (IsInvalidRuntime(null)) { return; }            
 
             if (universalSdkWrapper != null)
-                universalSdkWrapper.Call("logout", param);
-        }                   
+                universalSdkWrapper.Call("logout");
+        }
 
-        public static void OpenCustomTabView(string identifier,
-                                             string url)
+        public static void OpenCustomTabView(string url)
         {
             if (!Application.isPlaying) { return; }
-            if (IsInvalidRuntime(identifier)) { return; }
+            if (IsInvalidRuntime(null)) { return; }
 
-            object[] param = new object[2];
-            param[0] = identifier;
-            param[1] = url;
+            object[] param = new object[1];
+            param[0] = url;            
 
             if (universalSdkWrapper != null)
                 universalSdkWrapper.Call("openCustomTabView", param);

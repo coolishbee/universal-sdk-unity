@@ -15,19 +15,6 @@ namespace Universal.UniversalSDK
             var identifier = AddAction(FlattenAction.JsonFlatten<LoginResult>(action));
 
             NativeInterface.Login(identifier, loginType);
-        }
-
-        public static void Logout(Action<Result<UniversalUnit>> action)
-        {
-            var identifier = AddAction(FlattenAction.JsonFlatten<UniversalUnit>(action));
-            NativeInterface.Logout(identifier);
-        }        
-
-        public static void OpenCustomTabView(string url,
-                                             Action<Result<UniversalUnit>> action)
-        {
-            var identifier = AddAction(FlattenAction.JsonFlatten<UniversalUnit>(action));
-            NativeInterface.OpenCustomTabView(identifier, url);
         }        
 
         static string AddAction(FlattenAction action)

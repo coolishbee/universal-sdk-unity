@@ -8,6 +8,7 @@ import FBSDKCoreKit
 import FBSDKLoginKit
 import Foundation
 import GoogleSignIn
+import SafariServices
 import Swift
 @_exported import UniversalSDKSwift
 import _Concurrency
@@ -35,7 +36,8 @@ public enum UniversalSDKError : Swift.Error {
       get
     }
   }
-  case clientError(message: Swift.String?)
+  case authAgentError(message: Swift.String?)
+  case internalError(message: Swift.String?)
   case loginErrorReason(reason: UniversalSDKSwift.UniversalSDKError.LoginErrorReason)
   case untypedError(error: Swift.Error)
 }
@@ -82,11 +84,14 @@ public enum LoginType : Swift.Int {
   @objc public static let shared: UniversalSDKSwift.UniversalAPIClient
   @objc public func setupSDK()
   @objc public func socialLogin(loginType: Swift.Int, inViewController vc: UIKit.UIViewController, completionHandler completion: @escaping (UniversalSDKSwift.SDKLoginResult?, Swift.Error?) -> Swift.Void)
+  @objc public func openSafariView(vc: UIKit.UIViewController, url strUrl: Swift.String)
   @objc public func testErrorFunc(completion: @escaping (Swift.Error?) -> Swift.Void)
   @objc public func testErrorCodeFunc(completion: @escaping (Swift.Error?) -> Swift.Void)
   @objc public func testErrorMsgFunc(completion: @escaping (Swift.Error?) -> Swift.Void)
   @objc override dynamic public init()
   @objc deinit
+}
+extension UniversalSDKSwift.UniversalAPIClient : SafariServices.SFSafariViewControllerDelegate {
 }
 extension UniversalSDKSwift.UniversalSDKError.LoginErrorReason : Swift.Equatable {}
 extension UniversalSDKSwift.UniversalSDKError.LoginErrorReason : Swift.Hashable {}

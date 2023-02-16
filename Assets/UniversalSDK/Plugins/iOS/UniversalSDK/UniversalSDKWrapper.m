@@ -53,15 +53,15 @@
     }];
 }
 
-- (void) logout:(NSString *)identifier
+- (void) logout
 {
     
 }
 
-- (void) openSafariView:(NSString *)identifier
-                    url:(NSString *)url
+- (void) openSafariView:(NSString *)url
 {
-    
+    [[UniversalAPIClient shared] openSafariViewWithVc:UnityGetGLViewController()
+                                                  url:url];
 }
 
 - (NSString *)wrapError:(NSError *)error

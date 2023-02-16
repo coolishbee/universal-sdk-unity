@@ -14,6 +14,8 @@ namespace Universal.UniversalSDK
             {
                 instance = this;
             }
+
+
             else if (instance != this)
             {
                 Destroy(gameObject);
@@ -46,15 +48,14 @@ namespace Universal.UniversalSDK
             UniversalAPI.Login(loginType, action);
         }
 
-        public void Logout(Action<Result<UniversalUnit>> action)
+        public void Logout()
         {
-            UniversalAPI.Logout(action);
+            NativeInterface.Logout();
         }        
         
-        public void OpenCustomTabView(string url,
-                                      Action<Result<UniversalUnit>> action)
+        public void OpenCustomTabView(string url)
         {
-            UniversalAPI.OpenCustomTabView(url, action);
+            NativeInterface.OpenCustomTabView(url);            
         }        
 
         public void OnApiOk(string result)

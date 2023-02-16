@@ -16,9 +16,8 @@
 - (void)login:(NSString *)identifier
          type:(int)loginType;
 
-- (void)logout:(NSString *)identifier;
+- (void)logout;
 
-- (void)openSafariView:(NSString *)identifier
-                   url:(NSString *)url;
+- (void)openSafariView:(NSString *)url;
 
 @end

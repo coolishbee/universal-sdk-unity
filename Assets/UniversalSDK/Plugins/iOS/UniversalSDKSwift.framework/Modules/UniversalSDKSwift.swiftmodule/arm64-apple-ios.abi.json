@@ -657,8 +657,8 @@
           },
           {
             "kind": "Var",
-            "name": "clientError",
-            "printedName": "clientError",
+            "name": "authAgentError",
+            "printedName": "authAgentError",
             "children": [
               {
                 "kind": "TypeFunc",
@@ -716,8 +716,73 @@
               }
             ],
             "declKind": "EnumElement",
-            "usr": "s:17UniversalSDKSwift0A8SDKErrorO11clientErroryACSSSg_tcACmF",
-            "mangledName": "$s17UniversalSDKSwift0A8SDKErrorO11clientErroryACSSSg_tcACmF",
+            "usr": "s:17UniversalSDKSwift0A8SDKErrorO14authAgentErroryACSSSg_tcACmF",
+            "mangledName": "$s17UniversalSDKSwift0A8SDKErrorO14authAgentErroryACSSSg_tcACmF",
+            "moduleName": "UniversalSDKSwift"
+          },
+          {
+            "kind": "Var",
+            "name": "internalError",
+            "printedName": "internalError",
+            "children": [
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(UniversalSDKSwift.UniversalSDKError.Type) -> (Swift.String?) -> UniversalSDKSwift.UniversalSDKError",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(Swift.String?) -> UniversalSDKSwift.UniversalSDKError",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UniversalSDKError",
+                        "printedName": "UniversalSDKSwift.UniversalSDKError",
+                        "usr": "s:17UniversalSDKSwift0A8SDKErrorO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Tuple",
+                        "printedName": "(message: Swift.String?)",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Optional",
+                            "printedName": "Swift.String?",
+                            "children": [
+                              {
+                                "kind": "TypeNominal",
+                                "name": "String",
+                                "printedName": "Swift.String",
+                                "usr": "s:SS"
+                              }
+                            ],
+                            "usr": "s:Sq"
+                          }
+                        ]
+                      }
+                    ]
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Metatype",
+                    "printedName": "UniversalSDKSwift.UniversalSDKError.Type",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UniversalSDKError",
+                        "printedName": "UniversalSDKSwift.UniversalSDKError",
+                        "usr": "s:17UniversalSDKSwift0A8SDKErrorO"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "EnumElement",
+            "usr": "s:17UniversalSDKSwift0A8SDKErrorO13internalErroryACSSSg_tcACmF",
+            "mangledName": "$s17UniversalSDKSwift0A8SDKErrorO13internalErroryACSSSg_tcACmF",
             "moduleName": "UniversalSDKSwift"
           },
           {
@@ -1657,6 +1722,13 @@
         "moduleName": "UniversalSDKSwift"
       },
       {
+        "kind": "Import",
+        "name": "SafariServices",
+        "printedName": "SafariServices",
+        "declKind": "Import",
+        "moduleName": "UniversalSDKSwift"
+      },
+      {
         "kind": "TypeDecl",
         "name": "UniversalAPIClient",
         "printedName": "UniversalAPIClient",
@@ -1808,6 +1880,39 @@
             "declKind": "Func",
             "usr": "c:@M@UniversalSDKSwift@objc(cs)UniversalAPIClient(im)socialLoginWithLoginType:inViewController:completionHandler:",
             "mangledName": "$s17UniversalSDKSwift0A9APIClientC11socialLogin9loginType16inViewController17completionHandlerySi_So06UIViewJ0CyAA14SDKLoginResultCSg_s5Error_pSgtctF",
+            "moduleName": "UniversalSDKSwift",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "openSafariView",
+            "printedName": "openSafariView(vc:url:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@UniversalSDKSwift@objc(cs)UniversalAPIClient(im)openSafariViewWithVc:url:",
+            "mangledName": "$s17UniversalSDKSwift0A9APIClientC14openSafariView2vc3urlySo16UIViewControllerC_SStF",
             "moduleName": "UniversalSDKSwift",
             "declAttributes": [
               "AccessControl",
@@ -2073,7 +2178,7 @@
     {
       "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 9406,
+      "offset": 9750,
       "length": 2,
       "value": "32"
     },
@@ -2143,7 +2248,7 @@
     {
       "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 321,
+      "offset": 343,
       "length": 5,
       "value": "false"
     }

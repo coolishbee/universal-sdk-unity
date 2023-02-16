@@ -73,34 +73,12 @@ public class MainController : MonoBehaviour
 
     public void OnClickLogout()
     {
-        UniversalSDK.Ins.Logout(result =>
-        {
-            result.Match(
-                value =>
-                {
-                    UpdateRawSection(value);
-                },
-                error =>
-                {
-                    UpdateRawSection(error);
-                });
-        });
+        UniversalSDK.Ins.Logout();
     }    
 
     public void OnClickOpenCustomTabView()
     {
-        UniversalSDK.Ins.OpenCustomTabView(helpUrl, result =>
-        {
-            result.Match(
-                value =>
-                {
-                    UpdateRawSection(value);
-                },
-                error =>
-                {
-                    UpdateRawSection(error);
-                });
-        });
+        UniversalSDK.Ins.OpenCustomTabView(helpUrl);
     }
 
     public void UpdateRawSection(object obj)

@@ -10,7 +10,8 @@ namespace Universal.UniversalSDK
 
     public enum ErrorCode
     {        
-        CANCEL = 1100,
-        AUTHENTICATION_AGENT_ERROR,        
+        CANCEL = 7001,
+        AUTHENTICATION_AGENT_ERROR,
+        INTERNAL_ERROR,
     }
 }

@@ -56,19 +56,15 @@ void universal_sdk_login(const char* identifier,
                                            type:loginType];
 }
 
-UNIVERSAL_SDK_EXTERNC void universal_sdk_logout(const char* identifier);
-void universal_sdk_logout(const char* identifier)
+UNIVERSAL_SDK_EXTERNC void universal_sdk_logout();
+void universal_sdk_logout()
 {
-    NSString *nsIdentifier = UniversalSDKMakeNSString(identifier);
-    [[UniversalSDKWrapper sharedInstance] logout:nsIdentifier];
+    [[UniversalSDKWrapper sharedInstance] logout];
 }
 
-UNIVERSAL_SDK_EXTERNC void universal_sdk_openSafariView(const char* identifier,
-                                                        const char* url);
-void universal_sdk_openSafariView(const char* identifier, const char* url)
+UNIVERSAL_SDK_EXTERNC void universal_sdk_openSafariView(const char* url);
+void universal_sdk_openSafariView(const char* url)
 {
-    NSString *nsIdentifier = UniversalSDKMakeNSString(identifier);
     NSString *nsUrl = UniversalSDKMakeNSString(url);
-    [[UniversalSDKWrapper sharedInstance] openSafariView:nsIdentifier
-                                                     url:nsUrl];
+    [[UniversalSDKWrapper sharedInstance] openSafariView:nsUrl];
 }
