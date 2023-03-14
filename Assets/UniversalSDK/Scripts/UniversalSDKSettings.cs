@@ -46,6 +46,8 @@ namespace Universal.UniversalSDK
         [SerializeField]
         private string iOSFacebookAppID = "";
         [SerializeField]
+        private string iOSFacebookClientToken = "";
+        [SerializeField]
         private string iOSGoogleClientID = "";
         [SerializeField]
         private string iOSReversedClientID = "";
@@ -78,6 +80,12 @@ namespace Universal.UniversalSDK
         {
             get { return Instance.iOSFacebookAppID; }
             set { Instance.iOSFacebookAppID = value; }
+        }
+
+        public static string FacebookClientToken
+        {
+            get { return Instance.iOSFacebookClientToken; }
+            set { Instance.iOSFacebookClientToken = value; }
         }
 
         public static string GoogleClientID

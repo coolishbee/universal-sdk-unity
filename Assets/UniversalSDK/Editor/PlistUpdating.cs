@@ -66,7 +66,10 @@ namespace Universal.UniversalSDK.Editor
         static void SetupFacebookSetting(PlistElementDict rootDict)
         {
             if (UniversalSDKSettings.UseFacebookLogin)
+            {
                 rootDict.SetString("FacebookAppID", UniversalSDKSettings.FacebookAppID);
+                rootDict.SetString("FacebookClientToken", UniversalSDKSettings.FacebookClientToken);
+            }                
         }
 
         static PlistElementArray GetOrCreateArray(PlistElementDict dict, string key)

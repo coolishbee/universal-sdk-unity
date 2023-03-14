@@ -10,6 +10,7 @@ namespace Universal.UniversalSDK.Editor
     public class UniversalSDKSettingsEditor : UnityEditor.Editor
     {
         GUIContent facebookAppIDLabel = new GUIContent("Facebook AppID [?]:", "Facebook AppId can be found at https://developers.facebook.com/apps");
+        GUIContent facebookClientTokenLabel = new GUIContent("Facebook ClientToken [?]:", "Facebook ClientToken can be found at https://developers.facebook.com/apps");
         GUIContent googleClientIDLabel = new GUIContent("GoogleClientID [?]:", "GoogleClientID can be found at https://console.developers.google.com/apis/credentials");
         GUIContent reversedClientIDLabel = new GUIContent("ReversedClientID [?]:", "ReversedClientID can be found at https://console.developers.google.com/apis/credentials");
 
@@ -67,6 +68,15 @@ namespace Universal.UniversalSDK.Editor
             if (UniversalSDKSettings.UseFacebookLogin && string.IsNullOrEmpty(UniversalSDKSettings.FacebookAppID))
             {
                 EditorGUILayout.HelpBox("not working if FacebookAppID is empty.", MessageType.Warning);
+            }
+
+            EditorGUILayout.BeginHorizontal();
+            UniversalSDKSettings.FacebookClientToken = EditorGUILayout.TextField(facebookClientTokenLabel, UniversalSDKSettings.FacebookClientToken).Trim();
+            EditorGUILayout.EndHorizontal();
+
+            if (UniversalSDKSettings.UseFacebookLogin && string.IsNullOrEmpty(UniversalSDKSettings.FacebookClientToken))
+            {
+                EditorGUILayout.HelpBox("not working if FacebookClientToken is empty.", MessageType.Warning);
             }
 
             EditorGUILayout.BeginHorizontal();

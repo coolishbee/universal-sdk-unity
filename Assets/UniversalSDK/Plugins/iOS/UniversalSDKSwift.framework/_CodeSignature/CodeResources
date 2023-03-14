@@ -4,429 +4,477 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>FacebookSDKStrings.bundle/Info.plist</key>
+		<key>Frameworks/FBAEMKit.framework/FBAEMKit</key>
 		<data>
-		SoKNK7IX5UpbK9VHoHoAb3Dex2c=
+		szknVWrC3ZurIsjl/LQ50Tl4e50=
 		</data>
-		<key>FacebookSDKStrings.bundle/_CodeSignature/CodeDirectory</key>
+		<key>Frameworks/FBAEMKit.framework/Info.plist</key>
 		<data>
-		z4kxyRiN4Xv7dhi2/EUuhr77DXU=
+		oStQa6ZVxsGnXFhjLNDC2uY3TfU=
 		</data>
-		<key>FacebookSDKStrings.bundle/_CodeSignature/CodeRequirements</key>
+		<key>Frameworks/FBAEMKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		bQpbP/UzaIZP49ogPtBanhtuifI=
+		xgiU9XFDmPga2ukG84sIAPV+nv4=
 		</data>
-		<key>FacebookSDKStrings.bundle/_CodeSignature/CodeRequirements-1</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FBSDKCoreKit</key>
 		<data>
-		A3HILuuUAsL4JZ8LXME2DxFCnII=
+		3E8W5nOZXxiaKV3Lgg9Dp68qhvE=
 		</data>
-		<key>FacebookSDKStrings.bundle/_CodeSignature/CodeResources</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/af.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Ze3vRmqRphRbVord7pGibO3fPjM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ar.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RU5U5p2+HVYWsFfSq227cr6oPa4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/bn.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			062Bxy406hTTH31PhS52P1+Clqs=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/cs.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mD61p8uMAsJbHWM5u43pGNZFp74=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/da.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			jOzBKA4li06kg94bqglzoOLJD9M=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/de.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			nEbzzEMN0NGvB2cD2IpkSbWV6NM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/el.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			/j4hlLRB9a6Bz377kSUlsx1c+Uk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/en.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			X2K5j4DkrzLxC/mhfhHoIXx5aRk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/en_GB.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			T3svla3GmadkuwnmQcwbAvlYi98=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/es.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8Bwe0QXPL21MImzsItkC041zC+s=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/es_ES.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			c5FkRPxpv9zvua45N7qY/2Lnjc4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fi.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cpEfxM3HMb6H6HEuQEa8afs87bA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fil.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			QDnup8k5E1ovyik1vJG+36NnxRY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fr.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			+kWYsXEYhJPWju3cpYvxA0fNPIU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/gu.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			XWLBntIiv6IgAicsZYD1u2/ZCNE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/he.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			9CSDzNjRF5Zi4T8lQzEb4BFHrV8=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hi.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			3UoJKTt98zMp4MoNL+3/r86aYhQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hr.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			lwcfpmcTECcYUnEE5hPsizpm3wg=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hu.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			IzpGhcaXvGa6oKaqvoknvGo7TtU=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/id.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EC8VfATHFmjNpky43WLkcretWaY=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/it.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			xPK7qaQJKfzP3MZ0b3VJyO+gNMw=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ja.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			CKj+8eG+ZnwNE9X55i68+oS18Ok=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/kn.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			EsrhFpmgw71P+TyRPtinsIr4hDQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ko.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			NaTTNshzDqPGr0O5SATt5Ar/Ke4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ml.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			mifHGo/qSi071/IqjLRUwRFs640=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/mr.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			51s+e6B/gw6shnNo/gbRAQIunSc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ms.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			evzrkbxiAdaJ+exnQUlBrhVkZjE=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/nb.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			WMN/9oOghCcQVhMJD5HywSIIetM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/nl.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			cxRuVwKkGzmB3JnxcdYfSlMU+3Q=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pa.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VuOm5+GxMy4d/JXxpVyHXLsdpBc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pl.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Hv1fBzZGisbifod43+Yl7abQPcA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pt.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			70uwcrwkXYlkAfk5UaIrUQkWQI0=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pt_PT.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			p9PvnBPstHznGo+paZZrb+pNMAc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ru.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			bJltHFKTun/WYe6nQvEAlKM2dRM=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/sk.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			dDydplGYNYff6uM8Gft5tZqTXhI=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/sv.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			N7VTH3m8nIqk04E4+7aclr63OsA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ta.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			8ujSZal8Bl4w2uQzbRuH+iyid3o=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/te.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Dzl0I4eYOYud+sVAICju4r/2xwk=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/th.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			i5VzACdOfJFncxh8cooghE3tIdc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/tr.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			RbNisbiWvkqWwj2C0LDgvQiLYUA=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/vi.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			7KWOQQAFL0LBHlGYTuxqCzW1agQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			socx43t1VI649J+QyCOEeZ/YOJQ=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh_Hant_HK.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			VWqZ/8HYO+hnD4ncuigmcqdwTfo=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh_Hant_TW.lproj/FacebookSDK.strings</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			Rr2kvGmgmXEdbTLOH1CwY/7fGcc=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/Info.plist</key>
 		<data>
-		5Koc2TO0p3x+QsL1xvTztroDSyE=
+		1VR7mxHUlNZaqmPbXjqD7hJ1NC4=
 		</data>
-		<key>FacebookSDKStrings.bundle/_CodeSignature/CodeSignature</key>
+		<key>Frameworks/FBSDKCoreKit.framework/_CodeSignature/CodeResources</key>
 		<data>
-		vW0OFHh8Yrppe34wCLbFdLC6ims=
+		xFiLUMWA0It0l58NozIvR27j3KU=
 		</data>
-		<key>FacebookSDKStrings.bundle/af.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			KgOcb+vpOSQTROF4RZggUwm/3pY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/ar.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Ede2VMa9a78YI5ByOkylTwbhy6I=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/bn.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			x7RNoGt/8a2G28PoUi+VhsxJb6s=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/cs.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xmbVAoTdtkQHj/QHhbcdTbiww/c=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/da.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HpTvLsaPVA6nOu7XXDT3qWXKm7E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/de.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			SxCeeiRn2wnNUyB/66SzRfAnUs8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/el.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			fE6wEAYh1EVDG0r8DyzX5CXDkGM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/en.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			xLU+FPlEceZ+OUBMYroA8l2WHw8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/en_GB.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			S92s3kBfGfIvmxAfMwN8gRQjMY8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/es.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Fi+PLuov138zSBtRHcXa6VBASaU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/es_ES.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7bV7omNtrTUmDywgZgV9Xa+X3ew=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/fi.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wQojaW2RP8BDWUnGRxnW+DC15/8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/fil.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			FaIGsDKnFgeJBjILqsmc8ZL1nmk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/fr.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			Er+OLL7R4qZm1iYu6J+ErT+ug54=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/gu.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			tcjLFMaNC7pFW8ygpCjtz5SVb24=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/he.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			RgD9fqthf2528PDAuU+fwo6XvSM=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/hi.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			/VqJt5CiY5jcjaJv2Y9EmCBou8s=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/hr.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wdtPWPMN7LiTsfOnTcy/H5dmxgc=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/hu.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			HKeVxMb1cOjJhcCILg+IA1YP5Lk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/id.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			dWPi9ZZiiI/+QzXFTfOpwSOVpSs=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/it.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			PV/w9jygTU2mKgtMd0//2bWBZYY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/ja.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			rOG1URNC+nfSpyxK93q5JemUktk=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/kn.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			vGkvZvqtRZLat5SRc3KpheLaJe8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/ko.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7D92k5ZS1sWQhpMvCwFkczSgw7E=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/ml.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zxeJrf6mEi/l3GaN54fijDrquSI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/mr.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QpgW+7BQhQ6+OZ6lp8S0HW40mKY=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/ms.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			c/X0HBYc3ZnzLjE6JNShgXzlD9k=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/nb.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			g5cpfTpypPEWh5meM2rqPbcMjC8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/nl.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			DngVIQ+oFWlKgBRu+Yl6SQXgs2k=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/pa.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			enfiPAX72DcNPxkj9caAHga02O8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/pl.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			+Bv92AzyY/q0T9xuMy67WqjNPI8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/pt.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			nDhRH+XHIe+S8m5tB+mjA3HeZ2M=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/pt_PT.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			OfE9JJGJJR7SZfoaJ7MGGLaLLSI=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/ru.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			zB4Ubm66gSeZpBPdaqfet0yrG30=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/sk.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			jfdN4ShL+SWzixkHF9Hrpvns9W8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/sv.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			k91E416LjSLvj1/3jLRqgmGoAcU=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/ta.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			BwQjEDWGD6zIbL/XR16s9DO8K44=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/te.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			moJKqSjf0IevHP5m62diIdC3V+I=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/th.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			QjkjCZBR84x6o8Yzd9DmH3yF3HA=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/tr.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			wvjinijOrFgCmbRxPic40tIPk54=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/vi.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			P5rT0KUOaFOUr5qarw40SIxlf3Q=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/zh.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			7MXFgrKeSFwNeIyY/tO7ZS8l2i8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/zh_Hant_HK.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			4em6I3Fyg+b5k0iCmCmUF7VMA6k=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
-		<key>FacebookSDKStrings.bundle/zh_Hant_TW.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash</key>
-			<data>
-			qZ2lTxRaE8QmFlvj7iYtQnQb6+8=
-			</data>
-			<key>optional</key>
-			<true/>
-		</dict>
+		<key>Frameworks/FBSDKCoreKit_Basics.framework/FBSDKCoreKit_Basics</key>
+		<data>
+		2mc+S2CPqHLLAuP0d8B6vLiF7s4=
+		</data>
+		<key>Frameworks/FBSDKCoreKit_Basics.framework/Info.plist</key>
+		<data>
+		XRNmLKOZ39LhHkaDkVrCU6S5F14=
+		</data>
+		<key>Frameworks/FBSDKCoreKit_Basics.framework/_CodeSignature/CodeResources</key>
+		<data>
+		eV1sFxh+pVW9BdLzBdjyMpbk7Uc=
+		</data>
+		<key>Frameworks/FBSDKGamingServicesKit.framework/FBSDKGamingServicesKit</key>
+		<data>
+		7EBOgzBqQgrMMPZnE46SpjOVJvw=
+		</data>
+		<key>Frameworks/FBSDKGamingServicesKit.framework/Info.plist</key>
+		<data>
+		faDe5lL/A2h7z2km3iTy4s7Lg2k=
+		</data>
+		<key>Frameworks/FBSDKGamingServicesKit.framework/_CodeSignature/CodeResources</key>
+		<data>
+		juHqtBij/E5iatTcTOMRYzzFBqc=
+		</data>
+		<key>Frameworks/FBSDKLoginKit.framework/FBSDKLoginKit</key>
+		<data>
+		FF7A7/71scvFX4HX4XVQ0pF3KLM=
+		</data>
+		<key>Frameworks/FBSDKLoginKit.framework/Info.plist</key>
+		<data>
+		uuxK/ob/YwVROojeR/MBaR1IgwE=
+		</data>
+		<key>Frameworks/FBSDKLoginKit.framework/_CodeSignature/CodeResources</key>
+		<data>
+		LbCTmc19usWuqHLgvF4leBW77Gs=
+		</data>
+		<key>Frameworks/FBSDKShareKit.framework/FBSDKShareKit</key>
+		<data>
+		+VtIgntGyvRAPJBcs5OvOqazlnk=
+		</data>
+		<key>Frameworks/FBSDKShareKit.framework/Info.plist</key>
+		<data>
+		qKXVpHNZKHo/d1zPHT7rA6hhuCQ=
+		</data>
+		<key>Frameworks/FBSDKShareKit.framework/_CodeSignature/CodeResources</key>
+		<data>
+		ETZrjlhOLo0yaXa8HE1pKu3TmOc=
+		</data>
 		<key>GoogleSignIn.bundle/Info.plist</key>
 		<data>
-		Uiz+GlZvvy24ujO78Pt+BDxV5aI=
+		c+BT/pGLtH+TZ3rhJUNrgKJIwYM=
 		</data>
 		<key>GoogleSignIn.bundle/Roboto-Bold.ttf</key>
 		<data>
@@ -434,7 +482,7 @@
 		</data>
 		<key>GoogleSignIn.bundle/_CodeSignature/CodeDirectory</key>
 		<data>
-		7inBhaPnhB9POiJk/fjBbBgtQTY=
+		JvM3jWVA3wIG5F8OymiCxmh1SNY=
 		</data>
 		<key>GoogleSignIn.bundle/_CodeSignature/CodeRequirements</key>
 		<data>
@@ -442,7 +490,7 @@
 		</data>
 		<key>GoogleSignIn.bundle/_CodeSignature/CodeRequirements-1</key>
 		<data>
-		rv07pfhmwcHdOXelCzCt+abAFrQ=
+		J7rBk+qzDkl99icBK+HKwvTAPAk=
 		</data>
 		<key>GoogleSignIn.bundle/_CodeSignature/CodeResources</key>
 		<data>
@@ -450,7 +498,7 @@
 		</data>
 		<key>GoogleSignIn.bundle/_CodeSignature/CodeSignature</key>
 		<data>
-		yVNhLrEeOV/ACTU3m8EYm8DshOU=
+		Z3mKhRcGFI5nrKU1Q+uqegAB+6I=
 		</data>
 		<key>GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings</key>
 		<dict>
@@ -816,11 +864,11 @@
 		</data>
 		<key>Info.plist</key>
 		<data>
-		dXf3tsHs8W67hfjNUcR2tzyDhWI=
+		A1gptfsNtIKIGEsPHWq7NfoDKIY=
 		</data>
 		<key>Modules/UniversalSDKSwift.swiftmodule/arm64-apple-ios.abi.json</key>
 		<data>
-		+WgiZKb8jrBzX7K9lUmt+buh8b0=
+		mRKl4OXpNH5e5YKvWWhfpr5B6YQ=
 		</data>
 		<key>Modules/UniversalSDKSwift.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
 		<data>
@@ -836,7 +884,7 @@
 		</data>
 		<key>Modules/UniversalSDKSwift.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		OW0cgJmG3M1oyr+NpzfvpAffWVA=
+		jwyynpCTMijQMl6H43sjmpKGGn4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -845,449 +893,533 @@
 	</dict>
 	<key>files2</key>
 	<dict>
-		<key>FacebookSDKStrings.bundle/Info.plist</key>
+		<key>Frameworks/FBAEMKit.framework/FBAEMKit</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			aDzEE3T+KS8zqYZuUGCXh9q+1W5R5/hwU8pCzZ6nRQ8=
+			BzBKi4r/QV1CdrdlZe1u4ceDYDy0IClUs2k+emzLzcc=
 			</data>
 		</dict>
-		<key>FacebookSDKStrings.bundle/_CodeSignature/CodeDirectory</key>
+		<key>Frameworks/FBAEMKit.framework/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OqlItpI704JiUlBOh+0RIR/HHqLubvceMnieHPT11cI=
+			Y43DD/5WIy73aBT2/QHzWABrKgS1vC/KaXWdqWqq1sQ=
 			</data>
 		</dict>
-		<key>FacebookSDKStrings.bundle/_CodeSignature/CodeRequirements</key>
+		<key>Frameworks/FBAEMKit.framework/_CodeSignature/CodeResources</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			X32rf+06AciCJ6uLM7erSdbRrGh4yQEUZ2j8U5hgVO8=
+			R3i54Qfjb7UKUAHKQ9i4NiC6PU6p/DbhkpdBjMfWWsY=
 			</data>
 		</dict>
-		<key>FacebookSDKStrings.bundle/_CodeSignature/CodeRequirements-1</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FBSDKCoreKit</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6rGJoVd/XygdLRErf7jbmOWANICFFfQieQdGsBoerlE=
+			Y3JAJJfjp47LLQpQYZQ5IrDmK30c8hP9QXl0KG838vA=
 			</data>
 		</dict>
-		<key>FacebookSDKStrings.bundle/_CodeSignature/CodeResources</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/af.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			QEKSkiDRay6pXPDPLOjrGkwjnYxj8hxwXmtX18eG2zU=
-			</data>
-		</dict>
-		<key>FacebookSDKStrings.bundle/_CodeSignature/CodeSignature</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			kOudblzTYfXcCOuG+cjHB0gpcR5BuMc+DgFHnGt0JDw=
-			</data>
-		</dict>
-		<key>FacebookSDKStrings.bundle/af.lproj/FacebookSDK.strings</key>
-		<dict>
-			<key>hash2</key>
-			<data>
-			z/F02QKfl29IhY3D/ihxeGTWa4IEX51cGHF+qt7tVtw=
+			aCtbnATpHK8Vi9pb9hBnXBBY6+zqsfeZF+F4H8aujwc=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/ar.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ar.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			h6OGim4yw2Go+1ntn9y1tNIrS5k1oV8460dU5/0pYWA=
+			s1aJgl1DJYHZsgUSZhMYINgeVIIi1NDjhZ3KkkA6SHY=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/bn.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/bn.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			c65eBCAJVPtqc0gzacA4N0jBOuj4C43yEBnQrbeLNB0=
+			RYmfdmkMCNbGahvM9NYcmYiySFg8EvXZ2GUMXlSBWN8=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/cs.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/cs.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Z9Fv9Vsx5r30Ye6XohbScaPvUA1MysnJZQZJnQ+XMxw=
+			JIHHymPdIttC0qC3iZx89N8HLHiCT2sFHJ7U09zZQzg=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/da.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/da.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5L/SkTqXHoqEtsWCRHjINeZ611ORznsedlxxsXL3Ixw=
+			rQLYTaF5jkBlY9WlSinHBEtLGJwU8VJyBAXbMOS1FBw=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/de.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/de.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			itbMpDlaM8/yghRaz9oL7tl3koZmotT+1yj348D5BlY=
+			jaRdBaX5SEMhMJHA4X7DSIX/mjEKUdH09tKg+e1jkuU=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/el.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/el.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xTWy9skvuZNEJ/bND6YtxplP6HfTiChSD+3dtZMLVvo=
+			KH/h3KcObMmRfS3vpIMRtbDX/tuUrUrwt3agnfZKKf4=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/en.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/en.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NPcm9OPLgRqbNc3V3j7ChdOhLI+7u3i4Iai8tfqZTzM=
+			eNYbN/zs5JhZzRo97ltQFilMcvfV7MUlGzmUK8JCOK0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/en_GB.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/en_GB.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ufQP2hBvqtGv3PkL/n/4FcUU977jpusnXvbhB3+g0es=
+			Ehn5jlEk9nHkql1/teEwOXPdlmM0yqLQMkVq95W1lU0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/es.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/es.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/Ep5fzngOVykodxxukmiTd0kieBnJKF4i60DZ5S3o/U=
+			X1CMNL7b4eteT/mu2U4kGGxt77m8h6i9IZlZ+3aXBMc=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/es_ES.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/es_ES.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			KzqFlb+OarxPEqBeomj02+cxKGRc60M7iaF4tGUzUh4=
+			AWSgHyoVXbBxs9n2Ty2XM6gGClpTvrWQheR7USy3aHo=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/fi.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fi.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			VF43OKZn9/x18HMwPs8XtPP3rmwwGV1zNXo2v3J9/V8=
+			n0r9aE/uabG+yQ+CTicKtVH2R8NXpmfBfW3pEneb2Gc=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/fil.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fil.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			+B9CPTqROM5Nx0jGBmwJ4B9QAX/V9qpaG6uhLYlU5+w=
+			SrYgrW5xGmEgfJvEg2BMqfBsRxYa1koP9r1J1lyMd7A=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/fr.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/fr.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			sY2o7hKAvSH7k6b4/x6Cl+dqInq3+JvSqz5quMZ1pTU=
+			5puGnwqyUU34y4BDDWnmrqL9cbHAosqA27c/VZvrQlE=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/gu.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/gu.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			YOhNULW9ded9yKW3XDhRsemNFkVdW1G/XlKz50ycJSA=
+			jDOx6ZOVtvUbyWYwon1C1cRzUnAY3r3JmiFTNgJd30M=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/he.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/he.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			yndknl0oCBflrqKN+bYaehbELZh2TgaKFZtUUjc1ATE=
+			Fg41Nq6D6Yg8CCJhCwqZd3eMLjs/NepPFMy2rB2A+vg=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/hi.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hi.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			mvei8dipX1jfymRGO9ZmYGEfM+qEyh1dV/xA8vOAFQY=
+			7MIeteCKjPKu7GszF+BrRJqpVxduoAXlg6drRpQPceQ=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/hr.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hr.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UZu36VyQElvaOpgM0oMsR75LKZR0hqhpJ2a2/CY5bBE=
+			iD8FRdiUx28qJEFvtvyQRbOWzsTPikwXwrOEMF5pAWw=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/hu.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/hu.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			NPHR3x6j8OqW848BH10wT+ytfDnt3hWItCPvam4hzfc=
+			GtWEiES81lZil10Skylfrn88mjj2e3NcvieRmzh43Qw=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/id.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/id.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gELt3ILZ8omMsUXsTWeXKhygsRLZAKxw6ZOnFtEh8zg=
+			Eq9a4nxlLu+lwpJLYXEf46sjwQW6bi3N3y7N8UycWNQ=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/it.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/it.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RTkhJrdInKWtKPp4j1oeK5uyv+gqrz0TwRA0jzIDMbI=
+			kDpMVTknyBjiPj2EtWrRNdRGBZtmXRVPM5ldzU+2X9g=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/ja.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ja.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IJbzSINAywYbwsGatHkbKGIx+I6HcdFxMznUQ7QX3IA=
+			9xk36xdQPl2SRgXbWGMBxwjjzkVXUxtiYtkidSYwVNQ=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/kn.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/kn.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			AXGunMjAqgra+f9gr4nvK7cD6IslzYSUwIS7K6GemLc=
+			8NH+f4tH0tzd5k5LyfZJ14DN64SkSURQ5CfyFJf/Gmc=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/ko.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ko.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F2+QtiUgfzrP+IuovYNTJZTs4CxaMziSHxiFcbbqwok=
+			C2sb15n2T4Ad64dDZGVBPhfJ+aew0h2WCmSN6SX8IjQ=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/ml.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ml.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			BGbsKJW+hWP7C8d2B7ZqCEO4w+Xt98w7hH6+vo49cUM=
+			gHIBTSCHftU0BQWZOGcD5td1wykq7tQA+mKClgUkYHM=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/mr.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/mr.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			EXD9MTbTaMNUThICpW79u1gqBlYIqrgllYd06ZexcK4=
+			fn0JKkKO/dH0bVur9VfzWntl8ls0yoY8YjgvYr/XsLw=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/ms.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ms.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g5fhQAjES9j7A+V4a/3YWBHtR7q/kZrv7nmAwVhQ5no=
+			nNTZclYH1fxv1+Mch6eJbzgnzbwYRtH9f9Vtu+Le3dk=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/nb.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/nb.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			cj8TQpzXQ1P2XVeOXUOVNUHQgEIJn2JF7RbKNMH2Ih4=
+			QSYAJw601nnnqakR434bP6yeMjFPWZsx8ypSv68A13A=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/nl.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/nl.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			qfo02B/YNhohC8DNAvcvd2mBcSf9DFgzRJveAlevvtE=
+			yNnGqC//Orb49RDL1a0nOau+xDgkzinH4LUqhsqqkEQ=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/pa.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pa.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			T6veSbZHqFaj0fg0a2XmjxyMb9l/4CtG9ztkA38Zk7o=
+			bRVgGo+3BK4SwH5mPgjOjwn/mV3H6X+N2aAccxRdrdY=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/pl.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pl.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			U58wgLeo6ca8Vke0o3s5WSDI+H1cMn7MsloWOJdYJHY=
+			hEObnVN8x0e7V7SEKVMLd2+36sqDjInp/lw2GBlVDv8=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/pt.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pt.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			wQP85kdie6QyEWBX+lPsZzCfd53NxhphxZg31G39X1w=
+			fr0opMxcbe0rfDIeWfWEevhQ3S5ydVBvEE5yPFYhBw8=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/pt_PT.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/pt_PT.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			UO1kLwrQ9GHukIyF71AbMlxGNLS50xgKv2OxXpMRzvw=
+			meQ3C7YBEw7vLepXd6Ck7W8869A1xgLgptLl84sgKhk=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/ru.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ru.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1L1GTQzcab4OJf2ziKpd3aCcIozAQ/FMvIFnxoagD6o=
+			tLbG0XkAh2lBT62Y0q08V7HUq1yB/QWlDKQ66pvXAtU=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/sk.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/sk.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			E7LlcYhl8JJt12wTifRxNh1KrLlX05w6hfQI6MIIYO8=
+			pNDFOu2O93RtAOzuyC4q2d8DP6wZuffCiHfxEIolnpU=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/sv.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/sv.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GEm/4nUubovD5twaLZr0N9peb3SDHO3z3M08ICEbqWk=
+			4HoEVPvwpF9IR063NtuNj8j9VEshT8JjvyTRGfaZbKw=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/ta.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/ta.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			xNUYaP5hKuCyin90IDBPAtilRh5PZrO7PrqA0NJplwY=
+			l7aWKjZkBRjMSzn2T6GE21BMAi7DPKsf48+MQ/itkbo=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/te.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/te.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ojJM4sphClmTIZmcMB3e2DRDOVUCBH6YGbqOuFpypKc=
+			71qAVzkjqD6kmUs/nmYSfTlJv1FVVG9R4MKcNw3We4k=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/th.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/th.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			J+bQBeBsUs50PBhH81SWmC7PwRVS+HzK+VFKSbRIqiM=
+			Gt+X0AF2SJdujyvtLTzRvcWYWA6VH8PZRE0EcpMy0Ws=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/tr.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/tr.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/qGZE6HK2doaSgHRjuzMbzWglDbOSsp3BrDB7p25s5I=
+			MbpGbjBd1dHuUbE6jB8W1a+0xEj5ODzVz6yaQtCidqk=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/vi.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/vi.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ItGPXoc7Yw7Wat59wN8EAlfXAxl/rFekZQBUJhNCRCU=
+			3KTxqBqodalyJ3jdjQwlZ+RPQbYNJJHRWjXgy1lJSyg=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/zh.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			tzJdva8lQC3CRgfCby24cnrMKfPO059bQNKqO5bXSqY=
+			eXBsqwueqa9PpbpzHtzpzN3ztNOYTwY4vCTqsUFhQC0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/zh_Hant_HK.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh_Hant_HK.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/+H0BCqP6GjuVGsVNeziVarvK+JK+KPU2S9jaEYlmqY=
+			pnbR7cjq5w2nZG17PXaHRT+19mzFJ44tIEnJCoUqrvo=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>FacebookSDKStrings.bundle/zh_Hant_TW.lproj/FacebookSDK.strings</key>
+		<key>Frameworks/FBSDKCoreKit.framework/FacebookSDKStrings.bundle/Resources/zh_Hant_TW.lproj/FacebookSDK.strings</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			RnXql3LXk7tkVGyRpi7oKqU+4XUYEbTuid9jpOjiKDw=
+			2XHa9tLW3cf0L3byDYr/+6qjFMSrS3i+xwESUxC9pZc=
 			</data>
 			<key>optional</key>
 			<true/>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			UoI96KHjz6ogvrxtnqCa0KOxdplbSTi3xC2afN7J2XU=
+			</data>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			F9GLs6kEdLYHG/EdH4VJMLUAvXQ4NeZ161gPvLE3NaY=
+			</data>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit_Basics.framework/FBSDKCoreKit_Basics</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			uiLTbJQPsyh0GD5JO2sRa00ufiexzh6ZTXy/eTaMPFQ=
+			</data>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit_Basics.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			Ycu5335OfFVg2Bw3g8O8OZrwEozjdd9leGyB69T2pdU=
+			</data>
+		</dict>
+		<key>Frameworks/FBSDKCoreKit_Basics.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			YKUmg/FDmHdgDiiv4ftlJbtaY9/ZQ0rQIdpbw/oOXhM=
+			</data>
+		</dict>
+		<key>Frameworks/FBSDKGamingServicesKit.framework/FBSDKGamingServicesKit</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			GEMZZBtzSlZFn4sl2ca3ecOnoiWv6XkO+vR/khjZlQ0=
+			</data>
+		</dict>
+		<key>Frameworks/FBSDKGamingServicesKit.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			0xYbJzStKT7f96IpDQHmL+NnQ1qCjCUcHVuagwKl1Ww=
+			</data>
+		</dict>
+		<key>Frameworks/FBSDKGamingServicesKit.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ucn/7mhOhhm1W9OqH5koXA8R4OXsHSjN275GuAu91A8=
+			</data>
+		</dict>
+		<key>Frameworks/FBSDKLoginKit.framework/FBSDKLoginKit</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			gvEcvP/ALaKryd85WzsKrTukRCQV8uqEz8Vlm/2RxYc=
+			</data>
+		</dict>
+		<key>Frameworks/FBSDKLoginKit.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZLIHiMiKuO+SfmP0dQ25KehMOgHLM03Ha4ZOykK0UoA=
+			</data>
+		</dict>
+		<key>Frameworks/FBSDKLoginKit.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			+rInfB8E7TiOPNcFWUzcGD2IzHZ2+yNbuldQRXhLalA=
+			</data>
+		</dict>
+		<key>Frameworks/FBSDKShareKit.framework/FBSDKShareKit</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			ZjOv1Z6/4QQKnjlj7dDVHZ6EZd1M9uHNIcLGuib+0SE=
+			</data>
+		</dict>
+		<key>Frameworks/FBSDKShareKit.framework/Info.plist</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			EyT8aaQNBHWysnb5Xg+7fpSxBHv1C1MnS1bHaEQID5g=
+			</data>
+		</dict>
+		<key>Frameworks/FBSDKShareKit.framework/_CodeSignature/CodeResources</key>
+		<dict>
+			<key>hash2</key>
+			<data>
+			bC9HwfMFkhk9RZ6BCG4kWWT4fNhlJWOznIm/VyfFir8=
+			</data>
 		</dict>
 		<key>GoogleSignIn.bundle/Info.plist</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			OG8OIp52PHvLo2O2qN+toBc+c+yuFoCad7krvRXNsvg=
+			pMSWbJq9ghw559bxZqqLQBdg9nzX4zCjtTUSeBQA5Ho=
 			</data>
 		</dict>
 		<key>GoogleSignIn.bundle/Roboto-Bold.ttf</key>
@@ -1301,7 +1433,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			5EqkJZBAgJtBW62mUk9fQsAa1eig6yfwePWT+R3ExiA=
+			NcKP68z+rlF5Cokh2FALFBwIRucLoAWMBvHsdZ1lGmo=
 			</data>
 		</dict>
 		<key>GoogleSignIn.bundle/_CodeSignature/CodeRequirements</key>
@@ -1315,7 +1447,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			ECUFz3DTDTLIMor4iGfWVdwiEWMOhGBPT2pNdx/vbUA=
+			X8uxdX23j457CR7PGThsJ0scUztCF689x6Si7ykXjK4=
 			</data>
 		</dict>
 		<key>GoogleSignIn.bundle/_CodeSignature/CodeResources</key>
@@ -1329,7 +1461,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			pnRMvTQWzGrtIO28q+CBVksGEgqZlz31aTGkPohmv6E=
+			sVZSSi26U9vySwz6ZMST98t/lqtf9hZdNmu8qWu1hho=
 			</data>
 		</dict>
 		<key>GoogleSignIn.bundle/ar.lproj/GoogleSignIn.strings</key>
@@ -1713,7 +1845,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			4FYCsZtpJIwSc9cTsvym4V2jJmDYPxPDUEiKiVcuKS8=
+			tS3NhWnL4hP9Sqz1j1cUj0/NH5+gYnFumQzK78vnzYE=
 			</data>
 		</dict>
 		<key>Modules/UniversalSDKSwift.swiftmodule/arm64-apple-ios.private.swiftinterface</key>
@@ -1741,7 +1873,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			Zzjfy5TMEf1lJHaH7eHRU7xz8pjNzl1G/RrlftV6AYc=
+			dCAqI+rypsuIbd39Wa5MTB7yQzcEqkAWLXfKcG12qt4=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
