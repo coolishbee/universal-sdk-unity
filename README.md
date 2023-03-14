@@ -38,8 +38,8 @@ The Universal SDK for Unity provides a modern way of implementing Social Login A
 - Cocoapod Latest Version
 
 ### Dependency
-- `pod 'GoogleSignIn', '~> 6.1.0'`
-- `pod 'FBSDKLoginKit', '~> 11.0'`
+- `'GoogleSignIn', '~> 6.1.0'`
+- `'FBSDKLoginKit', '~> 16.0'`
 
 ## Support
 
