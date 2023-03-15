@@ -36,6 +36,7 @@ The Universal SDK for Unity provides a modern way of implementing Social Login A
 - iOS Deployment Target 11.0
 - iOS Minimum Deployments 11.0
 - Cocoapod Latest Version
+- Carthage
 
 ### Dependency
 - `'GoogleSignIn', '~> 6.1.0'`
