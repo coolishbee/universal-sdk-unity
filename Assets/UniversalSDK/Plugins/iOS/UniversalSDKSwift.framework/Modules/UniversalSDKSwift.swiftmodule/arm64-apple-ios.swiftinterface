@@ -1,5 +1,5 @@
 // swift-interface-format-version: 1.0
-// swift-compiler-version: Apple Swift version 5.7.2 (swiftlang-5.7.2.135.5 clang-1400.0.29.51)
+// swift-compiler-version: Apple Swift version 5.8 (swiftlang-5.8.0.124.2 clang-1403.0.22.11.100)
 // swift-module-flags: -target arm64-apple-ios11.0 -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name UniversalSDKSwift
 // swift-module-flags-ignorable: -enable-bare-slash-regex
 import AuthenticationServices
@@ -39,7 +39,7 @@ public enum UniversalSDKError : Swift.Error {
   case authAgentError(message: Swift.String?)
   case internalError(message: Swift.String?)
   case loginErrorReason(reason: UniversalSDKSwift.UniversalSDKError.LoginErrorReason)
-  case untypedError(error: Swift.Error)
+  case untypedError(error: any Swift.Error)
 }
 extension UniversalSDKSwift.UniversalSDKError : Foundation.LocalizedError {
   public var errorDescription: Swift.String? {
@@ -68,7 +68,7 @@ public enum UniversalSDKErrorUserInfoKey : Swift.String {
   }
 }
 public struct LoginResult : Swift.Encodable {
-  public func encode(to encoder: Swift.Encoder) throws
+  public func encode(to encoder: any Swift.Encoder) throws
 }
 public enum LoginType : Swift.Int {
   case google
@@ -83,11 +83,11 @@ public enum LoginType : Swift.Int {
 @objc @_inheritsConvenienceInitializers @objcMembers public class UniversalAPIClient : ObjectiveC.NSObject {
   @objc public static let shared: UniversalSDKSwift.UniversalAPIClient
   @objc public func setupSDK()
-  @objc public func socialLogin(loginType: Swift.Int, inViewController vc: UIKit.UIViewController, completionHandler completion: @escaping (UniversalSDKSwift.SDKLoginResult?, Swift.Error?) -> Swift.Void)
+  @objc public func socialLogin(loginType: Swift.Int, inViewController vc: UIKit.UIViewController, completionHandler completion: @escaping (UniversalSDKSwift.SDKLoginResult?, (any Swift.Error)?) -> Swift.Void)
   @objc public func openSafariView(vc: UIKit.UIViewController, url strUrl: Swift.String)
-  @objc public func testErrorFunc(completion: @escaping (Swift.Error?) -> Swift.Void)
-  @objc public func testErrorCodeFunc(completion: @escaping (Swift.Error?) -> Swift.Void)
-  @objc public func testErrorMsgFunc(completion: @escaping (Swift.Error?) -> Swift.Void)
+  @objc public func testErrorFunc(completion: @escaping ((any Swift.Error)?) -> Swift.Void)
+  @objc public func testErrorCodeFunc(completion: @escaping ((any Swift.Error)?) -> Swift.Void)
+  @objc public func testErrorMsgFunc(completion: @escaping ((any Swift.Error)?) -> Swift.Void)
   @objc override dynamic public init()
   @objc deinit
 }
