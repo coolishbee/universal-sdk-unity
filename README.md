@@ -40,7 +40,7 @@ The Universal SDK for Unity provides a modern way of implementing Social Login A
 
 ### Dependency
 - `'GoogleSignIn', '~> 6.1.0'`
-- `'FBSDKLoginKit', '~> 16.0'`
+- `'FBSDKLoginKit', '~> 11.0'`
 
 ## Support
 
