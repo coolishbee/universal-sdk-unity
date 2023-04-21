@@ -5,8 +5,8 @@ namespace Universal.UniversalSDK
     {
         public static void SetupSDK() { }
         public static void Login(string identifier, LoginType loginType) { }
-        public static void Logout(string identifier) { }
-        public static void OpenCustomTabView(string identifier, string url) { }
+        public static void Logout() { }
+        public static void OpenCustomTabView(string url) { }
     }
 }
 #endif
