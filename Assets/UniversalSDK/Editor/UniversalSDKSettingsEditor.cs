@@ -32,7 +32,7 @@ namespace Universal.UniversalSDK.Editor
             {
                 if (!Directory.Exists(Path.Combine(UnityAssetFolder, UniversalSDKSettings.settingsPath)))
                 {
-                    AssetDatabase.CreateFolder(Path.Combine(UnityAssetFolder, "UniversalSDK"), "Resources");
+                    AssetDatabase.CreateFolder(Path.Combine(UnityAssetFolder, "Editor"), "UniversalSDK");
                 }
 
                 instance = CreateInstance<UniversalSDKSettings>();
