@@ -30,11 +30,14 @@ namespace Universal.UniversalSDK.Editor
 
             if (instance == null)
             {
-                if (!Directory.Exists(Path.Combine(UnityAssetFolder, UniversalSDKSettings.settingsPath)))
+                if (!Directory.Exists(Path.Combine(UnityAssetFolder, "Editor")))
                 {
-                    AssetDatabase.CreateFolder(Path.Combine(UnityAssetFolder, "Editor"), "UniversalSDK");
-                }
-
+                    AssetDatabase.CreateFolder(UnityAssetFolder, "Editor");
+                    if (!Directory.Exists(Path.Combine(UnityAssetFolder, UniversalSDKSettings.settingsPath)))
+                    {
+                        AssetDatabase.CreateFolder(Path.Combine(UnityAssetFolder, "Editor"), "UniversalSDK");
+                    }                    
+                }                
                 instance = CreateInstance<UniversalSDKSettings>();
                 AssetDatabase.CreateAsset(instance, fullPath);
                 AssetDatabase.SaveAssets();
