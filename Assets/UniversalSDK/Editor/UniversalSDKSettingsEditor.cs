@@ -20,28 +20,43 @@ namespace Universal.UniversalSDK.Editor
         GUIContent devBuildLabel = new GUIContent("Dev Build [?]:", "Run app with extended debugging");
 
         const string UnityAssetFolder = "Assets";
+        
+        public static void EnsureFolderPathExists(string path)
+        {
+            string[] folders = path.Split(new char[] { '/', '\\' }, StringSplitOptions.RemoveEmptyEntries);
+            string currentPath = "";
+
+            for (int i = 0; i < folders.Length; i++)
+            {
+                currentPath = Path.Combine(currentPath, folders[i]);
+                if (!AssetDatabase.IsValidFolder(currentPath))
+                {
+                    string parentFolder = Path.GetDirectoryName(currentPath);
+                    string newFolder = Path.GetFileName(currentPath);
+                    AssetDatabase.CreateFolder(parentFolder, newFolder);
+                    
+                    // needs to be called so the folder is known to the database
+                    AssetDatabase.Refresh();
+                }
+            }
+        }
 
         public static UniversalSDKSettings GetOrCreateSettingsAsset()
         {
-            string fullPath = Path.Combine(Path.Combine(UnityAssetFolder, UniversalSDKSettings.settingsPath),
-                                           UniversalSDKSettings.settingsAssetName + UniversalSDKSettings.settingsAssetExtension);
-
-            UniversalSDKSettings instance = AssetDatabase.LoadAssetAtPath(fullPath, typeof(UniversalSDKSettings)) as UniversalSDKSettings;
-
+            var fullPath = Path.Combine(UnityAssetFolder, UniversalSDKSettings.settingsPath, 
+                UniversalSDKSettings.settingsAssetName + UniversalSDKSettings.settingsAssetExtension);
+            
+            EnsureFolderPathExists(Path.GetDirectoryName(fullPath));
+            
+            var instance = AssetDatabase.LoadAssetAtPath<UniversalSDKSettings>(fullPath);
+            
             if (instance == null)
             {
-                if (!Directory.Exists(Path.Combine(UnityAssetFolder, "Editor")))
-                {
-                    AssetDatabase.CreateFolder(UnityAssetFolder, "Editor");
-                    if (!Directory.Exists(Path.Combine(UnityAssetFolder, UniversalSDKSettings.settingsPath)))
-                    {
-                        AssetDatabase.CreateFolder(Path.Combine(UnityAssetFolder, "Editor"), "UniversalSDK");
-                    }                    
-                }                
-                instance = CreateInstance<UniversalSDKSettings>();
+                instance = ScriptableObject.CreateInstance<UniversalSDKSettings>();
                 AssetDatabase.CreateAsset(instance, fullPath);
                 AssetDatabase.SaveAssets();
             }
+
             return instance;
         }
 
