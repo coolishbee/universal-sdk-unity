@@ -6,7 +6,7 @@ namespace Universal.UniversalSDK
     public class UniversalSDKSettings : ScriptableObject
     {
         public const string settingsAssetName = "UniversalSDKSettings";
-        public const string settingsPath = "Editor/UniversalSDK";
+        public const string settingsPath = "Editor/Resources/UniversalSDK";
         public const string settingsAssetExtension = ".asset";
         public const string sdkVersion = "1.2.6";
 
