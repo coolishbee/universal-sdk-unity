@@ -1,7 +1,7 @@
 framework module UniversalSDKSwift {
   umbrella header "UniversalSDKSwift.h"
-
   export *
+
   module * { export * }
 }
 

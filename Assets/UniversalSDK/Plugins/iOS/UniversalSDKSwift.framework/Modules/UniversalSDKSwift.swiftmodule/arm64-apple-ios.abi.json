@@ -2169,660 +2169,681 @@
   },
   "ConstValues": [
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/SDKLoginResult.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/SDKLoginResult.swift",
       "kind": "StringLiteral",
       "offset": 124,
       "length": 14,
       "value": "\"UniversalSDKSwift.SDKLoginResult\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "BooleanLiteral",
-      "offset": 1027,
+      "offset": 1219,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 1205,
+      "offset": 1397,
       "length": 25,
       "value": "\"googleClientID is empty\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 1615,
+      "offset": 1807,
       "length": 2,
       "value": "-5"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 2163,
+      "offset": 2409,
       "length": 3,
       "value": "100"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 2217,
+      "offset": 2463,
       "length": 5,
       "value": "\"nil\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "BooleanLiteral",
-      "offset": 2799,
+      "offset": 3122,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 2977,
+      "offset": 3300,
       "length": 24,
       "value": "\"facebookAppID is empty\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "Array",
-      "offset": 3395,
+      "offset": 3718,
       "length": 9,
       "value": "[\"email\"]"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "BooleanLiteral",
-      "offset": 3708,
+      "offset": 4031,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 4108,
+      "offset": 4431,
       "length": 21,
       "value": "\"accessToken is null\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 4234,
+      "offset": 4557,
       "length": 4,
       "value": "\"me\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 4282,
+      "offset": 4605,
       "length": 8,
       "value": "\"fields\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 4292,
+      "offset": 4615,
       "length": 39,
       "value": "\"id, name, picture.type(normal), email\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 4534,
+      "offset": 4857,
       "length": 37,
       "value": "\"Error! \""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 4570,
+      "offset": 4893,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 4951,
+      "offset": 5274,
       "length": 9,
       "value": "\"picture\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 5067,
+      "offset": 5390,
       "length": 6,
       "value": "\"data\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 5177,
+      "offset": 5500,
       "length": 5,
       "value": "\"url\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 5404,
+      "offset": 5727,
       "length": 6,
       "value": "\"name\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 5523,
+      "offset": 5846,
       "length": 7,
       "value": "\"email\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 6446,
+      "offset": 6176,
+      "length": 2,
+      "value": "\"\""
+    },
+    {
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "kind": "StringLiteral",
+      "offset": 6865,
       "length": 37,
       "value": "\"only available on ios 13 or higher.\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 7138,
+      "offset": 7557,
       "length": 19,
       "value": "\"apple login error\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 7423,
+      "offset": 7842,
       "length": 19,
       "value": "\"apple login error\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 7687,
+      "offset": 8106,
       "length": 32,
       "value": "\"Unable to fetch identity token\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 8015,
+      "offset": 8434,
       "length": 19,
       "value": "\"apple login error\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 8113,
+      "offset": 8636,
+      "length": 14,
+      "value": "\"authCode nil\""
+    },
+    {
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "kind": "StringLiteral",
+      "offset": 8843,
+      "length": 14,
+      "value": "\"authCode nil\""
+    },
+    {
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "kind": "StringLiteral",
+      "offset": 8994,
       "length": 6,
       "value": "\"%@%@\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 8193,
+      "offset": 9074,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 8268,
+      "offset": 9149,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 8332,
+      "offset": 9213,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 9304,
+      "offset": 10249,
       "length": 4,
       "value": "1001"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 10287,
+      "offset": 11232,
       "length": 2,
       "value": "32"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 10333,
+      "offset": 11278,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 10385,
+      "offset": 11330,
       "length": 66,
       "value": "\"0123456789ABCDEFGHIJKLMNOPQRSTUVXYZabcdefghijklmnopqrstuvwxyz-._\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 10474,
+      "offset": 11419,
       "length": 2,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 10555,
+      "offset": 11500,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 10595,
+      "offset": 11540,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 10601,
+      "offset": 11546,
       "length": 2,
       "value": "16"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 10652,
+      "offset": 11597,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 10724,
+      "offset": 11669,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 10840,
+      "offset": 11785,
       "length": 80,
       "value": "\"Unable to generate nonce. SecRandomCopyBytes failed with OSStatus \""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 10919,
+      "offset": 11864,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 11096,
+      "offset": 12041,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 11301,
+      "offset": 12246,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 11611,
+      "offset": 12556,
       "length": 6,
       "value": "\"%02x\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/UniversalUtils.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/UniversalUtils.swift",
       "kind": "StringLiteral",
       "offset": 311,
       "length": 29,
       "value": "\"[UniversalSDK] \""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/UniversalUtils.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/UniversalUtils.swift",
       "kind": "StringLiteral",
       "offset": 339,
       "length": 26,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/UniversalUtils.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/UniversalUtils.swift",
       "kind": "StringLiteral",
       "offset": 482,
       "length": 30,
       "value": "\"Use \""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/UniversalUtils.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/UniversalUtils.swift",
       "kind": "StringLiteral",
       "offset": 496,
       "length": 6,
       "value": "\" before setup. \""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/UniversalUtils.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/UniversalUtils.swift",
       "kind": "StringLiteral",
       "offset": 527,
       "length": 88,
       "value": "\"Please call `UniversalAPIClient.setup` before you do any other things in UniversalSDK.\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "StringLiteral",
       "offset": 920,
       "length": 15,
       "value": "\"user Canceled\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "StringLiteral",
       "offset": 982,
       "length": 25,
       "value": "\"googleClientID is empty\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "StringLiteral",
       "offset": 1054,
       "length": 24,
       "value": "\"facebookAppID is empty\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "StringLiteral",
       "offset": 1131,
       "length": 21,
       "value": "\"accessToken is null\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "StringLiteral",
       "offset": 1202,
       "length": 37,
       "value": "\"only available on ios 13 or higher.\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "StringLiteral",
       "offset": 1296,
       "length": 19,
       "value": "\"apple login error\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "IntegerLiteral",
       "offset": 1420,
       "length": 4,
       "value": "7001"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "IntegerLiteral",
       "offset": 1459,
       "length": 5,
       "value": "10002"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "IntegerLiteral",
       "offset": 1499,
       "length": 5,
       "value": "10003"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "IntegerLiteral",
       "offset": 1545,
       "length": 5,
       "value": "10004"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "IntegerLiteral",
       "offset": 1588,
       "length": 5,
       "value": "10005"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "IntegerLiteral",
       "offset": 1638,
       "length": 5,
       "value": "10006"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "Dictionary",
       "offset": 1764,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "StringLiteral",
       "offset": 2362,
       "length": 21,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "StringLiteral",
       "offset": 2376,
       "length": 5,
       "value": "\"nil\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "StringLiteral",
       "offset": 2382,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "StringLiteral",
       "offset": 2445,
       "length": 21,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "StringLiteral",
       "offset": 2459,
       "length": 5,
       "value": "\"nil\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "StringLiteral",
       "offset": 2465,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "StringLiteral",
       "offset": 2520,
-      "length": 51,
+      "length": 72,
       "value": "\"An error not typed inside Universal SDK: \""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "StringLiteral",
-      "offset": 2570,
+      "offset": 2591,
       "length": 1,
       "value": "\"\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2803,
+      "offset": 2824,
       "length": 4,
       "value": "7002"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2844,
+      "offset": 2865,
       "length": 4,
       "value": "7003"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "IntegerLiteral",
-      "offset": 2884,
+      "offset": 2942,
       "length": 2,
       "value": "-1"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "Dictionary",
-      "offset": 3015,
+      "offset": 3073,
       "length": 3,
       "value": "[]"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/General\/UniversalSDKError.swift",
       "kind": "StringLiteral",
-      "offset": 3673,
+      "offset": 3731,
       "length": 19,
       "value": "\"UniversalSDKError\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/LoginType.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/LoginType.swift",
       "kind": "IntegerLiteral",
       "offset": 159,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/LoginType.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/LoginType.swift",
       "kind": "IntegerLiteral",
       "offset": 181,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/LoginType.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/LoginType.swift",
       "kind": "IntegerLiteral",
       "offset": 200,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/LoginType.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/LoginType.swift",
       "kind": "IntegerLiteral",
       "offset": 159,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/LoginType.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/LoginType.swift",
       "kind": "IntegerLiteral",
       "offset": 181,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/LoginType.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/LoginType.swift",
       "kind": "IntegerLiteral",
       "offset": 200,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/LoginType.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/LoginType.swift",
       "kind": "IntegerLiteral",
       "offset": 159,
       "length": 1,
       "value": "0"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/LoginType.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/LoginType.swift",
       "kind": "IntegerLiteral",
       "offset": 181,
       "length": 1,
       "value": "1"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/LoginType.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Utils\/LoginType.swift",
       "kind": "IntegerLiteral",
       "offset": 200,
       "length": 1,
       "value": "2"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
       "kind": "BooleanLiteral",
       "offset": 343,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
       "kind": "StringLiteral",
       "offset": 433,
       "length": 62,
       "value": "\"Trying to set configuration multiple times is not permitted.\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
       "kind": "BooleanLiteral",
       "offset": 542,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
       "kind": "StringLiteral",
       "offset": 721,
       "length": 16,
       "value": "\"GoogleClientID\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
       "kind": "StringLiteral",
       "offset": 818,
       "length": 15,
       "value": "\"FacebookAppID\""
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
       "kind": "BooleanLiteral",
       "offset": 943,
       "length": 5,
       "value": "false"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1813,
+      "offset": 1821,
       "length": 4,
       "value": "true"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 2322,
-      "length": 5,
-      "value": "-1005"
+      "offset": 2330,
+      "length": 4,
+      "value": "1005"
     },
     {
-      "filePath": "\/Users\/gamepub\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
+      "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
       "kind": "StringLiteral",
-      "offset": 2561,
+      "offset": 2568,
       "length": 22,
       "value": "\"facebook init failed\""
     }

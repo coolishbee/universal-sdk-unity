@@ -15,12 +15,15 @@ namespace Universal.UniversalSDK
         [SerializeField]
         private string email = "";
         [SerializeField]
-        private string imageURL = "";        
+        private string imageURL = "";
+        [SerializeField]
+        private string authCode = "";
 
         public string UserID { get { return userID; } }
         public string IdToken { get { return idToken; } }
         public string Name { get { return name; } }
         public string Email { get { return email; } }
-        public string ImageURL { get { return imageURL; } }        
+        public string ImageURL { get { return imageURL; } }
+        public string AuthCode { get { return authCode; } }
     }
 }
