@@ -2178,329 +2178,329 @@
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "BooleanLiteral",
-      "offset": 1219,
+      "offset": 1133,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 1397,
+      "offset": 1311,
       "length": 25,
       "value": "\"googleClientID is empty\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 1807,
+      "offset": 1681,
       "length": 2,
       "value": "-5"
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 2409,
+      "offset": 2328,
       "length": 3,
       "value": "100"
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 2463,
+      "offset": 2382,
       "length": 5,
       "value": "\"nil\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "BooleanLiteral",
-      "offset": 3122,
+      "offset": 3048,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 3300,
+      "offset": 3226,
       "length": 24,
       "value": "\"facebookAppID is empty\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "Array",
-      "offset": 3718,
+      "offset": 3644,
       "length": 9,
       "value": "[\"email\"]"
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "BooleanLiteral",
-      "offset": 4031,
+      "offset": 3957,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 4431,
+      "offset": 4357,
       "length": 21,
       "value": "\"accessToken is null\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 4557,
+      "offset": 4483,
       "length": 4,
       "value": "\"me\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 4605,
+      "offset": 4531,
       "length": 8,
       "value": "\"fields\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 4615,
+      "offset": 4541,
       "length": 39,
       "value": "\"id, name, picture.type(normal), email\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 4857,
+      "offset": 4783,
       "length": 37,
       "value": "\"Error! \""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 4893,
+      "offset": 4819,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 5274,
+      "offset": 5200,
       "length": 9,
       "value": "\"picture\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 5390,
+      "offset": 5316,
       "length": 6,
       "value": "\"data\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 5500,
+      "offset": 5426,
       "length": 5,
       "value": "\"url\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 5727,
+      "offset": 5653,
       "length": 6,
       "value": "\"name\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 5846,
+      "offset": 5772,
       "length": 7,
       "value": "\"email\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 6176,
+      "offset": 6102,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 6865,
+      "offset": 6791,
       "length": 37,
       "value": "\"only available on ios 13 or higher.\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 7557,
+      "offset": 7483,
       "length": 19,
       "value": "\"apple login error\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 7842,
+      "offset": 7768,
       "length": 19,
       "value": "\"apple login error\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 8106,
+      "offset": 8032,
       "length": 32,
       "value": "\"Unable to fetch identity token\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 8434,
+      "offset": 8360,
       "length": 19,
       "value": "\"apple login error\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 8636,
+      "offset": 8562,
       "length": 14,
       "value": "\"authCode nil\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 8843,
+      "offset": 8769,
       "length": 14,
       "value": "\"authCode nil\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 8994,
+      "offset": 8920,
       "length": 6,
       "value": "\"%@%@\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 9074,
+      "offset": 9000,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 9149,
+      "offset": 9075,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 9213,
+      "offset": 9139,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 10249,
+      "offset": 10175,
       "length": 4,
       "value": "1001"
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 11232,
+      "offset": 11158,
       "length": 2,
       "value": "32"
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 11278,
+      "offset": 11204,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 11330,
+      "offset": 11256,
       "length": 66,
       "value": "\"0123456789ABCDEFGHIJKLMNOPQRSTUVXYZabcdefghijklmnopqrstuvwxyz-._\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 11419,
+      "offset": 11345,
       "length": 2,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 11500,
+      "offset": 11426,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 11540,
+      "offset": 11466,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 11546,
+      "offset": 11472,
       "length": 2,
       "value": "16"
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 11597,
+      "offset": 11523,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 11669,
+      "offset": 11595,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 11785,
+      "offset": 11711,
       "length": 80,
       "value": "\"Unable to generate nonce. SecRandomCopyBytes failed with OSStatus \""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 11864,
+      "offset": 11790,
       "length": 1,
       "value": "\"\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 12041,
+      "offset": 11967,
       "length": 1,
       "value": "0"
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "IntegerLiteral",
-      "offset": 12246,
+      "offset": 12172,
       "length": 1,
       "value": "1"
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/Login\/UniversalLogin.swift",
       "kind": "StringLiteral",
-      "offset": 12556,
+      "offset": 12482,
       "length": 6,
       "value": "\"%02x\""
     },
@@ -2809,41 +2809,41 @@
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
       "kind": "StringLiteral",
       "offset": 721,
-      "length": 16,
-      "value": "\"GoogleClientID\""
+      "length": 13,
+      "value": "\"GIDClientID\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
       "kind": "StringLiteral",
-      "offset": 818,
+      "offset": 815,
       "length": 15,
       "value": "\"FacebookAppID\""
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 943,
+      "offset": 940,
       "length": 5,
       "value": "false"
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
       "kind": "BooleanLiteral",
-      "offset": 1821,
+      "offset": 1818,
       "length": 4,
       "value": "true"
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
       "kind": "IntegerLiteral",
-      "offset": 2330,
+      "offset": 2327,
       "length": 4,
       "value": "1005"
     },
     {
       "filePath": "\/Users\/james\/Documents\/workspace\/universal-sdk-ios-swift\/UniversalSDKSwift\/UniversalSDKSwift\/API\/UniversalAPIClient.swift",
       "kind": "StringLiteral",
-      "offset": 2568,
+      "offset": 2565,
       "length": 22,
       "value": "\"facebook init failed\""
     }

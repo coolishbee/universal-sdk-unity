@@ -36,8 +36,8 @@ with Unity 2019.x or later.
 - Safari View Controller
 
 ### Dependency
-- `'GoogleSignIn', '~> 6.1.0'`
-- `'FBSDKLoginKit', '~> 11.0'`
+- `'GoogleSignIn', '~> 7.0.0'`
+- `'FBSDKLoginKit', '~> 11.2.1'`
 
 ## Support
 
