@@ -8,7 +8,7 @@ namespace Universal.UniversalSDK
         public const string settingsAssetName = "UniversalSDKSettings";
         public const string settingsPath = "Editor/UniversalSDK/Resources";
         public const string settingsAssetExtension = ".asset";
-        public const string sdkVersion = "1.2.9";
+        public const string sdkVersion = "1.2.10";
 
         private static UniversalSDKSettings instance;
 
@@ -21,10 +21,10 @@ namespace Universal.UniversalSDK
         {
             get
             {
-                if (ReferenceEquals(instance, null))
+                if (instance == null)
                 {
                     instance = Resources.Load(settingsAssetName) as UniversalSDKSettings;
-                    if (ReferenceEquals(instance, null))
+                    if (instance == null)
                     {
                         instance = CreateInstance<UniversalSDKSettings>();
                     }
