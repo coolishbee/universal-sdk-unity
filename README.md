@@ -24,8 +24,8 @@ with Unity 2019.x or later.
 - Chrome Custom Tabs
 
 ### Dependency
-- `implementation 'com.facebook.android:facebook-login:15.2.0'`
-- `implementation 'com.google.android.gms:play-services-auth:19.0.0'`
+- `implementation 'com.facebook.android:facebook-login:16.2.0'`
+- `implementation 'com.google.android.gms:play-services-auth:21.0.0'`
 
 ## iOS
 ### Features
@@ -36,8 +36,8 @@ with Unity 2019.x or later.
 - Safari View Controller
 
 ### Dependency
-- `'GoogleSignIn', '~> 7.0.0'`
-- `'FBSDKLoginKit', '~> 11.2.1'`
+- `'GoogleSignIn', '~> 7.1.0'`
+- `'FBSDKLoginKit', '~> 17.0.0'`
 
 ## Support
 

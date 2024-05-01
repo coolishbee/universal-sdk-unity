@@ -27,22 +27,7 @@ namespace Universal.UniversalSDK
                 }
             );
             return flattenAction;
-        }
-
-        static public FlattenAction UnitFlatten(Action<Result<Unit>> action)
-        {
-            var flattenAction = new FlattenAction(
-                _ => {
-                    var result = Result<Unit>.Ok(Unit.Value);
-                    action.Invoke(result);
-                },
-                error => {
-                    var result = Result<Unit>.Error(JsonUtility.FromJson<Error>(error));
-                    action.Invoke(result);
-                }
-            );
-            return flattenAction;
-        }
+        }        
 
         public void CallOk(string s)
         {

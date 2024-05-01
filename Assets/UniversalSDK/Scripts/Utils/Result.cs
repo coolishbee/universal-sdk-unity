@@ -47,10 +47,5 @@ namespace Universal.UniversalSDK
             MatchOk(onMatchedOk);
             MatchError(onMatchedError);
         }
-    }
-
-    public class Unit
-    {
-        public static Unit Value = new Unit();
-    }
+    }    
 }
