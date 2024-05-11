@@ -8,7 +8,7 @@ namespace Universal.UniversalSDK
         public const string settingsAssetName = "UniversalSDKSettings";
         public const string settingsPath = "Editor/UniversalSDK/Resources";
         public const string settingsAssetExtension = ".asset";
-        public const string sdkVersion = "1.3.0";
+        public const string sdkVersion = "1.3.1";
 
         private static UniversalSDKSettings instance;
 
