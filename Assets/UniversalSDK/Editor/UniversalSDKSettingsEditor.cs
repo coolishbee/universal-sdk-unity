@@ -13,10 +13,11 @@ namespace Universal.UniversalSDK.Editor
         GUIContent facebookClientTokenLabel = new GUIContent("Facebook ClientToken [?]:", "Facebook ClientToken can be found at https://developers.facebook.com/apps");
         GUIContent googleClientIDLabel = new GUIContent("GoogleClientID [?]:", "GoogleClientID can be found at https://console.developers.google.com/apis/credentials");
         GUIContent reversedClientIDLabel = new GUIContent("ReversedClientID [?]:", "ReversedClientID can be found at https://console.developers.google.com/apis/credentials");
+        GUIContent serverClientIDLabel = new GUIContent("GIDServerClientID [?]:", "WebClientID can be found at https://console.developers.google.com/apis/credentials");
 
-        GUIContent useAppleLoginLabel = new GUIContent("Use AppleLogin [?]:", "Run app with extended debugging");
-        GUIContent useFacebookLoginLabel = new GUIContent("Use FacebookLogin [?]:", "Run app with extended debugging");
-        GUIContent useGoogleLoginLabel = new GUIContent("Use GoogleLogin [?]:", "Run app with extended debugging");
+        GUIContent useAppleLoginLabel = new GUIContent("Use AppleLogin [?]:", "");
+        GUIContent useFacebookLoginLabel = new GUIContent("Use FacebookLogin [?]:", "");
+        GUIContent useGoogleLoginLabel = new GUIContent("Use GoogleLogin [?]:", "");
         GUIContent devBuildLabel = new GUIContent("Dev Build [?]:", "Run app with extended debugging");
 
         const string UnityAssetFolder = "Assets";
@@ -113,6 +114,15 @@ namespace Universal.UniversalSDK.Editor
             if (UniversalSDKSettings.UseGoogleLogin && string.IsNullOrEmpty(UniversalSDKSettings.ReversedClientID))
             {
                 EditorGUILayout.HelpBox("not working if ReversedClientID is empty.", MessageType.Warning);
+            }
+
+            EditorGUILayout.BeginHorizontal();
+            UniversalSDKSettings.GoogleServerClientID = EditorGUILayout.TextField(serverClientIDLabel, UniversalSDKSettings.GoogleServerClientID).Trim();
+            EditorGUILayout.EndHorizontal();
+
+            if (UniversalSDKSettings.UseGoogleLogin && string.IsNullOrEmpty(UniversalSDKSettings.GoogleServerClientID))
+            {
+                EditorGUILayout.HelpBox("You need web client ID to get google ServerAuthCode", MessageType.Info);
             }
 
             EditorGUILayout.BeginHorizontal();

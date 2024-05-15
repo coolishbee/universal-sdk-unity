@@ -60,7 +60,10 @@ namespace Universal.UniversalSDK.Editor
         static void SetupGoogleSetting(PlistElementDict rootDict)
         {
             if (UniversalSDKSettings.UseGoogleLogin)
+            {
                 rootDict.SetString("GIDClientID", UniversalSDKSettings.GoogleClientID);
+                rootDict.SetString("GIDServerClientID", UniversalSDKSettings.GoogleServerClientID);
+            }
         }
 
         static void SetupFacebookSetting(PlistElementDict rootDict)

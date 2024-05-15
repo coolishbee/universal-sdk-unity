@@ -8,7 +8,7 @@ namespace Universal.UniversalSDK
         public const string settingsAssetName = "UniversalSDKSettings";
         public const string settingsPath = "Editor/UniversalSDK/Resources";
         public const string settingsAssetExtension = ".asset";
-        public const string sdkVersion = "1.3.1";
+        public const string sdkVersion = "1.3.2";
 
         private static UniversalSDKSettings instance;
 
@@ -51,6 +51,8 @@ namespace Universal.UniversalSDK
         private string iOSGoogleClientID = "";
         [SerializeField]
         private string iOSReversedClientID = "";
+        [SerializeField]
+        private string iOSGoogleServerClientID = "";
 
         public static bool DevBuild
         {
@@ -98,6 +100,12 @@ namespace Universal.UniversalSDK
         {
             get { return Instance.iOSReversedClientID; }
             set { Instance.iOSReversedClientID = value; }
+        }
+
+        public static string GoogleServerClientID
+        {
+            get { return Instance.iOSGoogleServerClientID; }
+            set { Instance.iOSGoogleServerClientID = value; }
         }
     }
 }
