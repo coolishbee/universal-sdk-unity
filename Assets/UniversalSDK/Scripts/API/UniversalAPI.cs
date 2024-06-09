@@ -6,39 +6,40 @@ namespace Universal.UniversalSDK
 {
     public class UniversalAPI
     {
-        public static Dictionary<string, FlattenAction> actions =
-            new Dictionary<string, FlattenAction>();        
+        public static Dictionary<string, UniversalCallbackImpl> actions =
+            new Dictionary<string, UniversalCallbackImpl>();        
 
-        public static void Login(LoginType loginType,                                 
-                                 Action<Result<LoginResult>> action)
-        {
-            var identifier = AddAction(FlattenAction.JsonFlatten<LoginResult>(action));
-
+        public static IUniversalCallback Login(LoginType loginType)
+        {            
+            var impl = new UniversalCallbackImpl();
+            var identifier = AddAction(impl);
             NativeInterface.Login(identifier, loginType);
-        }        
 
-        static string AddAction(FlattenAction action)
+            return impl;
+        }
+
+        static string AddAction(UniversalCallbackImpl action)
         {
             var identifier = Guid.NewGuid().ToString();
             actions.Add(identifier, action);
             return identifier;
-        }
+        }        
 
-        static FlattenAction PopActionFromPayload(CallbackMessageForUnity payload)
+        static UniversalCallbackImpl PopActionFromPayload(CallbackMessageForUnity payload)
         {
-            var identifier = payload.Identifier;
+            var identifier = payload.Identifier;            
             if (identifier == null)
             {
                 return null;
             }
-            FlattenAction action = null;
+            UniversalCallbackImpl action = null;
             if (actions.TryGetValue(identifier, out action))
             {
                 actions.Remove(identifier);
                 return action;
             }
             return null;
-        }        
+        }
 
         public static void _OnApiOk(string result)
         {
@@ -58,7 +59,7 @@ namespace Universal.UniversalSDK
             {
                 action.CallError(payload.Value);
             }
-        }        
+        }
     }
 
 }
