@@ -16,59 +16,38 @@ public class MainController : MonoBehaviour
     string helpUrl = "https://support.google.com/?hl=ko";
 
     void Start()
-    {
+    {        
     }
 
     public void OnClickGoogleLogin()
     {
-        UniversalSDK.Ins.Login(LoginType.GOOGLE,
-            result =>
+        UniversalSDK.Ins.Login(LoginType.GOOGLE)
+            .OnSuccess(res =>
             {
-                result.Match(
-                    value =>
-                    {
-                        StartCoroutine(UpdateProfile(value));
-                        UpdateRawSection(value);
-                    },
-                    error =>
-                    {
-                        UpdateRawSection(error);
-                    });
-            });
+                StartCoroutine(UpdateProfile(res));
+                UpdateRawSection(res);
+            })
+            .OnError(err => UpdateRawSection(err));
     }
     public void OnClickFacebookLogin()
     {
-        UniversalSDK.Ins.Login(LoginType.FACEBOOK,
-            result =>
+        UniversalSDK.Ins.Login(LoginType.FACEBOOK)
+            .OnSuccess(res =>
             {
-                result.Match(
-                    value =>
-                    {
-                        StartCoroutine(UpdateProfile(value));
-                        UpdateRawSection(value);
-                    },
-                    error =>
-                    {
-                        UpdateRawSection(error);
-                    });
-            });
+                StartCoroutine(UpdateProfile(res));
+                UpdateRawSection(res);
+            })
+            .OnError(err => UpdateRawSection(err));
     }
     public void OnClickAppleLogin()
     {
-        UniversalSDK.Ins.Login(LoginType.APPLE,
-            result =>
+        UniversalSDK.Ins.Login(LoginType.APPLE)
+            .OnSuccess(res =>
             {
-                result.Match(
-                    value =>
-                    {
-                        StartCoroutine(UpdateProfile(value));
-                        UpdateRawSection(value);
-                    },
-                    error =>
-                    {
-                        UpdateRawSection(error);
-                    });
-            });
+                StartCoroutine(UpdateProfile(res));
+                UpdateRawSection(res);
+            })
+            .OnError(err => UpdateRawSection(err));
     }
 
     public void OnClickLogout()

@@ -5,8 +5,9 @@
 ## Overview
 
 The Universal SDK for Unity provides a modern way of implementing Social Login APIs. The features included in this SDK will help you develop a Unity game with an engaging and personalized user experience.
+No need to import any third party (Google, Facebook, Apple). All included.
 
-**No need to import any third party (Google, Facebook, Apple). All included.**
+**The Facebook login feature will be deprecated.**
 
 ## Supported Platforms
 
@@ -24,8 +25,8 @@ with Unity 2019.x or later.
 - Chrome Custom Tabs
 
 ### Dependency
-- `implementation 'com.facebook.android:facebook-login:15.2.0'`
-- `implementation 'com.google.android.gms:play-services-auth:19.0.0'`
+- `implementation 'com.facebook.android:facebook-login:16.2.0'`
+- `implementation 'com.google.android.gms:play-services-auth:21.0.0'`
 
 ## iOS
 ### Features
@@ -36,8 +37,8 @@ with Unity 2019.x or later.
 - Safari View Controller
 
 ### Dependency
-- `'GoogleSignIn', '~> 6.1.0'`
-- `'FBSDKLoginKit', '~> 11.0'`
+- `'GoogleSignIn', '~> 7.1.0'`
+- `'FBSDKLoginKit', '~> 17.0.0'`
 
 ## Support
 

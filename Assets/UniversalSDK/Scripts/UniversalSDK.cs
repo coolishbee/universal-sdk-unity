@@ -15,7 +15,6 @@ namespace Universal.UniversalSDK
                 instance = this;
             }
 
-
             else if (instance != this)
             {
                 Destroy(gameObject);
@@ -40,12 +39,11 @@ namespace Universal.UniversalSDK
         void SetupSDK()
         {            
             NativeInterface.SetupSDK();
-        }        
+        }
 
-        public void Login(LoginType loginType,
-                          Action<Result<LoginResult>> action)
-        {            
-            UniversalAPI.Login(loginType, action);
+        public IUniversalCallback Login(LoginType loginType)
+        {
+            return UniversalAPI.Login(loginType);
         }
 
         public void Logout()
