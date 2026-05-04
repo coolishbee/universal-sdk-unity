@@ -1,0 +1,8 @@
+{
+  "label": "SERVER SIDE",
+  "position": 3,
+  "link": {
+    "type": "generated-index",
+    "description": "서버에서 외부 로그인 토큰을 검증하는 방법을 안내합니다."
+  }
+}

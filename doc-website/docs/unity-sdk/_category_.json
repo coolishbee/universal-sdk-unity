@@ -1,0 +1,8 @@
+{
+  "label": "UNITY SDK",
+  "position": 1,
+  "link": {
+    "type": "generated-index",
+    "description": "Unity SDK 연동과 플랫폼별 설정 문서입니다."
+  }
+}
